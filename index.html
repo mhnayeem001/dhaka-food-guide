@@ -1,0 +1,2987 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Dhaka Menu Hub - 505+ Dhaka Restaurant Menus & Real In-Store Prices</title>
+  <meta name="description" content="Explore complete verified counter menus and real dine-in prices for 505+ restaurants across Dhaka with 1,023 branch locations. Zero delivery markup.">
+  <meta name="keywords" content="Dhaka restaurant menus, Dhaka food prices, Kacchi Bhai menu, Sultans Dine price 2026, KFC Dhaka, Takeout burger menu, Chillox price, Dhanmondi restaurants, Banani cafes, Old Dhaka biryani">
+  
+  <!-- OpenGraph / Social Sharing -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Dhaka Menu Hub - All 505+ Dhaka Restaurant Menus in One Place">
+  <meta property="og:description" content="Official in-store counter menus and real prices across Dhanmondi, Gulshan, Banani, Uttara, Mirpur, Old Dhaka & all neighborhoods.">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1200">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Dhaka Menu Hub - All Dhaka Restaurant Menus">
+  <meta name="theme-color" content="#ea580c">
+
+  <!-- PWA Manifest -->
+  <link rel="manifest" href="./manifest.json">
+
+  <!-- Structured Schema.org JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Dhaka Menu Hub",
+    "url": "http://localhost:5000",
+    "description": "Comprehensive dine-in restaurant menus and outlet directory for Dhaka city",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "http://localhost:5000/?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Lucide Icons CDN -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <!-- Embedded Data for instant file:// & HTTP load -->
+  <script src="./data/restaurants_data.js?v=505"></script>
+  <!-- Google Fonts: Inter & Outfit -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script>
+    if (window.tailwind) {
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+              display: ['Outfit', 'sans-serif'],
+            },
+            colors: {
+              brand: {
+                50: '#fff7ed',
+                100: '#ffedd5',
+                500: '#f97316',
+                600: '#ea580c',
+                700: '#c2410c',
+              }
+            }
+          }
+        }
+      };
+    }
+    function safeCreateIcons() {
+      if (window.lucide && typeof window.lucide.createIcons === 'function') {
+        try { window.lucide.createIcons(); } catch (e) {}
+      }
+    }
+  </script>
+  <style>
+    body { 
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      -webkit-tap-highlight-color: transparent;
+    }
+    h1, h2, h3, h4, .font-display { font-family: 'Outfit', sans-serif; }
+    /* Hide scrollbars for clean mobile touch carousel */
+    .no-scrollbar::-webkit-scrollbar { display: none; }
+    .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+    /* Desktop custom scrollbar */
+    ::-webkit-scrollbar { width: 6px; height: 6px; }
+    ::-webkit-scrollbar-track { background: #f1f5f9; }
+    ::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 9999px; }
+    ::-webkit-scrollbar-thumb:hover { background: #94a3b8; }
+    
+    /* Touch smooth momentum */
+    .touch-scroll {
+      -webkit-overflow-scrolling: touch;
+    }
+    /* Modal reliability */
+    #restaurant-modal.hidden {
+      display: none !important;
+    }
+    #restaurant-modal:not(.hidden) {
+      display: flex !important;
+    }
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-800 min-h-screen flex flex-col antialiased selection:bg-orange-500 selection:text-white pb-20 md:pb-0">
+
+  <!-- TOP BANNER BAR -->
+  <div class="bg-gradient-to-r from-orange-600 via-amber-600 to-rose-600 text-white text-[11px] sm:text-xs font-semibold py-1.5 px-3 text-center flex items-center justify-center gap-1.5 shrink-0 shadow-sm">
+    <span class="inline-flex items-center px-1.5 py-0.2 rounded-full text-[10px] font-extrabold bg-white text-orange-700 uppercase tracking-wider">100% Counter Prices</span>
+    <span class="truncate">Dine-in & in-store menus across Dhaka — zero delivery markup!</span>
+  </div>
+
+  <!-- HEADER / NAVBAR -->
+  <header class="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-slate-200/80 shadow-xs">
+    <div class="max-w-7xl mx-auto px-3.5 sm:px-6 lg:px-8 h-14 sm:h-16 flex items-center justify-between">
+      
+      <!-- Brand Logo -->
+      <a href="#" onclick="resetAllFilters()" class="flex items-center gap-2.5 group">
+        <div class="w-9 h-9 sm:w-10 sm:h-10 rounded-xl bg-gradient-to-tr from-orange-500 to-amber-500 flex items-center justify-center text-white shadow-md shadow-orange-500/20 group-hover:scale-105 transition-transform">
+          <i data-lucide="utensils" class="w-4 h-4 sm:w-5 sm:h-5"></i>
+        </div>
+        <div>
+          <span class="font-display font-bold text-lg sm:text-xl tracking-tight text-slate-900 flex items-center gap-1">
+            Dhaka<span class="text-orange-500">Menu</span>Hub
+          </span>
+          <p class="text-[9px] sm:text-[10px] text-slate-400 tracking-wider uppercase font-bold -mt-0.5">Dhaka Food Directory</p>
+        </div>
+      </a>
+
+      <!-- Quick Stats & Actions -->
+      <div class="flex items-center gap-1.5 sm:gap-2.5">
+        <div class="hidden lg:flex items-center text-xs font-semibold text-emerald-800 bg-emerald-50 border border-emerald-200/80 px-3 py-1.5 rounded-full gap-1.5">
+          <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+          <span><span id="stat-restaurants-count">505</span> Spots • <span id="stat-branches-count">1,023</span> Outlets</span>
+        </div>
+
+        <!-- AI Assistant Launch Button -->
+        <button onclick="openAiAssistant()" title="Ask DhakaFood AI" class="inline-flex items-center gap-1 text-xs font-bold bg-gradient-to-r from-violet-600 to-indigo-600 hover:from-violet-700 hover:to-indigo-700 text-white px-2.5 py-1.5 sm:px-3 sm:py-2 rounded-xl transition-all shadow-sm shadow-indigo-500/20 active:scale-95 group">
+          <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-ping"></span>
+          <i data-lucide="bot" class="w-3.5 h-3.5 text-amber-300"></i>
+          <span>Food AI</span>
+        </button>
+
+        <!-- Compare Button -->
+        <button onclick="openCompareModal()" title="Compare Restaurants" class="hidden sm:inline-flex items-center gap-1 text-xs font-bold bg-slate-100 hover:bg-slate-200 text-slate-700 border border-slate-200 px-2.5 py-1.5 sm:px-3 sm:py-2 rounded-xl transition-all active:scale-95">
+          <i data-lucide="scale" class="w-3.5 h-3.5 text-orange-500"></i>
+          <span>Compare</span>
+        </button>
+
+        <!-- Surprise Me Button -->
+        <button onclick="openSurpriseModal()" title="Surprise Food Decider" class="hidden md:inline-flex items-center gap-1 text-xs font-bold bg-amber-50 hover:bg-amber-100 text-amber-800 border border-amber-200 px-2.5 py-1.5 sm:px-3 sm:py-2 rounded-xl transition-all active:scale-95">
+          <i data-lucide="dices" class="w-3.5 h-3.5 text-amber-600"></i>
+          <span>আজ কি খাব?</span>
+        </button>
+
+        <!-- Saved Spots Quick Button -->
+        <button onclick="setAreaFilter('SAVED')" title="View Saved Restaurants" class="inline-flex items-center gap-1 text-xs font-bold bg-rose-50 hover:bg-rose-100 text-rose-700 border border-rose-200 px-2 py-1.5 sm:px-3 sm:py-2 rounded-xl transition-all shadow-2xs active:scale-95">
+          <i data-lucide="heart" class="w-3.5 h-3.5 fill-rose-500 text-rose-500"></i>
+          <span class="hidden xs:inline">Saved</span>
+          <span id="nav-fav-count" class="bg-rose-500 text-white text-[10px] font-extrabold px-1.5 py-0.2 rounded-full">0</span>
+        </button>
+        
+        <!-- Mobile Search CTA Button -->
+        <button onclick="focusSearchInput()" class="inline-flex items-center gap-1 text-xs font-bold bg-slate-900 hover:bg-orange-600 active:scale-95 transition-all text-white px-2.5 py-1.5 sm:px-3.5 sm:py-2 rounded-xl shadow-xs">
+          <i data-lucide="search" class="w-3.5 h-3.5"></i>
+          <span class="hidden xs:inline">Search</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO & SEARCH SECTION -->
+  <section class="relative bg-gradient-to-b from-orange-50/60 via-white to-slate-50 pt-5 sm:pt-8 pb-6 px-3.5 sm:px-6 lg:px-8 border-b border-slate-200/70">
+    <div class="max-w-4xl mx-auto space-y-3.5 sm:space-y-4 text-center">
+      
+      <!-- Headline & Subtitle -->
+      <div class="space-y-1 sm:space-y-2">
+        <div class="inline-flex items-center gap-1.5 bg-orange-100/90 text-orange-800 text-[11px] sm:text-xs font-semibold px-2.5 py-0.5 rounded-full border border-orange-200">
+          <i data-lucide="map-pin" class="w-3 h-3 text-orange-600"></i>
+          <span>Dhanmondi • Banani • Gulshan • Uttara • Mirpur • Old Dhaka & more</span>
+        </div>
+        <h1 class="text-2xl sm:text-4xl md:text-5xl font-extrabold tracking-tight text-slate-900 leading-tight">
+          All Dhaka Restaurant Menus in <span class="text-transparent bg-clip-text bg-gradient-to-r from-orange-600 to-amber-500">One Place</span>
+        </h1>
+        <p class="text-slate-600 text-xs sm:text-sm max-w-xl mx-auto leading-relaxed">
+          খুঁজুন ঢাকার সব রেস্টুরেন্টের অফিসিয়াল কাউন্টার মেনু, আইটেমের সঠিক দাম এবং এক্সাক্ট ব্রাঞ্চ লোকেশন।
+        </p>
+      </div>
+
+      <!-- MAIN UNIFIED SEARCH BAR -->
+      <div id="search-section" class="pt-1 max-w-3xl mx-auto">
+        <div class="bg-white p-1.5 sm:p-2 rounded-2xl shadow-lg shadow-slate-200/80 border border-slate-200 flex flex-col sm:flex-row gap-2">
+          
+          <!-- Text Input -->
+          <div class="relative flex-1 flex items-center">
+            <i data-lucide="search" class="w-4 h-4 sm:w-5 sm:h-5 text-slate-400 absolute left-3 sm:left-3.5"></i>
+            <input 
+              type="text" 
+              id="search-input" 
+              placeholder="Search restaurant (e.g. KFC, Takeout) or item (Burger, Kacchi, Coffee)..." 
+              class="w-full pl-9 sm:pl-11 pr-8 py-2.5 sm:py-3 rounded-xl text-xs sm:text-sm focus:outline-none focus:ring-2 focus:ring-orange-500 text-slate-900 font-medium placeholder-slate-400"
+              oninput="handleSearch()"
+            >
+            <button id="clear-search-btn" onclick="clearSearch()" class="hidden absolute right-2.5 text-slate-400 hover:text-slate-600 p-1">
+              <i data-lucide="x" class="w-4 h-4"></i>
+            </button>
+          </div>
+
+          <!-- Quick Area Select inside Search Bar -->
+          <div class="relative flex items-center border-t sm:border-t-0 sm:border-l border-slate-200 pt-1.5 sm:pt-0 sm:pl-2 sm:min-w-[190px]">
+            <i data-lucide="map-pin" class="w-4 h-4 text-orange-500 absolute left-3 sm:left-3.5 pointer-events-none"></i>
+            <select 
+              id="area-select" 
+              class="w-full pl-9 sm:pl-10 pr-8 py-2.5 sm:py-3 rounded-xl text-xs sm:text-sm font-semibold bg-slate-50 hover:bg-slate-100 text-slate-700 focus:outline-none focus:ring-2 focus:ring-orange-500 cursor-pointer appearance-none"
+              onchange="handleFilterChange()"
+            >
+              <option value="ALL">All Dhaka Areas</option>
+              <option value="Dhanmondi">Dhanmondi</option>
+              <option value="Banani">Banani</option>
+              <option value="Gulshan">Gulshan</option>
+              <option value="Uttara">Uttara</option>
+              <option value="Mirpur">Mirpur</option>
+              <option value="Mohammadpur">Mohammadpur</option>
+              <option value="Bailey Road">Bailey Road</option>
+              <option value="Khilgaon">Khilgaon</option>
+              <option value="Bashundhara">Bashundhara</option>
+              <option value="Old Dhaka">Old Dhaka</option>
+              <option value="Panthapath">Panthapath</option>
+              <option value="Baridhara">Baridhara</option>
+            </select>
+            <i data-lucide="chevron-down" class="w-3.5 h-3.5 text-slate-400 absolute right-3 pointer-events-none"></i>
+          </div>
+        </div>
+
+        <!-- SMART CURATION CHIPS -->
+        <div class="pt-2.5 pb-1 text-left">
+          <div class="flex items-center gap-1.5 overflow-x-auto py-1 px-0.5 no-scrollbar touch-scroll text-[11px] font-semibold text-slate-700">
+            <span class="text-slate-400 flex items-center gap-0.5 shrink-0 text-[10px] uppercase font-bold tracking-wider mr-0.5">
+              <i data-lucide="sparkles" class="w-3 h-3 text-amber-500"></i> Smart:
+            </span>
+            <button onclick="toggleNearMe()" id="smart-btn-NEAR_ME" class="smart-chip px-2.5 py-1 rounded-xl border border-indigo-200 bg-indigo-50 hover:bg-indigo-100 text-indigo-700 transition-all shrink-0 flex items-center gap-1 shadow-2xs font-bold">
+              <i data-lucide="navigation" class="w-3 h-3 text-indigo-600"></i>
+              <span>📍 Near Me (আমার কাছে)</span>
+            </button>
+            <button onclick="openSurpriseModal()" class="smart-chip px-2.5 py-1 rounded-xl border border-amber-200 bg-amber-50 hover:bg-amber-100 text-amber-800 transition-all shrink-0 flex items-center gap-1 shadow-2xs font-bold">
+              <i data-lucide="dices" class="w-3 h-3 text-amber-600"></i>
+              <span>🎲 আজ কি খাব?</span>
+            </button>
+            <button onclick="openCompareModal()" class="smart-chip px-2.5 py-1 rounded-xl border border-slate-200 bg-white hover:border-slate-300 text-slate-700 transition-all shrink-0 flex items-center gap-1 shadow-2xs">
+              <i data-lucide="scale" class="w-3 h-3 text-orange-500"></i>
+              <span>⚖️ তুলনা (Compare)</span>
+            </button>
+            <button onclick="toggleSmartFilter('TOP_RATED')" id="smart-btn-TOP_RATED" class="smart-chip px-2.5 py-1 rounded-xl border border-slate-200 bg-white hover:border-amber-400 hover:text-amber-700 transition-all shrink-0 flex items-center gap-1 shadow-2xs">
+              <span>★ Top Rated (4.5+)</span>
+            </button>
+            <button onclick="toggleSmartFilter('BUDGET')" id="smart-btn-BUDGET" class="smart-chip px-2.5 py-1 rounded-xl border border-slate-200 bg-white hover:border-emerald-400 hover:text-emerald-700 transition-all shrink-0 flex items-center gap-1 shadow-2xs">
+              <span>⚡ Under ৳250</span>
+            </button>
+            <button onclick="toggleSmartFilter('ICONIC_KACCHI')" id="smart-btn-ICONIC_KACCHI" class="smart-chip px-2.5 py-1 rounded-xl border border-slate-200 bg-white hover:border-orange-400 hover:text-orange-700 transition-all shrink-0 flex items-center gap-1 shadow-2xs">
+              <span>👑 Iconic Kacchi</span>
+            </button>
+            <button onclick="toggleSmartFilter('SMASH_BURGERS')" id="smart-btn-SMASH_BURGERS" class="smart-chip px-2.5 py-1 rounded-xl border border-slate-200 bg-white hover:border-red-400 hover:text-red-700 transition-all shrink-0 flex items-center gap-1 shadow-2xs">
+              <span>🍔 Smash Burgers</span>
+            </button>
+            <button onclick="toggleSmartFilter('POPULAR_CAFES')" id="smart-btn-POPULAR_CAFES" class="smart-chip px-2.5 py-1 rounded-xl border border-slate-200 bg-white hover:border-amber-500 hover:text-amber-800 transition-all shrink-0 flex items-center gap-1 shadow-2xs">
+              <span>☕ Best Cafes</span>
+            </button>
+            <button onclick="setAreaFilter('SAVED')" class="smart-chip px-2.5 py-1 rounded-xl border border-rose-200 bg-rose-50 hover:bg-rose-100 text-rose-700 transition-all shrink-0 flex items-center gap-1 shadow-2xs">
+              <span>❤️ Saved Spots</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- DHAKA AREA FILTER HORIZONTAL SCROLL CAROUSEL -->
+        <div class="pt-1 text-left">
+          <div class="flex items-center justify-between pb-1 px-0.5 text-[11px] text-slate-500 font-semibold">
+            <span class="flex items-center gap-1 text-slate-700">
+              <i data-lucide="map-pin" class="w-3 h-3 text-orange-500"></i> Tap Neighborhood in Dhaka:
+            </span>
+            <span id="area-active-label" class="text-orange-600 font-bold truncate max-w-[150px]">All Dhaka</span>
+          </div>
+          
+          <div id="dhaka-area-pills" class="flex items-center gap-1.5 overflow-x-auto py-1 px-0.5 no-scrollbar touch-scroll">
+            <!-- Rendered dynamically with live branch counts -->
+          </div>
+        </div>
+
+        <!-- QUICK CUISINE CHIPS -->
+        <div class="pt-1.5 text-left">
+          <div class="flex items-center gap-1.5 overflow-x-auto py-1 px-0.5 no-scrollbar touch-scroll text-[11px] font-semibold text-slate-600">
+            <span class="text-slate-400 flex items-center gap-0.5 shrink-0 text-[10px] uppercase font-bold tracking-wider mr-0.5"><i data-lucide="sparkles" class="w-3 h-3"></i> Cuisines:</span>
+            <button onclick="setQuickFilter('ALL')" class="cuisine-chip active px-2.5 py-1 rounded-lg border bg-orange-600 text-white border-orange-600 transition-all shrink-0 shadow-xs">All</button>
+            <button onclick="setQuickFilter('Burgers')" class="cuisine-chip px-2.5 py-1 rounded-lg border border-slate-200 bg-white hover:border-orange-500 hover:text-orange-600 transition-all shrink-0">🍔 Burgers</button>
+            <button onclick="setQuickFilter('Pizza')" class="cuisine-chip px-2.5 py-1 rounded-lg border border-slate-200 bg-white hover:border-orange-500 hover:text-orange-600 transition-all shrink-0">🍕 Pizza</button>
+            <button onclick="setQuickFilter('Fried Chicken')" class="cuisine-chip px-2.5 py-1 rounded-lg border border-slate-200 bg-white hover:border-orange-500 hover:text-orange-600 transition-all shrink-0">🍗 Fried Chicken</button>
+            <button onclick="setQuickFilter('Kacchi')" class="cuisine-chip px-2.5 py-1 rounded-lg border border-slate-200 bg-white hover:border-orange-500 hover:text-orange-600 transition-all shrink-0">🍚 Kacchi & Biryani</button>
+            <button onclick="setQuickFilter('Pan-Asian')" class="cuisine-chip px-2.5 py-1 rounded-lg border border-slate-200 bg-white hover:border-orange-500 hover:text-orange-600 transition-all shrink-0">🥟 Dim Sum & Pan-Asian</button>
+            <button onclick="setQuickFilter('Coffee')" class="cuisine-chip px-2.5 py-1 rounded-lg border border-slate-200 bg-white hover:border-orange-500 hover:text-orange-600 transition-all shrink-0">☕ Specialty Coffee</button>
+            <button onclick="setQuickFilter('Bakery')" class="cuisine-chip px-2.5 py-1 rounded-lg border border-slate-200 bg-white hover:border-orange-500 hover:text-orange-600 transition-all shrink-0">🎂 Bakery & Cakes</button>
+            <button onclick="setQuickFilter('Kebabs')" class="cuisine-chip px-2.5 py-1 rounded-lg border border-slate-200 bg-white hover:border-orange-500 hover:text-orange-600 transition-all shrink-0">🍢 Kebabs & Chaap</button>
+            <button onclick="setQuickFilter('Steaks')" class="cuisine-chip px-2.5 py-1 rounded-lg border border-slate-200 bg-white hover:border-orange-500 hover:text-orange-600 transition-all shrink-0">🥩 Steaks & Grills</button>
+            <button onclick="setQuickFilter('Bengali')" class="cuisine-chip px-2.5 py-1 rounded-lg border border-slate-200 bg-white hover:border-orange-500 hover:text-orange-600 transition-all shrink-0">🍛 Bengali & Bhorta</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- MAIN LISTINGS AREA -->
+  <main class="max-w-7xl mx-auto px-3.5 sm:px-6 lg:px-8 py-5 sm:py-8 flex-1 w-full">
+    
+    <!-- RESULTS & SORT HEADER -->
+    <div class="flex flex-row items-center justify-between pb-4 border-b border-slate-200 gap-2">
+      <div>
+        <h2 class="text-base sm:text-2xl font-bold text-slate-900 flex items-center gap-1.5">
+          <span>Dhaka Restaurants</span>
+          <span id="results-count-badge" class="text-[11px] sm:text-xs font-bold bg-orange-100 text-orange-700 px-2 py-0.5 rounded-full">505 Available</span>
+        </h2>
+        <p id="results-filter-desc" class="text-[11px] sm:text-xs text-slate-500 mt-0.5 truncate max-w-[240px] sm:max-w-none">
+          Verified counter menus & in-store prices
+        </p>
+      </div>
+
+      <!-- SORT DROPDOWN -->
+      <div class="flex items-center gap-1.5 shrink-0 text-xs">
+        <span class="hidden sm:inline text-slate-400 font-medium">Sort:</span>
+        <select id="sort-select" onchange="handleSortChange()" class="bg-white border border-slate-200 rounded-xl px-2.5 py-1.5 text-xs font-semibold text-slate-700 focus:outline-none focus:ring-1 focus:ring-orange-500 cursor-pointer shadow-xs">
+          <option value="popularity">Most Popular</option>
+          <option value="branches">Most Outlets</option>
+          <option value="rating">Highest Rated</option>
+          <option value="name">Name (A-Z)</option>
+        </select>
+      </div>
+    </div>
+
+    <!-- RESTAURANTS GRID (MOBILE OPTIMIZED: 1 Col on phone, 2 on tablet, 3 on desktop) -->
+    <div id="restaurants-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 pt-5">
+      <!-- Cards rendered dynamically -->
+    </div>
+
+    <!-- EMPTY SEARCH STATE -->
+    <div id="empty-state" class="hidden py-14 text-center space-y-3.5 px-4">
+      <div class="w-14 h-14 bg-orange-100 text-orange-600 rounded-2xl flex items-center justify-center mx-auto shadow-inner">
+        <i data-lucide="search-x" class="w-7 h-7"></i>
+      </div>
+      <h3 class="text-base sm:text-lg font-bold text-slate-900">No restaurants or items found</h3>
+      <p class="text-slate-500 text-xs sm:text-sm max-w-sm mx-auto leading-relaxed">
+        Try searching for something else like "KFC", "Burger", "Siu Mai", "Kacchi" or tap Reset All Filters.
+      </p>
+      <button onclick="resetAllFilters()" class="text-xs font-bold bg-orange-600 hover:bg-orange-700 text-white px-4 py-2 rounded-xl transition-colors shadow-sm">
+        Reset All Filters
+      </button>
+    </div>
+
+  </main>
+
+  <!-- ============================================================== -->
+  <!-- RESTAURANT DETAILS & FULL MENU BOTTOM SHEET / MODAL (MOBILE NATIVE) -->
+  <!-- ============================================================== -->
+  <div id="restaurant-modal" onclick="if (event.target === this) closeModal()" class="fixed inset-0 z-50 hidden bg-slate-950/70 backdrop-blur-sm flex items-end sm:items-center justify-center p-0 sm:p-4 md:p-6 transition-all duration-200">
+    
+    <!-- Modal Card (Bottom Sheet on mobile, Centered Card on desktop) -->
+    <div class="relative bg-white w-full sm:max-w-4xl h-[94vh] sm:h-auto sm:max-h-[90vh] rounded-t-3xl sm:rounded-3xl shadow-2xl flex flex-col overflow-hidden animate-in slide-in-from-bottom-8 sm:zoom-in-95 duration-200">
+      
+      <!-- MOBILE DRAG HANDLE BAR (Tap or Drag to dismiss) -->
+      <div class="sm:hidden w-full flex justify-center pt-3 pb-1 cursor-pointer active:opacity-70" onclick="closeModal()">
+        <div class="w-12 h-1.5 rounded-full bg-slate-300"></div>
+      </div>
+
+      <!-- MODAL HEADER WITH BANNER -->
+      <div class="relative h-40 sm:h-52 w-full shrink-0 overflow-hidden bg-slate-900">
+        <img id="modal-banner" src="" alt="Banner" class="w-full h-full object-cover">
+        <div class="absolute inset-0 bg-gradient-to-t from-slate-950/95 via-slate-950/50 to-transparent"></div>
+        
+        <!-- TOP ACTION BUTTONS (FAVORITE, SHARE, CLOSE) -->
+        <div class="absolute top-3 right-3 sm:top-4 sm:right-4 flex items-center gap-1.5 z-30">
+          <button id="modal-fav-btn" onclick="toggleModalFavorite()" aria-label="Save to favorites" class="w-8 h-8 sm:w-9 sm:h-9 rounded-full bg-slate-900/80 hover:bg-slate-900 active:scale-90 text-white flex items-center justify-center transition-all shadow-md">
+            <i data-lucide="heart" id="modal-fav-icon" class="w-4 h-4"></i>
+          </button>
+          <button onclick="shareCurrentRestaurant()" aria-label="Share restaurant" class="w-8 h-8 sm:w-9 sm:h-9 rounded-full bg-slate-900/80 hover:bg-slate-900 active:scale-90 text-white flex items-center justify-center transition-all shadow-md">
+            <i data-lucide="share-2" class="w-4 h-4"></i>
+          </button>
+          <button id="modal-top-close-btn" onclick="closeModal()" aria-label="Close modal" class="w-8 h-8 sm:w-9 sm:h-9 rounded-full bg-slate-900/80 hover:bg-slate-900 active:scale-90 text-white flex items-center justify-center transition-all shadow-md">
+            <i data-lucide="x" class="w-4 h-4 sm:w-5 sm:h-5"></i>
+          </button>
+        </div>
+
+        <!-- RESTAURANT INFO HEADER -->
+        <div class="absolute bottom-3 left-3 right-3 sm:bottom-4 sm:left-4 sm:right-4 flex items-end justify-between">
+          <div class="flex items-center gap-3">
+            <img id="modal-logo" src="" alt="Logo" class="w-14 h-14 sm:w-18 sm:h-18 rounded-xl sm:rounded-2xl border-2 border-white/90 shadow-xl object-cover bg-white shrink-0">
+            <div class="text-white min-w-0">
+              <div class="flex items-center gap-1.5 flex-wrap">
+                <h3 id="modal-title" class="text-base sm:text-2xl font-bold tracking-tight truncate max-w-[200px] sm:max-w-md"></h3>
+                <span class="inline-flex items-center gap-0.5 bg-emerald-500 text-white text-[10px] font-extrabold px-1.5 py-0.5 rounded-full shrink-0">
+                  <i data-lucide="check-circle" class="w-2.5 h-2.5"></i> Verified
+                </span>
+              </div>
+              <p id="modal-tagline" class="text-[11px] sm:text-xs text-slate-300 truncate max-w-[220px] sm:max-w-md"></p>
+              
+              <div class="flex items-center gap-2 mt-1 text-[11px] text-amber-300 font-semibold flex-wrap">
+                <span id="modal-rating" class="flex items-center gap-0.5"><i data-lucide="star" class="w-3 h-3 fill-amber-400 text-amber-400"></i> 4.5</span>
+                <span>•</span>
+                <span id="modal-price-range" class="text-slate-300">৳৳</span>
+                <span>•</span>
+                <span class="text-orange-200 flex items-center gap-1 font-bold">
+                  <i data-lucide="eye" class="w-3 h-3 text-orange-400"></i>
+                  <span id="modal-view-count">0</span> views
+                </span>
+                <span>•</span>
+                <a id="modal-hotline-link" href="#" class="text-slate-200 flex items-center gap-1 hover:text-white underline">
+                  <i data-lucide="phone" class="w-3 h-3 text-orange-400"></i> <span id="modal-hotline-text">Call</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- STICKY MODAL TABS & IN-MENU SEARCH -->
+      <div class="sticky top-0 z-20 bg-white border-b border-slate-200 px-3.5 sm:px-6 flex flex-col gap-2 pt-1.5 pb-2 shrink-0 shadow-xs">
+        <div class="flex items-center justify-between">
+          <div class="flex items-center gap-2 sm:gap-4">
+            <button id="tab-menu-btn" onclick="switchModalTab('menu')" class="py-2 px-3 text-xs sm:text-sm font-bold border-b-2 border-orange-600 text-orange-600 flex items-center gap-1.5 transition-all">
+              <i data-lucide="book-open" class="w-3.5 h-3.5 sm:w-4 sm:h-4"></i>
+              <span>Full Menu (<span id="modal-menu-count">0</span>)</span>
+            </button>
+            <button id="tab-branches-btn" onclick="switchModalTab('branches')" class="py-2 px-3 text-xs sm:text-sm font-bold border-b-2 border-transparent text-slate-500 hover:text-slate-900 flex items-center gap-1.5 transition-all">
+              <i data-lucide="map-pin" class="w-3.5 h-3.5 sm:w-4 sm:h-4"></i>
+              <span>Dhaka Outlets (<span id="modal-branch-count">0</span>)</span>
+            </button>
+          </div>
+
+          <!-- Quick Modal Reset/Close on tablet/desktop -->
+          <span class="hidden sm:inline text-[11px] font-semibold text-emerald-700 bg-emerald-50 px-2.5 py-1 rounded-full border border-emerald-200">
+            Dine-in Counter Prices
+          </span>
+        </div>
+
+        <!-- SEARCH & QUICK DIETARY/PRICE CHIPS -->
+        <div id="modal-menu-search-wrapper" class="space-y-1.5 w-full">
+          <div class="relative w-full">
+            <i data-lucide="search" class="w-3.5 h-3.5 text-slate-400 absolute left-3 top-2.5"></i>
+            <input 
+              type="text" 
+              id="modal-menu-search" 
+              placeholder="Search items in this menu (e.g. Burger, Wings, Fries, Drink)..." 
+              class="w-full pl-8 pr-3 py-1.5 text-xs bg-slate-50 hover:bg-slate-100/80 focus:bg-white border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-orange-500 text-slate-900 transition-colors"
+              oninput="filterModalMenu()"
+            >
+          </div>
+          <div class="flex items-center gap-1.5 overflow-x-auto no-scrollbar text-[10px] font-bold">
+            <button onclick="setModalQuickFilter('ALL')" id="modal-qf-ALL" class="modal-qf-btn px-2.5 py-0.5 rounded-lg bg-orange-600 text-white border border-orange-600 transition-all shrink-0">All Items</button>
+            <button onclick="setModalQuickFilter('BESTSELLER')" id="modal-qf-BESTSELLER" class="modal-qf-btn px-2.5 py-0.5 rounded-lg bg-white text-slate-600 hover:text-amber-600 border border-slate-200 transition-all shrink-0">★ Bestsellers</button>
+            <button onclick="setModalQuickFilter('BUDGET')" id="modal-qf-BUDGET" class="modal-qf-btn px-2.5 py-0.5 rounded-lg bg-white text-slate-600 hover:text-emerald-600 border border-slate-200 transition-all shrink-0">⚡ Under ৳250</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- MODAL BODY CONTENT -->
+      <div class="overflow-y-auto p-3.5 sm:p-6 flex-1 space-y-4 touch-scroll">
+        
+        <!-- VIEW: FULL MENU -->
+        <div id="modal-menu-view" class="space-y-3.5">
+          
+          <!-- ANTI-MARKUP REAL COUNTER RATE BADGE -->
+          <div class="bg-gradient-to-r from-emerald-50 via-teal-50 to-emerald-50 border border-emerald-200/90 rounded-2xl p-2.5 sm:p-3 flex items-start sm:items-center gap-2.5 shadow-2xs">
+            <div class="w-7 h-7 sm:w-8 sm:h-8 rounded-xl bg-emerald-600 text-white flex items-center justify-center shrink-0 mt-0.5 sm:mt-0 shadow-xs">
+              <i data-lucide="shield-check" class="w-4 h-4"></i>
+            </div>
+            <div class="min-w-0">
+              <div class="flex items-center gap-1.5 flex-wrap">
+                <span class="text-xs font-bold text-emerald-950">১০০% রিয়েল কাউন্টার রেট নিশ্চয়তা (Anti-Markup Guarantee)</span>
+                <span class="text-[9.5px] font-extrabold text-emerald-800 bg-emerald-200/80 px-1.5 py-0.2 rounded-full">In-Store</span>
+              </div>
+              <p class="text-[10.5px] sm:text-[11px] text-emerald-700 leading-snug mt-0.5">
+                ফুডপান্ডা/পাঠাও ডেলিভারি অ্যাপসের ১৫–৩০% বাড়তি মার্কআপ ছাড়া সরাসরি রেস্তোরাঁর ইন-স্টোর ডাইন-ইন মূল্য।
+              </p>
+            </div>
+          </div>
+
+          <!-- Sticky Category Filter Pills Carousel inside Menu -->
+          <div id="modal-category-pills" class="flex items-center gap-1.5 overflow-x-auto pb-1.5 border-b border-slate-100 no-scrollbar touch-scroll">
+            <!-- Populated dynamically -->
+          </div>
+
+          <!-- INTERACTIVE LIVE RATING WIDGET -->
+          <div id="modal-rating-card" class="bg-gradient-to-r from-orange-50 via-amber-50 to-orange-50 p-3 sm:p-3.5 rounded-2xl border border-orange-200/90 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2 shadow-2xs">
+            <div>
+              <div class="flex items-center gap-1.5">
+                <span class="text-xs font-bold text-slate-900">রেটিং দিন (Rate this Spot):</span>
+                <span id="user-rating-badge" class="text-[10px] font-bold text-orange-700 bg-orange-100 px-2 py-0.5 rounded-full">Tap a star</span>
+              </div>
+              <p class="text-[10px] text-slate-500 mt-0.5">আপনার রেটিং সরাসরি ডাটাবেজে লাইভ যুক্ত হবে</p>
+            </div>
+            <div class="flex items-center gap-1" id="modal-star-buttons">
+              <!-- Rendered dynamically -->
+            </div>
+          </div>
+
+          <!-- Categories & Item Cards List -->
+          <div id="modal-menu-categories" class="space-y-6">
+            <!-- Rendered dynamically -->
+          </div>
+        </div>
+
+        <!-- VIEW: DHAKA BRANCHES -->
+        <div id="modal-branches-view" class="hidden space-y-3.5">
+          <div class="flex items-center justify-between pb-1.5 border-b border-slate-100">
+            <p class="text-xs text-slate-500 font-medium">All active dine-in & counter outlets in Dhaka:</p>
+            <span class="text-[11px] font-bold text-orange-600 bg-orange-50 px-2 py-0.5 rounded">Verified Outlets</span>
+          </div>
+          <div id="modal-branches-list" class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+            <!-- Branch cards rendered dynamically -->
+          </div>
+        </div>
+
+      </div>
+
+      <!-- FLOATING BILL & VAT ESTIMATOR BAR (INSIDE MODAL) -->
+      <div id="modal-bill-bar" class="hidden shrink-0 bg-slate-900 text-white px-4 py-2.5 border-t border-slate-700 flex items-center justify-between shadow-2xl transition-all">
+        <div class="flex items-center gap-2.5 min-w-0 cursor-pointer" onclick="openBillModal()" title="View Bill & Split">
+          <div class="w-8 h-8 rounded-xl bg-orange-600 flex items-center justify-center font-extrabold text-xs shrink-0" id="bill-item-count">0</div>
+          <div class="min-w-0">
+            <div class="text-xs font-bold leading-tight flex items-center gap-1.5 flex-wrap">
+              <span>Bill: <span class="text-orange-400 font-extrabold" id="bill-total-price">৳0</span></span>
+              <span class="text-[10px] text-slate-400 font-medium">(Incl. 5% VAT: <span id="bill-vat-amount">৳0</span>)</span>
+            </div>
+            <p class="text-[10px] text-slate-300 truncate max-w-[170px] sm:max-w-md" id="bill-summary-text">No items added</p>
+          </div>
+        </div>
+        <div class="flex items-center gap-1.5 shrink-0">
+          <button onclick="openBillModal()" class="bg-gradient-to-r from-orange-500 to-amber-500 hover:from-orange-600 hover:to-amber-600 active:scale-95 text-white font-bold text-xs px-2.5 py-1.5 sm:px-3 sm:py-1.5 rounded-xl shadow-xs transition-all flex items-center gap-1">
+            <i data-lucide="receipt" class="w-3.5 h-3.5"></i>
+            <span>হিসাব ও ভাগ</span>
+          </button>
+          <button onclick="clearBill()" class="text-[11px] text-slate-400 hover:text-white px-1.5 py-1 active:scale-95 transition-all">
+            Clear
+          </button>
+        </div>
+      </div>
+
+      <!-- MODAL FOOTER -->
+      <div class="bg-slate-50 border-t border-slate-200 px-4 sm:px-6 py-2.5 flex items-center justify-between shrink-0 text-xs text-slate-500 pb-safe">
+        <span class="flex items-center gap-1 text-[11px] text-emerald-800 font-semibold truncate max-w-[200px] sm:max-w-none">
+          <i data-lucide="shield-check" class="w-3.5 h-3.5 text-emerald-600 shrink-0"></i>
+          <span>Official Dine-in Counter Prices (BDT ৳)</span>
+        </span>
+        <button onclick="closeModal()" class="px-4 py-1.5 rounded-xl bg-slate-900 hover:bg-slate-800 active:scale-95 font-bold text-white transition-all shadow-xs">
+          Close
+        </button>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ============================================================== -->
+  <!-- BILL BREAKDOWN & GROUP SPLITTER MODAL -->
+  <!-- ============================================================== -->
+  <div id="bill-share-modal" onclick="if (event.target === this) closeBillModal()" class="fixed inset-0 z-[60] hidden bg-slate-950/75 backdrop-blur-sm flex items-center justify-center p-3.5 sm:p-4 transition-all">
+    <div class="bg-white rounded-3xl max-w-md w-full shadow-2xl overflow-hidden border border-slate-200 animate-in zoom-in-95 duration-150 flex flex-col max-h-[92vh]">
+      <!-- Header -->
+      <div class="p-3.5 sm:p-4 bg-slate-900 text-white flex items-center justify-between shrink-0">
+        <div class="flex items-center gap-2">
+          <div class="w-8 h-8 rounded-xl bg-orange-600 flex items-center justify-center text-white shrink-0">
+            <i data-lucide="receipt" class="w-4 h-4"></i>
+          </div>
+          <div>
+            <h4 class="font-bold text-sm leading-tight" id="bill-modal-restaurant-name">Bill Breakdown</h4>
+            <div class="flex items-center gap-2 mt-0.5">
+              <button onclick="switchBillTab('standard')" id="btn-bill-tab-standard" class="text-[10px] font-bold text-orange-400 border-b border-orange-400 pb-0.2">হিসাব ও ভাগ</button>
+              <span class="text-slate-600 text-[10px]">•</span>
+              <button onclick="switchBillTab('memo')" id="btn-bill-tab-memo" class="text-[10px] font-bold text-slate-400 hover:text-white pb-0.2">🧾 ক্যাশ মেমো (Slip)</button>
+            </div>
+          </div>
+        </div>
+        <button onclick="closeBillModal()" class="w-7 h-7 rounded-full bg-slate-800 hover:bg-slate-700 text-white flex items-center justify-center">
+          <i data-lucide="x" class="w-4 h-4"></i>
+        </button>
+      </div>
+
+      <!-- VIEW 1: Standard Items List & Splitter -->
+      <div id="bill-view-standard" class="flex flex-col flex-1 overflow-hidden">
+        <!-- Scrollable Items List -->
+        <div class="p-4 overflow-y-auto space-y-2 flex-1 text-xs divide-y divide-slate-100 touch-scroll" id="bill-modal-items">
+          <!-- Injected dynamically -->
+        </div>
+
+        <!-- Bill Summary & Calculation -->
+        <div class="p-4 bg-slate-50 border-t border-slate-200 space-y-3 shrink-0">
+          <div class="space-y-1 text-xs text-slate-600">
+            <div class="flex justify-between">
+              <span>Subtotal:</span>
+              <span class="font-bold text-slate-900" id="bill-modal-subtotal">৳0</span>
+            </div>
+            <div class="flex justify-between">
+              <span>Govt Restaurant VAT (5%):</span>
+              <span class="font-bold text-slate-900" id="bill-modal-vat">৳0</span>
+            </div>
+            <div class="flex justify-between text-sm font-extrabold text-slate-900 pt-1.5 border-t border-slate-200">
+              <span>Total Payable:</span>
+              <span class="text-orange-600 text-base" id="bill-modal-total">৳0</span>
+            </div>
+          </div>
+
+          <!-- Group Splitter Controls -->
+          <div class="bg-white p-2.5 rounded-2xl border border-slate-200 space-y-2">
+            <div class="flex items-center justify-between text-xs">
+              <span class="font-bold text-slate-700 flex items-center gap-1">
+                <i data-lucide="users" class="w-3.5 h-3.5 text-orange-500"></i> Split among friends:
+              </span>
+              <div class="flex items-center gap-2">
+                <button onclick="adjustSplitPeople(-1)" class="w-6 h-6 rounded-lg bg-slate-100 hover:bg-slate-200 text-slate-700 font-bold flex items-center justify-center active:scale-90">−</button>
+                <span class="font-black text-xs text-slate-900 min-w-[20px] text-center" id="split-people-count">2</span>
+                <button onclick="adjustSplitPeople(1)" class="w-6 h-6 rounded-lg bg-slate-100 hover:bg-slate-200 text-slate-700 font-bold flex items-center justify-center active:scale-90">+</button>
+              </div>
+            </div>
+            <div class="flex items-center justify-between pt-1 border-t border-slate-100 text-xs">
+              <span class="text-slate-500 font-medium">Per person cost:</span>
+              <span class="font-black text-orange-600 text-sm" id="split-per-person">৳0</span>
+            </div>
+          </div>
+
+          <!-- Action Buttons -->
+          <div class="grid grid-cols-2 gap-2 pt-1">
+            <button onclick="copyBillReceipt()" class="w-full bg-slate-900 hover:bg-slate-800 active:scale-95 text-white font-bold text-xs py-2.5 rounded-xl flex items-center justify-center gap-1.5 transition-all shadow-xs">
+              <i data-lucide="copy" class="w-3.5 h-3.5"></i>
+              <span>Copy Receipt</span>
+            </button>
+            <button onclick="shareBillWhatsApp()" class="w-full bg-emerald-600 hover:bg-emerald-700 active:scale-95 text-white font-bold text-xs py-2.5 rounded-xl flex items-center justify-center gap-1.5 transition-all shadow-xs">
+              <i data-lucide="message-circle" class="w-3.5 h-3.5"></i>
+              <span>WhatsApp</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- VIEW 2: POS Thermal Receipt Memo Slip -->
+      <div id="bill-view-memo" class="hidden flex-1 p-4 overflow-y-auto bg-slate-100 font-mono text-[11px] touch-scroll">
+        <div id="thermal-receipt-paper" class="bg-white p-5 rounded-xl shadow-md border border-slate-300 max-w-sm mx-auto text-slate-800 space-y-3">
+          <!-- Injected dynamically in renderThermalReceipt() -->
+        </div>
+        <div class="pt-3 max-w-sm mx-auto flex gap-2">
+          <button onclick="window.print()" class="flex-1 bg-slate-900 hover:bg-slate-800 text-white font-bold text-xs py-2 rounded-xl flex items-center justify-center gap-1.5">
+            <i data-lucide="printer" class="w-3.5 h-3.5"></i> Print Slip
+          </button>
+          <button onclick="copyBillReceipt()" class="flex-1 bg-white border border-slate-300 text-slate-800 font-bold text-xs py-2 rounded-xl flex items-center justify-center gap-1.5">
+            <i data-lucide="copy" class="w-3.5 h-3.5"></i> Copy Text
+          </button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ============================================================== -->
+  <!-- DHAKAFOOD AI CONVERSATIONAL ASSISTANT MODAL -->
+  <!-- ============================================================== -->
+  <div id="ai-assistant-modal" onclick="if (event.target === this) closeAiAssistant()" class="fixed inset-0 z-[70] hidden bg-slate-950/75 backdrop-blur-sm flex items-end sm:items-center justify-center p-0 sm:p-4 transition-all">
+    <div class="bg-white w-full sm:max-w-lg h-[92vh] sm:h-[650px] rounded-t-3xl sm:rounded-3xl shadow-2xl flex flex-col overflow-hidden border border-slate-200 animate-in slide-in-from-bottom-8 sm:zoom-in-95 duration-200">
+      
+      <!-- AI Header -->
+      <div class="p-4 bg-gradient-to-r from-violet-900 via-indigo-900 to-slate-900 text-white flex items-center justify-between shrink-0">
+        <div class="flex items-center gap-3">
+          <div class="w-10 h-10 rounded-2xl bg-gradient-to-tr from-violet-500 to-indigo-500 flex items-center justify-center text-white shadow-lg shadow-violet-500/30 shrink-0">
+            <i data-lucide="bot" class="w-5 h-5 text-amber-300"></i>
+          </div>
+          <div>
+            <div class="flex items-center gap-1.5">
+              <h3 class="font-display font-bold text-base leading-tight">DhakaFood AI</h3>
+              <span class="bg-violet-500/30 text-amber-300 border border-violet-400/40 text-[9px] font-extrabold px-1.5 py-0.2 rounded-full">505+ Spots AI</span>
+            </div>
+            <p class="text-[11px] text-violet-200">যেকোনো খাবার, এলাকা বা বাজেট বলুন</p>
+          </div>
+        </div>
+        <button onclick="closeAiAssistant()" class="w-8 h-8 rounded-full bg-white/10 hover:bg-white/20 text-white flex items-center justify-center active:scale-90 transition-all">
+          <i data-lucide="x" class="w-4 h-4"></i>
+        </button>
+      </div>
+
+      <!-- Quick AI Suggestion Prompts -->
+      <div class="px-3.5 py-2 bg-violet-50/80 border-b border-violet-100 flex items-center gap-1.5 overflow-x-auto no-scrollbar touch-scroll text-[11px] font-semibold">
+        <span class="text-violet-500 shrink-0 text-[10px] uppercase font-bold tracking-wider mr-0.5">Quick:</span>
+        <button onclick="sendAiPrompt('ধানমন্ডির সেরা কাচ্চি কোনটা?')" class="px-2.5 py-1 rounded-xl bg-white text-violet-900 border border-violet-200 hover:border-violet-400 shrink-0 transition-all shadow-2xs">🍚 সেরা কাচ্চি</button>
+        <button onclick="sendAiPrompt('বাজেট ২৫০ টাকার মধ্যে লাঞ্চ')" class="px-2.5 py-1 rounded-xl bg-white text-violet-900 border border-violet-200 hover:border-violet-400 shrink-0 transition-all shadow-2xs">⚡ বাজেট ৳২৫০</button>
+        <button onclick="sendAiPrompt('বনানীর বেস্ট স্ম্যাশ বার্গার')" class="px-2.5 py-1 rounded-xl bg-white text-violet-900 border border-violet-200 hover:border-violet-400 shrink-0 transition-all shadow-2xs">🍔 বেস্ট বার্গার</button>
+        <button onclick="sendAiPrompt('উত্তরায় কাজ করার শান্ত ক্যাফে')" class="px-2.5 py-1 rounded-xl bg-white text-violet-900 border border-violet-200 hover:border-violet-400 shrink-0 transition-all shadow-2xs">☕ কফি ও ক্যাফে</button>
+        <button onclick="sendAiPrompt('মিরপুরে ফ্যামিলি ডাইনিং')" class="px-2.5 py-1 rounded-xl bg-white text-violet-900 border border-violet-200 hover:border-violet-400 shrink-0 transition-all shadow-2xs">👨‍👩‍👧 ফ্যামিলি স্পট</button>
+      </div>
+
+      <!-- Chat Messages Container -->
+      <div id="ai-chat-messages" class="flex-1 p-4 overflow-y-auto space-y-4 touch-scroll text-xs">
+        <!-- Rendered dynamically -->
+      </div>
+
+      <!-- Input Bar -->
+      <div class="p-3 bg-white border-t border-slate-200 flex items-center gap-2 shrink-0">
+        <input 
+          type="text" 
+          id="ai-chat-input" 
+          placeholder="যেমন: ধানমন্ডিতে ৪০০ টাকার মধ্যে দুজন কি খাব?..." 
+          class="flex-1 px-3.5 py-2.5 text-xs bg-slate-50 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-violet-500 text-slate-900"
+          onkeydown="if(event.key === 'Enter') handleAiSend()"
+        >
+        <button onclick="handleAiSend()" class="w-10 h-10 rounded-xl bg-gradient-to-tr from-violet-600 to-indigo-600 hover:from-violet-700 hover:to-indigo-700 text-white flex items-center justify-center shrink-0 active:scale-95 transition-all shadow-md">
+          <i data-lucide="send" class="w-4 h-4"></i>
+        </button>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ============================================================== -->
+  <!-- SIDE-BY-SIDE MENU & PRICE COMPARISON MODAL -->
+  <!-- ============================================================== -->
+  <div id="compare-modal" onclick="if (event.target === this) closeCompareModal()" class="fixed inset-0 z-[70] hidden bg-slate-950/75 backdrop-blur-sm flex items-end sm:items-center justify-center p-0 sm:p-4 transition-all">
+    <div class="bg-white w-full sm:max-w-4xl h-[92vh] sm:h-auto sm:max-h-[88vh] rounded-t-3xl sm:rounded-3xl shadow-2xl flex flex-col overflow-hidden border border-slate-200 animate-in slide-in-from-bottom-8 sm:zoom-in-95 duration-200">
+      <!-- Header -->
+      <div class="p-4 bg-slate-900 text-white flex items-center justify-between shrink-0">
+        <div class="flex items-center gap-2.5">
+          <div class="w-9 h-9 rounded-xl bg-orange-600 flex items-center justify-center text-white shrink-0">
+            <i data-lucide="scale" class="w-4 h-4"></i>
+          </div>
+          <div>
+            <h3 class="font-display font-bold text-base leading-tight">মেনু ও দাম তুলনা (Food Comparator)</h3>
+            <p class="text-[11px] text-slate-400">ঢাকার শীর্ষ ব্র্যান্ডগুলোর খাবারের দাম ও আউটলেট তুলনা করুন</p>
+          </div>
+        </div>
+        <button onclick="closeCompareModal()" class="w-8 h-8 rounded-full bg-slate-800 hover:bg-slate-700 text-white flex items-center justify-center">
+          <i data-lucide="x" class="w-4 h-4"></i>
+        </button>
+      </div>
+
+      <!-- Rival Battle Presets -->
+      <div class="px-4 py-2.5 bg-slate-50 border-b border-slate-200 flex items-center gap-1.5 overflow-x-auto no-scrollbar text-xs font-bold">
+        <span class="text-slate-400 shrink-0 text-[10px] uppercase font-bold tracking-wider mr-0.5">Battles:</span>
+        <button onclick="loadComparison(['sultans-dine', 'kacchi-bhai'])" class="compare-preset px-3 py-1 rounded-xl bg-white border border-slate-200 hover:border-orange-500 text-slate-800 shrink-0 shadow-2xs">🍚 Sultan's Dine vs Kacchi Bhai</button>
+        <button onclick="loadComparison(['takeout', 'chillox'])" class="compare-preset px-3 py-1 rounded-xl bg-white border border-slate-200 hover:border-orange-500 text-slate-800 shrink-0 shadow-2xs">🍔 Takeout vs Chillox</button>
+        <button onclick="loadComparison(['pizzaburg', 'dominos-bd'])" class="compare-preset px-3 py-1 rounded-xl bg-white border border-slate-200 hover:border-orange-500 text-slate-800 shrink-0 shadow-2xs">🍕 PizzaBurg vs Domino's</button>
+        <button onclick="loadComparison(['kfc-bangladesh', 'bfc'])" class="compare-preset px-3 py-1 rounded-xl bg-white border border-slate-200 hover:border-orange-500 text-slate-800 shrink-0 shadow-2xs">🍗 KFC vs BFC</button>
+      </div>
+
+      <!-- Comparison Matrix Grid -->
+      <div id="compare-matrix" class="p-4 overflow-y-auto space-y-4 flex-1 text-xs touch-scroll">
+        <!-- Rendered dynamically in loadComparison() -->
+      </div>
+    </div>
+  </div>
+
+  <!-- ============================================================== -->
+  <!-- FOOD DECISION WHEEL / SURPRISE PICKER MODAL -->
+  <!-- ============================================================== -->
+  <div id="surprise-modal" onclick="if (event.target === this) closeSurpriseModal()" class="fixed inset-0 z-[70] hidden bg-slate-950/75 backdrop-blur-sm flex items-center justify-center p-3.5 sm:p-4 transition-all">
+    <div class="bg-white rounded-3xl max-w-md w-full shadow-2xl overflow-hidden border border-slate-200 animate-in zoom-in-95 duration-150 flex flex-col">
+      <!-- Header -->
+      <div class="p-4 bg-gradient-to-r from-amber-500 via-orange-500 to-rose-500 text-white flex items-center justify-between shrink-0">
+        <div class="flex items-center gap-2.5">
+          <div class="w-9 h-9 rounded-xl bg-white/20 backdrop-blur-sm flex items-center justify-center text-white shrink-0">
+            <i data-lucide="dices" class="w-5 h-5 text-amber-200"></i>
+          </div>
+          <div>
+            <h3 class="font-display font-bold text-base leading-tight">আজ কি খাব? (Food Decider)</h3>
+            <p class="text-[11px] text-amber-100">সিদ্ধান্তহীনতায় ভুগছেন? ১ ক্লিকে পারফেক্ট খাবার বেছে নিন</p>
+          </div>
+        </div>
+        <button onclick="closeSurpriseModal()" class="w-8 h-8 rounded-full bg-white/10 hover:bg-white/20 text-white flex items-center justify-center">
+          <i data-lucide="x" class="w-4 h-4"></i>
+        </button>
+      </div>
+
+      <div class="p-5 space-y-4 text-center">
+        <!-- Controls -->
+        <div class="grid grid-cols-2 gap-2 text-left">
+          <div>
+            <label class="text-[10px] font-bold text-slate-500 uppercase tracking-wider">এলাকা (Area):</label>
+            <select id="wheel-area-select" class="w-full mt-1 p-2 bg-slate-50 border border-slate-200 rounded-xl text-xs font-semibold text-slate-800">
+              <option value="ALL">Any Area</option>
+              <option value="Dhanmondi">Dhanmondi</option>
+              <option value="Banani">Banani</option>
+              <option value="Gulshan">Gulshan</option>
+              <option value="Uttara">Uttara</option>
+              <option value="Mirpur">Mirpur</option>
+              <option value="Old Dhaka">Old Dhaka</option>
+              <option value="Mohammadpur">Mohammadpur</option>
+              <option value="Khilgaon">Khilgaon</option>
+              <option value="Bashundhara">Bashundhara</option>
+            </select>
+          </div>
+          <div>
+            <label class="text-[10px] font-bold text-slate-500 uppercase tracking-wider">বাজেট (Budget):</label>
+            <select id="wheel-budget-select" class="w-full mt-1 p-2 bg-slate-50 border border-slate-200 rounded-xl text-xs font-semibold text-slate-800">
+              <option value="ALL">Any Budget</option>
+              <option value="200">Under ৳২০০</option>
+              <option value="350">Under ৳৩৫০</option>
+              <option value="500">Under ৳৫০০</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Spin Visual Area -->
+        <div id="wheel-display" class="py-6 px-4 bg-gradient-to-b from-orange-50 to-amber-50/50 rounded-2xl border border-orange-200/60 min-h-[170px] flex flex-col items-center justify-center">
+          <div id="wheel-idle-state" class="space-y-2">
+            <div class="w-16 h-16 rounded-full bg-gradient-to-tr from-orange-500 to-amber-400 text-white flex items-center justify-center mx-auto shadow-lg shadow-orange-500/30">
+              <i data-lucide="sparkles" class="w-8 h-8"></i>
+            </div>
+            <p class="text-xs text-slate-600 font-medium">নিচের বাটনে ট্যাপ করুন — আপনার জন্য সেরা মিল সিলেক্ট হবে!</p>
+          </div>
+          <div id="wheel-result-state" class="hidden w-full space-y-3">
+            <!-- Injected dynamically in spinFoodWheel() -->
+          </div>
+        </div>
+
+        <!-- Spin Button -->
+        <button id="spin-wheel-btn" onclick="spinFoodWheel()" class="w-full py-3 bg-gradient-to-r from-orange-500 via-amber-500 to-orange-600 hover:from-orange-600 hover:to-amber-600 active:scale-95 text-white font-extrabold text-sm rounded-2xl shadow-lg shadow-orange-500/25 transition-all flex items-center justify-center gap-2">
+          <i data-lucide="rotate-cw" id="spin-icon" class="w-4 h-4"></i>
+          <span>খাবার বেছে নিন (Spin Wheel)</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- FLOATING AI ASSISTANT LAUNCHER (DESKTOP & MOBILE) -->
+  <button id="floating-ai-btn" onclick="openAiAssistant()" title="Ask DhakaFood AI" class="fixed bottom-20 md:bottom-8 right-4 md:right-8 z-40 bg-gradient-to-r from-violet-600 via-purple-600 to-indigo-600 hover:scale-105 active:scale-95 text-white px-3.5 py-2.5 rounded-full shadow-2xl shadow-indigo-500/40 flex items-center gap-2 transition-all border border-violet-400/30 group">
+    <div class="relative">
+      <i data-lucide="bot" class="w-5 h-5 text-amber-300"></i>
+      <span class="absolute -top-1 -right-1 w-2.5 h-2.5 rounded-full bg-emerald-400 animate-ping"></span>
+      <span class="absolute -top-1 -right-1 w-2.5 h-2.5 rounded-full bg-emerald-400"></span>
+    </div>
+    <span class="font-bold text-xs tracking-wide">DhakaFood AI</span>
+  </button>
+
+  <!-- ============================================================== -->
+  <!-- MOBILE BOTTOM NAVIGATION DOCK (FIXED ON SMARTPHONES) -->
+  <!-- ============================================================== -->
+  <nav class="md:hidden fixed bottom-0 left-0 right-0 z-40 bg-white/95 backdrop-blur-md border-t border-slate-200/90 py-1.5 px-4 flex items-center justify-around shadow-lg pb-safe">
+    
+    <!-- Home / Explore -->
+    <button onclick="window.scrollTo({top: 0, behavior: 'smooth'}); resetAllFilters();" class="flex flex-col items-center gap-0.5 text-slate-500 hover:text-orange-600 active:text-orange-600 focus:text-orange-600 p-1">
+      <i data-lucide="compass" class="w-5 h-5"></i>
+      <span class="text-[10px] font-semibold">Explore</span>
+    </button>
+
+    <!-- Search Button -->
+    <button onclick="focusSearchInput()" class="flex flex-col items-center gap-0.5 text-slate-500 hover:text-orange-600 active:text-orange-600 p-1">
+      <div class="w-9 h-9 rounded-full bg-gradient-to-tr from-orange-500 to-amber-500 text-white flex items-center justify-center -mt-4 shadow-md shadow-orange-500/30">
+        <i data-lucide="search" class="w-4 h-4"></i>
+      </div>
+      <span class="text-[10px] font-semibold text-orange-600">Search</span>
+    </button>
+
+    <!-- Dhaka Areas Filter -->
+    <button onclick="scrollToAreaPills()" class="flex flex-col items-center gap-0.5 text-slate-500 hover:text-orange-600 active:text-orange-600 p-1">
+      <i data-lucide="map-pin" class="w-5 h-5"></i>
+      <span class="text-[10px] font-semibold">Areas</span>
+    </button>
+
+    <!-- Saved / Favorites on Mobile Nav -->
+    <button onclick="setAreaFilter('SAVED')" class="flex flex-col items-center gap-0.5 text-slate-500 hover:text-rose-600 active:text-rose-600 p-1">
+      <i data-lucide="heart" class="w-5 h-5"></i>
+      <span class="text-[10px] font-semibold">Saved</span>
+    </button>
+
+    <!-- Top / Sort -->
+    <button onclick="focusSortSelect()" class="flex flex-col items-center gap-0.5 text-slate-500 hover:text-orange-600 active:text-orange-600 p-1">
+      <i data-lucide="sliders-horizontal" class="w-5 h-5"></i>
+      <span class="text-[10px] font-semibold">Sort</span>
+    </button>
+  </nav>
+
+  <!-- FLOATING BACK TO TOP BUTTON -->
+  <button id="back-to-top-btn" onclick="window.scrollTo({top: 0, behavior: 'smooth'})" class="hidden fixed bottom-18 right-4 md:bottom-8 md:right-8 z-30 w-10 h-10 rounded-full bg-slate-900/90 text-white hover:bg-orange-600 shadow-lg flex items-center justify-center transition-all active:scale-90">
+    <i data-lucide="arrow-up" class="w-5 h-5"></i>
+  </button>
+
+  <!-- TOAST NOTIFICATION -->
+  <div id="toast" class="fixed bottom-20 sm:bottom-8 left-1/2 -translate-x-1/2 z-50 bg-slate-900/95 backdrop-blur-md text-white text-xs font-semibold px-4 py-2.5 rounded-full shadow-2xl flex items-center gap-2 transition-all opacity-0 pointer-events-none translate-y-4 border border-slate-700">
+    <i data-lucide="check" class="w-4 h-4 text-emerald-400"></i>
+    <span id="toast-text">Success message</span>
+  </div>
+
+  <!-- FOOTER (DESKTOP) -->
+  <footer class="bg-slate-900 text-slate-400 py-8 mt-12 border-t border-slate-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-4 text-center sm:text-left">
+      <div class="flex flex-col sm:flex-row items-center justify-between gap-3">
+        <div class="flex items-center gap-2.5">
+          <div class="w-8 h-8 rounded-xl bg-orange-600 flex items-center justify-center text-white">
+            <i data-lucide="utensils" class="w-4 h-4"></i>
+          </div>
+          <div>
+            <h4 class="font-display font-bold text-base text-white">DhakaMenuHub</h4>
+            <p class="text-[11px] text-slate-400">All Dhaka Restaurants & Verified Counter Menus</p>
+          </div>
+        </div>
+        <div class="flex items-center gap-4 text-xs text-slate-400">
+          <span>Dhanmondi • Banani • Gulshan • Uttara • Mirpur</span>
+          <span>•</span>
+          <span class="text-emerald-400 font-semibold">100% Dine-in Prices</span>
+        </div>
+      </div>
+      <div class="border-t border-slate-800 pt-4 text-center text-[11px] text-slate-500">
+        Built for Dhaka foodies. Accurate restaurant menus, branches, and pricing in Bangladesh.
+      </div>
+    </div>
+  </footer>
+
+  <!-- ============================================================== -->
+  <!-- APPLICATION LOGIC SCRIPT -->
+  <!-- ============================================================== -->
+  <script>
+    let restaurants = [];
+    let currentFilterArea = 'ALL';
+    let currentFilterCuisine = 'ALL';
+    let currentFilterSmart = 'ALL';
+    let currentSearchQuery = '';
+    let currentSort = 'popularity';
+    let currentRestaurant = null;
+    let currentModalTab = 'menu';
+    let currentModalCategory = 'ALL';
+    let currentModalQuickFilter = 'ALL';
+    let favorites = JSON.parse(localStorage.getItem('dhaka_menu_favs') || '[]');
+    let currentBill = []; // Items added to bill estimator
+
+    const DHAKA_AREAS = [
+      "Dhanmondi", "Banani", "Gulshan", "Uttara", "Mirpur", 
+      "Bailey Road", "Khilgaon", "Bashundhara", "Mohammadpur", 
+      "Motijheel", "Purana Paltan", "Old Dhaka", "Panthapath", "Baridhara"
+    ];
+
+    const DHAKA_COORDINATES = {
+      "Dhanmondi": { lat: 23.7461, lng: 90.3742 },
+      "Banani": { lat: 23.7937, lng: 90.4043 },
+      "Gulshan": { lat: 23.7925, lng: 90.4162 },
+      "Uttara": { lat: 23.8759, lng: 90.3795 },
+      "Mirpur": { lat: 23.8071, lng: 90.3686 },
+      "Mohammadpur": { lat: 23.7570, lng: 90.3615 },
+      "Bailey Road": { lat: 23.7410, lng: 90.4068 },
+      "Khilgaon": { lat: 23.7516, lng: 90.4223 },
+      "Bashundhara": { lat: 23.8151, lng: 90.4255 },
+      "Old Dhaka": { lat: 23.7104, lng: 90.4074 },
+      "Panthapath": { lat: 23.7517, lng: 90.3876 },
+      "Baridhara": { lat: 23.7998, lng: 90.4206 },
+      "Motijheel": { lat: 23.7330, lng: 90.4172 },
+      "Purana Paltan": { lat: 23.7339, lng: 90.4124 }
+    };
+
+    let userCoordinates = null;
+    let isNearMeActive = false;
+    let aiConversationHistory = [];
+
+    // Load Data
+    async function loadData() {
+      try {
+        // Prefer live fetch on http/https to bypass any stale browser caching
+        if (window.location.protocol.startsWith('http')) {
+          try {
+            const res = await fetch('./data/restaurants.json?v=' + Date.now(), { cache: 'no-store' });
+            if (res.ok) {
+              restaurants = await res.json();
+            }
+          } catch (fetchErr) {
+            console.warn("Live fetch fallback to window.RESTAURANTS_DATA", fetchErr);
+          }
+        }
+
+        // Fallback for file:// or if fetch was not used
+        if (!restaurants || restaurants.length === 0) {
+          if (window.RESTAURANTS_DATA && Array.isArray(window.RESTAURANTS_DATA)) {
+            restaurants = window.RESTAURANTS_DATA;
+          }
+        }
+        
+        // Update Stats
+        const totalBranches = restaurants.reduce((sum, r) => sum + (r.branches?.length || 0), 0);
+        const restCountEl = document.getElementById('stat-restaurants-count');
+        const branchCountEl = document.getElementById('stat-branches-count');
+        if (restCountEl) restCountEl.textContent = restaurants.length;
+        if (branchCountEl) branchCountEl.textContent = totalBranches.toLocaleString();
+        
+        updateFavBadges();
+        renderAreaPills();
+        renderRestaurants();
+        checkUrlParams();
+      } catch (err) {
+        console.error("Failed to load restaurant data:", err);
+      }
+    }
+
+    function toggleSmartFilter(smartType) {
+      if (currentFilterSmart === smartType) {
+        currentFilterSmart = 'ALL';
+      } else {
+        currentFilterSmart = smartType;
+      }
+
+      ['TOP_RATED', 'BUDGET', 'ICONIC_KACCHI', 'SMASH_BURGERS', 'POPULAR_CAFES'].forEach(type => {
+        const btn = document.getElementById(`smart-btn-${type}`);
+        if (btn) {
+          if (currentFilterSmart === type) {
+            btn.className = "smart-chip px-2.5 py-1 rounded-xl border border-orange-600 bg-orange-600 text-white font-bold transition-all shrink-0 flex items-center gap-1 shadow-xs";
+          } else {
+            btn.className = "smart-chip px-2.5 py-1 rounded-xl border border-slate-200 bg-white hover:border-slate-300 text-slate-700 transition-all shrink-0 flex items-center gap-1 shadow-2xs";
+          }
+        }
+      });
+
+      renderRestaurants();
+    }
+
+    function updateFavBadges() {
+      const navFavCount = document.getElementById('nav-fav-count');
+      if (navFavCount) navFavCount.textContent = favorites.length;
+    }
+
+    function renderRestaurants() {
+      const grid = document.getElementById('restaurants-grid');
+      const emptyState = document.getElementById('empty-state');
+      const countBadge = document.getElementById('results-count-badge');
+      const filterDesc = document.getElementById('results-filter-desc');
+
+      // Filter Logic
+      let filtered = restaurants.filter(restaurant => {
+        // Area Filter (including SAVED bookmark filter)
+        if (currentFilterArea === 'SAVED') {
+          if (!favorites.includes(restaurant.id)) return false;
+        } else if (currentFilterArea !== 'ALL') {
+          const hasBranchInArea = restaurant.branches.some(b => b.area.toLowerCase() === currentFilterArea.toLowerCase());
+          if (!hasBranchInArea) return false;
+        }
+
+        // Cuisine Filter
+        if (currentFilterCuisine !== 'ALL') {
+          const matchesCuisine = restaurant.cuisine.some(c => c.toLowerCase().includes(currentFilterCuisine.toLowerCase()));
+          if (!matchesCuisine) return false;
+        }
+
+        // Smart Curations Filter
+        if (currentFilterSmart === 'TOP_RATED') {
+          if (restaurant.rating < 4.5) return false;
+        } else if (currentFilterSmart === 'BUDGET') {
+          const isBudget = restaurant.price_range === '৳' || restaurant.menu_categories.some(c => c.items.some(i => i.price <= 250));
+          if (!isBudget) return false;
+        } else if (currentFilterSmart === 'ICONIC_KACCHI') {
+          const isKacchi = restaurant.cuisine.some(c => c.toLowerCase().includes('kacchi') || c.toLowerCase().includes('biryani'));
+          if (!isKacchi) return false;
+        } else if (currentFilterSmart === 'SMASH_BURGERS') {
+          const isBurger = restaurant.cuisine.some(c => c.toLowerCase().includes('burger'));
+          if (!isBurger) return false;
+        } else if (currentFilterSmart === 'POPULAR_CAFES') {
+          const isCafe = restaurant.cuisine.some(c => c.toLowerCase().includes('coffee') || c.toLowerCase().includes('cafe') || c.toLowerCase().includes('bakery'));
+          if (!isCafe) return false;
+        }
+
+        // Search Query (Matches Name, Tagline, Cuisine, Branch Address, or Menu Items)
+        if (currentSearchQuery.trim() !== '') {
+          const q = currentSearchQuery.toLowerCase().trim();
+          const nameMatch = restaurant.name.toLowerCase().includes(q);
+          const taglineMatch = restaurant.tagline?.toLowerCase().includes(q);
+          const cuisineMatch = restaurant.cuisine.some(c => c.toLowerCase().includes(q));
+          const branchMatch = restaurant.branches.some(b => 
+            b.branch_name.toLowerCase().includes(q) || 
+            b.area.toLowerCase().includes(q) || 
+            b.exact_address.toLowerCase().includes(q)
+          );
+          
+          const itemMatch = restaurant.menu_categories.some(cat => 
+            cat.items.some(item => 
+              item.name.toLowerCase().includes(q) || 
+              item.description?.toLowerCase().includes(q)
+            )
+          );
+
+          if (!nameMatch && !taglineMatch && !cuisineMatch && !branchMatch && !itemMatch) {
+            return false;
+          }
+        }
+
+        return true;
+      });
+
+      // GPS Near Me Calculation & Sorting
+      if (userCoordinates) {
+        filtered.forEach(r => {
+          let minD = 999;
+          r.branches.forEach(b => {
+            const coords = DHAKA_COORDINATES[b.area] || DHAKA_COORDINATES["Dhanmondi"];
+            const d = haversineDistance(userCoordinates.lat, userCoordinates.lng, coords.lat, coords.lng);
+            if (d < minD) minD = d;
+          });
+          r.closestDistance = minD;
+        });
+        if (isNearMeActive) {
+          filtered.sort((a, b) => a.closestDistance - b.closestDistance);
+        }
+      }
+
+      // Sort Logic (if not in Near Me mode)
+      if (!isNearMeActive) {
+        if (currentSort === 'popularity') {
+          filtered.sort((a, b) => (b.review_count || 0) - (a.review_count || 0));
+        } else if (currentSort === 'branches') {
+          filtered.sort((a, b) => (b.branches?.length || 0) - (a.branches?.length || 0));
+        } else if (currentSort === 'rating') {
+          filtered.sort((a, b) => b.rating - a.rating);
+        } else if (currentSort === 'name') {
+          filtered.sort((a, b) => a.name.localeCompare(b.name));
+        }
+      }
+
+      countBadge.textContent = `${filtered.length} Available`;
+      if (isNearMeActive) {
+        filterDesc.textContent = `📍 Sorted by nearest branches to your live location in Dhaka`;
+      } else if (currentFilterArea !== 'ALL' || currentFilterCuisine !== 'ALL' || currentFilterSmart !== 'ALL' || currentSearchQuery) {
+        filterDesc.textContent = `Filtered: ${currentFilterArea !== 'ALL' ? currentFilterArea : 'All Dhaka'} ${currentFilterSmart !== 'ALL' ? '• ' + currentFilterSmart : ''} ${currentFilterCuisine !== 'ALL' ? '• ' + currentFilterCuisine : ''} ${currentSearchQuery ? '• "' + currentSearchQuery + '"' : ''}`;
+      } else {
+        filterDesc.textContent = 'Verified counter menus & in-store prices';
+      }
+
+      if (filtered.length === 0) {
+        grid.innerHTML = '';
+        emptyState.classList.remove('hidden');
+        return;
+      }
+
+      emptyState.classList.add('hidden');
+
+      grid.innerHTML = filtered.map(r => {
+        // Collect popular sample items (top 2 for mobile compactness)
+        const popularItems = [];
+        r.menu_categories.forEach(c => {
+          c.items.forEach(i => {
+            if (popularItems.length < 2 && i.is_bestseller) {
+              popularItems.push(i);
+            }
+          });
+        });
+        if (popularItems.length < 2) {
+          r.menu_categories[0]?.items.slice(0, 2 - popularItems.length).forEach(i => popularItems.push(i));
+        }
+
+        const branchAreas = Array.from(new Set(r.branches.map(b => b.area))).slice(0, 3);
+        const localBranch = currentFilterArea !== 'ALL' ? r.branches.find(b => b.area.toLowerCase() === currentFilterArea.toLowerCase()) : null;
+        const totalMenuItems = r.menu_categories.reduce((acc, c) => acc + (c.items?.length || 0), 0);
+
+        return `
+          <div class="bg-white rounded-2xl border border-slate-200/90 shadow-xs hover:shadow-lg hover:border-orange-200 transition-all duration-200 overflow-hidden flex flex-col group">
+            
+            <!-- CARD BANNER -->
+            <div class="relative h-36 sm:h-44 w-full overflow-hidden bg-slate-100 cursor-pointer" onclick="openRestaurantModal('${r.id}', 'menu')">
+              <img src="${r.banner}" alt="${r.name}" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+              <div class="absolute inset-0 bg-gradient-to-t from-slate-950/85 via-slate-950/20 to-transparent"></div>
+              
+              <!-- LOGO & TITLE OVERLAY -->
+              <div class="absolute bottom-2.5 left-3 sm:left-4 right-3 flex items-center gap-2.5">
+                <img src="${r.logo}" alt="${r.name} logo" loading="lazy" class="w-11 h-11 sm:w-12 sm:h-12 rounded-xl border-2 border-white object-cover bg-white shadow-md shrink-0">
+                <div class="text-white min-w-0">
+                  <h3 class="font-display font-bold text-base sm:text-lg leading-tight truncate drop-shadow-sm">${r.name}</h3>
+                  <p class="text-[10px] sm:text-[11px] text-slate-200 font-medium truncate">${r.tagline || ''}</p>
+                </div>
+              </div>
+
+              <!-- FAVORITE HEART BUTTON -->
+              <button onclick="event.stopPropagation(); toggleFavorite('${r.id}')" aria-label="Favorite ${r.name}" class="absolute top-2.5 right-2.5 z-10 w-7 h-7 sm:w-8 sm:h-8 rounded-full bg-slate-900/70 hover:bg-slate-900 active:scale-90 text-white flex items-center justify-center transition-all shadow-md">
+                <i data-lucide="heart" class="w-3.5 h-3.5 ${isFavorite(r.id) ? 'fill-red-500 text-red-500' : ''}"></i>
+              </button>
+
+              <!-- RATING BADGE -->
+              <div class="absolute top-2.5 right-11 sm:right-12 bg-white/95 backdrop-blur-sm text-slate-900 text-[10px] sm:text-[11px] font-bold px-2 py-0.5 rounded-lg flex items-center gap-1 shadow-sm">
+                <i data-lucide="star" class="w-3 h-3 fill-amber-400 text-amber-400"></i>
+                <span>${r.rating}</span>
+              </div>
+
+              <!-- VERIFIED DINE-IN TAG -->
+              <div class="absolute top-2.5 left-2.5 bg-emerald-600/95 text-white text-[9px] sm:text-[10px] font-extrabold px-2 py-0.5 rounded-md flex items-center gap-1 shadow-sm">
+                <i data-lucide="check" class="w-2.5 h-2.5"></i>
+                <span>Counter Price</span>
+              </div>
+            </div>
+
+            <!-- CARD BODY -->
+            <div class="p-3.5 sm:p-4 flex-1 flex flex-col justify-between space-y-3">
+              
+              <!-- CUISINE TAGS & PRICE RANGE & VIEWS -->
+              <div class="flex items-center justify-between gap-1 flex-wrap">
+                <div class="flex items-center gap-1 flex-wrap">
+                  ${r.cuisine.slice(0, 3).map(c => `<span class="bg-slate-100 text-slate-600 text-[10px] font-semibold px-2 py-0.5 rounded-md">${c}</span>`).join('')}
+                </div>
+                <div class="flex items-center gap-1.5 shrink-0">
+                  ${r.closestDistance != null ? `
+                    <span class="flex items-center gap-0.5 text-[10px] font-bold text-indigo-700 bg-indigo-50 border border-indigo-200/80 px-1.5 py-0.5 rounded-md shadow-2xs" title="Distance to nearest outlet">
+                      <i data-lucide="navigation" class="w-2.5 h-2.5 text-indigo-600"></i>
+                      <span>${r.closestDistance} km</span>
+                    </span>
+                  ` : ''}
+                  <span class="flex items-center gap-1 text-[10px] font-bold text-slate-500 bg-slate-50 border border-slate-200/80 px-1.5 py-0.5 rounded-md shadow-2xs">
+                    <i data-lucide="eye" class="w-3 h-3 text-orange-500"></i>
+                    <span id="views-${r.id}">${r.view_count || 5}</span>
+                  </span>
+                  <span class="bg-orange-50 text-orange-700 text-[10px] font-bold px-2 py-0.5 rounded-md border border-orange-100">${r.price_range}</span>
+                </div>
+              </div>
+
+              <!-- LOCAL BRANCH HIGHLIGHT / OUTLET OVERVIEW -->
+              ${localBranch ? `
+                <div class="bg-amber-50/90 border border-amber-200/90 rounded-xl p-2.5 text-xs space-y-1.5">
+                  <div class="flex items-center justify-between text-amber-900 font-bold">
+                    <span class="flex items-center gap-1 text-[11px] sm:text-xs">
+                      <i data-lucide="map-pin" class="w-3.5 h-3.5 text-orange-600 shrink-0"></i>
+                      ${localBranch.area} Outlet:
+                    </span>
+                    <span class="text-[10px] text-amber-700 font-medium">${localBranch.opening_hours}</span>
+                  </div>
+                  <p class="text-slate-700 text-[11px] font-medium leading-snug line-clamp-2">${localBranch.exact_address}</p>
+                  
+                  ${localBranch.landmark ? `
+                    <div class="bg-white/90 border border-amber-200/80 text-amber-950 text-[10.5px] font-semibold px-2 py-1 rounded-lg flex items-center gap-1.5 shadow-2xs">
+                      <i data-lucide="compass" class="w-3.5 h-3.5 text-orange-600 shrink-0"></i>
+                      <span class="truncate">চেনার সহজ উপায়: ${localBranch.landmark}</span>
+                    </div>
+                  ` : ''}
+
+                  <div class="flex items-center justify-between pt-1 border-t border-amber-200/60 text-[11px]">
+                    <span class="text-slate-500 font-medium">${r.branches.length} branches in Dhaka</span>
+                    <div class="flex items-center gap-2 font-bold">
+                      ${localBranch.phone ? `<a href="tel:${localBranch.phone}" class="text-emerald-700 hover:underline flex items-center gap-0.5"><i data-lucide="phone" class="w-2.5 h-2.5"></i> Call</a>` : ''}
+                      <a href="${localBranch.google_maps_url || `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(r.name + ' ' + localBranch.exact_address)}`}" target="_blank" rel="noopener noreferrer" class="text-orange-600 hover:text-orange-700 font-extrabold flex items-center gap-1 bg-white px-2 py-0.5 rounded border border-orange-200 shadow-2xs">
+                        <i data-lucide="map" class="w-3 h-3 text-orange-600"></i> Google Maps →
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              ` : `
+                <div class="bg-slate-50 rounded-xl p-2.5 border border-slate-100 space-y-1">
+                  <div class="flex items-center justify-between text-xs">
+                    <span class="font-bold text-slate-700 flex items-center gap-1 text-[11px] sm:text-xs">
+                      <i data-lucide="map-pin" class="w-3.5 h-3.5 text-orange-500 shrink-0"></i>
+                      ${r.branches.length} Outlets in Dhaka
+                    </span>
+                    <button onclick="openRestaurantModal('${r.id}', 'branches')" class="text-[10px] text-orange-600 font-bold hover:underline">View Outlets →</button>
+                  </div>
+                  <div class="flex flex-wrap gap-1 text-[10px] text-slate-500">
+                    ${branchAreas.map(area => `<span class="bg-white px-1.5 py-0.5 rounded border border-slate-200">${area}</span>`).join('')}
+                    ${r.branches.length > branchAreas.length ? `<span class="text-slate-400 self-center">+${r.branches.length - branchAreas.length} more</span>` : ''}
+                  </div>
+                </div>
+              `}
+
+              <!-- POPULAR MENU ITEMS PREVIEW -->
+              <div class="space-y-1 pt-0.5">
+                <div class="flex items-center justify-between text-[10px] font-bold uppercase tracking-wider text-slate-400">
+                  <span>Sample Menu:</span>
+                  <span class="text-slate-500 lowercase font-normal font-sans">${totalMenuItems} full items</span>
+                </div>
+                <div class="space-y-0.5">
+                  ${popularItems.map(item => `
+                    <div class="flex items-center justify-between text-[11px] sm:text-xs">
+                      <span class="text-slate-700 font-medium truncate max-w-[190px] flex items-center gap-1">
+                        ${item.is_bestseller ? '<span class="text-amber-500 text-[9px]">★</span>' : '•'}
+                        ${item.name}
+                      </span>
+                      <span class="font-bold text-slate-900 shrink-0">৳${item.price}</span>
+                    </div>
+                  `).join('')}
+                </div>
+              </div>
+
+              <!-- ACTION BUTTONS (MOBILE FRIENDLY TAP TARGETS) -->
+              <div class="pt-1.5 grid grid-cols-5 gap-1.5">
+                <button onclick="openRestaurantModal('${r.id}', 'menu')" class="col-span-4 bg-slate-900 hover:bg-orange-600 active:scale-98 text-white font-bold text-xs py-2.5 rounded-xl transition-all shadow-xs flex items-center justify-center gap-1.5">
+                  <i data-lucide="book-open" class="w-3.5 h-3.5"></i>
+                  <span>Full Menu (${totalMenuItems} Items)</span>
+                </button>
+                <button onclick="openRestaurantModal('${r.id}', 'branches')" title="View Branches" class="col-span-1 bg-slate-100 hover:bg-slate-200 active:scale-95 text-slate-700 font-bold text-xs py-2.5 rounded-xl transition-all flex items-center justify-center">
+                  <i data-lucide="map-pin" class="w-4 h-4 text-orange-600"></i>
+                </button>
+              </div>
+
+            </div>
+          </div>
+        `;
+      }).join('');
+
+      safeCreateIcons();
+    }
+
+    // Modal Operations
+    function openRestaurantModal(id, defaultTab = 'menu') {
+      const restaurant = restaurants.find(r => r.id === id);
+      if (!restaurant) return;
+      currentRestaurant = restaurant;
+
+      document.getElementById('modal-banner').src = restaurant.banner;
+      document.getElementById('modal-logo').src = restaurant.logo;
+      document.getElementById('modal-title').textContent = restaurant.name;
+      document.getElementById('modal-tagline').textContent = restaurant.tagline || restaurant.cuisine.join(' • ');
+      document.getElementById('modal-rating').innerHTML = `<i data-lucide="star" class="w-3 h-3 fill-amber-400 text-amber-400"></i> ${restaurant.rating} (${restaurant.review_count})`;
+      document.getElementById('modal-price-range').textContent = restaurant.price_range;
+      
+      const hotline = restaurant.hotline || restaurant.branches[0]?.phone || '';
+      const hotlineEl = document.getElementById('modal-hotline-text');
+      const hotlineLink = document.getElementById('modal-hotline-link');
+      if (hotline) {
+        hotlineEl.textContent = hotline;
+        hotlineLink.href = `tel:${hotline}`;
+        hotlineLink.classList.remove('hidden');
+      } else {
+        hotlineLink.classList.add('hidden');
+      }
+
+      const totalItems = restaurant.menu_categories.reduce((acc, c) => acc + (c.items?.length || 0), 0);
+      document.getElementById('modal-menu-count').textContent = totalItems;
+      document.getElementById('modal-branch-count').textContent = restaurant.branches.length;
+
+      currentModalCategory = 'ALL';
+      const searchInput = document.getElementById('modal-menu-search');
+      if (searchInput) searchInput.value = '';
+
+      renderModalBranches(restaurant);
+      renderModalCategoryPills(restaurant);
+      renderModalMenu(restaurant);
+
+      recordLiveView(restaurant);
+      renderRatingWidget(restaurant);
+
+      currentBill = [];
+      renderBillBar();
+      updateModalFavIcon();
+      try {
+        history.replaceState(null, '', `?r=${id}`);
+      } catch (e) {}
+
+      switchModalTab(defaultTab);
+      document.getElementById('restaurant-modal').classList.remove('hidden');
+      document.body.classList.add('overflow-hidden');
+      safeCreateIcons();
+    }
+
+    function closeModal() {
+      document.getElementById('restaurant-modal').classList.add('hidden');
+      document.body.classList.remove('overflow-hidden');
+      currentRestaurant = null;
+      try {
+        history.replaceState(null, '', window.location.pathname);
+      } catch (e) {}
+    }
+
+    function switchModalTab(tab) {
+      currentModalTab = tab;
+      const menuBtn = document.getElementById('tab-menu-btn');
+      const branchesBtn = document.getElementById('tab-branches-btn');
+      const menuView = document.getElementById('modal-menu-view');
+      const branchesView = document.getElementById('modal-branches-view');
+      const searchWrapper = document.getElementById('modal-menu-search-wrapper');
+
+      if (tab === 'menu') {
+        menuBtn.className = "py-2 px-3 text-xs sm:text-sm font-bold border-b-2 border-orange-600 text-orange-600 flex items-center gap-1.5 transition-all";
+        branchesBtn.className = "py-2 px-3 text-xs sm:text-sm font-bold border-b-2 border-transparent text-slate-500 hover:text-slate-900 flex items-center gap-1.5 transition-all";
+        menuView.classList.remove('hidden');
+        branchesView.classList.add('hidden');
+        searchWrapper?.classList.remove('hidden');
+      } else {
+        branchesBtn.className = "py-2 px-3 text-xs sm:text-sm font-bold border-b-2 border-orange-600 text-orange-600 flex items-center gap-1.5 transition-all";
+        menuBtn.className = "py-2 px-3 text-xs sm:text-sm font-bold border-b-2 border-transparent text-slate-500 hover:text-slate-900 flex items-center gap-1.5 transition-all";
+        branchesView.classList.remove('hidden');
+        menuView.classList.add('hidden');
+        searchWrapper?.classList.add('hidden');
+      }
+      safeCreateIcons();
+    }
+
+    function renderModalBranches(restaurant) {
+      const container = document.getElementById('modal-branches-list');
+      container.innerHTML = restaurant.branches.map(b => `
+        <div class="bg-white p-3.5 rounded-2xl border border-slate-200/90 hover:border-orange-300 transition-all space-y-2.5 shadow-xs">
+          <div class="flex items-center justify-between">
+            <h4 class="font-bold text-xs sm:text-sm text-slate-900 flex items-center gap-1.5">
+              <i data-lucide="store" class="w-3.5 h-3.5 text-orange-500 shrink-0"></i>
+              <span>${b.branch_name}</span>
+            </h4>
+            <span class="text-[10px] font-bold bg-slate-100 text-slate-700 px-2 py-0.5 rounded-md">${b.area}</span>
+          </div>
+          <p class="text-[11px] sm:text-xs text-slate-600 leading-relaxed">${b.exact_address}</p>
+          
+          <!-- LANDMARK HINT (সহজ লোকেশন) -->
+          ${b.landmark ? `
+            <div class="bg-orange-50/90 border border-orange-200/80 text-orange-950 text-[11px] font-semibold px-2.5 py-1.5 rounded-xl flex items-center gap-2 shadow-2xs">
+              <i data-lucide="compass" class="w-3.5 h-3.5 text-orange-600 shrink-0"></i>
+              <span>চেনার সহজ উপায়: <strong class="text-orange-900">${b.landmark}</strong></span>
+            </div>
+          ` : ''}
+
+          <div class="pt-2 flex items-center justify-between text-[11px] text-slate-500 border-t border-slate-100">
+            <span class="flex items-center gap-1 text-[10px]">
+              <i data-lucide="clock" class="w-3 h-3 text-slate-400"></i>
+              ${b.opening_hours}
+            </span>
+            <div class="flex items-center gap-2">
+              ${b.phone ? `
+                <a href="tel:${b.phone}" class="text-emerald-700 hover:text-emerald-800 font-bold hover:underline flex items-center gap-1 bg-emerald-50 px-2 py-1 rounded-lg border border-emerald-200">
+                  <i data-lucide="phone" class="w-3 h-3"></i> Call
+                </a>
+              ` : ''}
+              <a href="${b.google_maps_url || `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(restaurant.name + ' ' + b.exact_address)}`}" target="_blank" rel="noopener noreferrer" class="text-white bg-orange-600 hover:bg-orange-700 active:scale-95 font-bold flex items-center gap-1 px-2.5 py-1 rounded-lg shadow-xs transition-all">
+                <i data-lucide="map" class="w-3 h-3 text-white"></i>
+                <span>Google Maps</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      `).join('');
+    }
+
+    function renderModalCategoryPills(restaurant) {
+      const pillsContainer = document.getElementById('modal-category-pills');
+      if (!pillsContainer) return;
+
+      const totalItems = restaurant.menu_categories.reduce((acc, cat) => acc + (cat.items?.length || 0), 0);
+
+      const allPill = `
+        <button 
+          onclick="selectModalCategory('ALL')" 
+          class="modal-cat-pill shrink-0 px-3 py-1 rounded-full text-xs font-bold transition-all ${currentModalCategory === 'ALL' ? 'bg-orange-600 text-white shadow-xs' : 'bg-slate-100 hover:bg-slate-200 text-slate-700'}"
+        >
+          All (${totalItems})
+        </button>
+      `;
+
+      const categoryPills = restaurant.menu_categories.map(cat => {
+        const isActive = currentModalCategory === cat.category_name;
+        return `
+          <button 
+            onclick="selectModalCategory('${cat.category_name.replace(/'/g, "\\'")}')" 
+            class="modal-cat-pill shrink-0 px-3 py-1 rounded-full text-xs font-bold transition-all ${isActive ? 'bg-orange-600 text-white shadow-xs' : 'bg-slate-100 hover:bg-slate-200 text-slate-700'}"
+          >
+            ${cat.category_name} (${cat.items?.length || 0})
+          </button>
+        `;
+      }).join('');
+
+      pillsContainer.innerHTML = allPill + categoryPills;
+    }
+
+    function selectModalCategory(categoryName) {
+      currentModalCategory = categoryName;
+      if (currentRestaurant) {
+        renderModalCategoryPills(currentRestaurant);
+        const searchVal = document.getElementById('modal-menu-search')?.value || '';
+        renderModalMenu(currentRestaurant, searchVal);
+        safeCreateIcons();
+      }
+    }
+
+    function setModalQuickFilter(qf) {
+      currentModalQuickFilter = qf;
+      ['ALL', 'BESTSELLER', 'BUDGET'].forEach(f => {
+        const btn = document.getElementById(`modal-qf-${f}`);
+        if (btn) {
+          if (f === qf) {
+            btn.className = "modal-qf-btn px-2.5 py-0.5 rounded-lg bg-orange-600 text-white font-bold border border-orange-600 transition-all shrink-0 shadow-2xs";
+          } else {
+            btn.className = "modal-qf-btn px-2.5 py-0.5 rounded-lg bg-white text-slate-600 hover:text-slate-900 border border-slate-200 transition-all shrink-0";
+          }
+        }
+      });
+      if (currentRestaurant) {
+        const q = document.getElementById('modal-menu-search')?.value || '';
+        renderModalMenu(currentRestaurant, q);
+        safeCreateIcons();
+      }
+    }
+
+    function renderModalMenu(restaurant, searchQuery = '') {
+      const container = document.getElementById('modal-menu-categories');
+      
+      let categoriesToRender = restaurant.menu_categories;
+      if (currentModalCategory !== 'ALL') {
+        categoriesToRender = categoriesToRender.filter(c => c.category_name === currentModalCategory);
+      }
+
+      const categoriesHtml = categoriesToRender.map(cat => {
+        let items = cat.items;
+        if (currentModalQuickFilter === 'BESTSELLER') {
+          items = items.filter(i => i.is_bestseller);
+        } else if (currentModalQuickFilter === 'BUDGET') {
+          items = items.filter(i => i.price <= 250);
+        }
+
+        if (searchQuery.trim()) {
+          const q = searchQuery.toLowerCase().trim();
+          items = items.filter(i => i.name.toLowerCase().includes(q) || i.description?.toLowerCase().includes(q));
+        }
+
+        if (items.length === 0) return '';
+
+        return `
+          <div class="space-y-2.5">
+            <div class="flex items-center justify-between pb-1 border-b border-slate-200/80">
+              <h4 class="font-display font-bold text-sm sm:text-base text-slate-900">${cat.category_name}</h4>
+              <span class="text-[11px] text-slate-400 font-medium">${items.length} items</span>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+              ${items.map(item => {
+                const escapedName = item.name.replace(/'/g, "\\'");
+                const billItem = currentBill.find(b => b.name === item.name);
+                const currentQty = billItem ? billItem.qty : 0;
+
+                return `
+                <div class="p-3 sm:p-3.5 rounded-2xl border border-slate-200/90 bg-white hover:border-orange-200 hover:shadow-xs transition-all flex items-start justify-between gap-3 shadow-2xs">
+                  <!-- LEFT CONTENT: Name, Price, Description, Tags -->
+                  <div class="flex-1 min-w-0 space-y-1.5">
+                    <div>
+                      <div class="flex items-center gap-1.5 flex-wrap">
+                        <span class="font-bold text-xs sm:text-sm text-slate-900 leading-snug">${item.name}</span>
+                        ${item.is_bestseller ? `
+                          <span class="inline-flex items-center gap-0.5 font-bold text-amber-800 bg-amber-50 px-1.5 py-0.5 rounded-md text-[9px] border border-amber-200 shrink-0">
+                            ★ Bestseller
+                          </span>
+                        ` : ''}
+                      </div>
+                      <div class="font-black text-xs sm:text-sm text-orange-600 mt-0.5">৳${item.price}</div>
+                    </div>
+
+                    ${item.description ? `<p class="text-[11px] text-slate-500 leading-relaxed line-clamp-2">${item.description}</p>` : ''}
+
+                    ${item.sizes ? `
+                      <div class="flex items-center gap-1 text-[10px] text-slate-500 pt-0.5 flex-wrap">
+                        ${item.sizes.map(s => `<span class="bg-slate-100 px-1.5 py-0.5 rounded font-medium">${s.size}: ৳${s.price}</span>`).join('')}
+                      </div>
+                    ` : ''}
+                  </div>
+
+                  <!-- RIGHT CONTENT: Prominent Food Image Thumbnail & Stepper -->
+                  <div class="relative shrink-0 flex flex-col items-center">
+                    <div class="w-20 h-20 sm:w-24 sm:h-24 rounded-2xl overflow-hidden bg-slate-100 border border-slate-200/90 shadow-xs relative group">
+                      <img 
+                        src="${item.image || 'https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=300&q=80'}" 
+                        alt="${item.name}" 
+                        loading="lazy" 
+                        onerror="this.src='https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=300&q=80'"
+                        class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                      >
+                    </div>
+                    ${currentQty > 0 ? `
+                      <div class="mt-2 w-full flex items-center justify-between bg-orange-50 border border-orange-300 rounded-xl p-0.5 shadow-2xs">
+                        <button onclick="decreaseBillItem('${escapedName}')" title="Decrease" class="w-6 h-6 rounded-lg bg-white text-orange-700 font-bold flex items-center justify-center hover:bg-orange-600 hover:text-white transition-all active:scale-90 shadow-2xs">−</button>
+                        <span class="text-xs font-black text-orange-950 px-1">${currentQty}</span>
+                        <button onclick="addToBill('${escapedName}', ${item.price})" title="Increase" class="w-6 h-6 rounded-lg bg-orange-600 text-white font-bold flex items-center justify-center hover:bg-orange-700 transition-all active:scale-90 shadow-2xs">+</button>
+                      </div>
+                    ` : `
+                      <button onclick="addToBill('${escapedName}', ${item.price})" title="Add to Bill Estimator" class="mt-2 w-full bg-white hover:bg-orange-600 text-orange-600 hover:text-white font-extrabold text-[11px] py-1 px-3 rounded-xl border border-orange-200/90 shadow-xs transition-all active:scale-95 flex items-center justify-center gap-1">
+                        <i data-lucide="plus" class="w-3.5 h-3.5"></i> Add
+                      </button>
+                    `}
+                  </div>
+                </div>
+              `;
+              }).join('')}
+            </div>
+          </div>
+        `;
+      }).filter(Boolean).join('');
+
+      if (!categoriesHtml) {
+        container.innerHTML = `
+          <div class="py-8 text-center text-slate-400 text-xs">
+            No menu items found${searchQuery ? ` matching "${searchQuery}"` : ''}.
+          </div>
+        `;
+      } else {
+        container.innerHTML = categoriesHtml;
+      }
+    }
+
+    function filterModalMenu() {
+      const q = document.getElementById('modal-menu-search').value;
+      if (currentRestaurant) {
+        renderModalMenu(currentRestaurant, q);
+        safeCreateIcons();
+      }
+    }
+
+    // Filter & Search Handlers
+    function handleSearch() {
+      currentSearchQuery = document.getElementById('search-input').value;
+      const clearBtn = document.getElementById('clear-search-btn');
+      if (currentSearchQuery) {
+        clearBtn.classList.remove('hidden');
+      } else {
+        clearBtn.classList.add('hidden');
+      }
+      renderRestaurants();
+    }
+
+    function clearSearch() {
+      document.getElementById('search-input').value = '';
+      currentSearchQuery = '';
+      document.getElementById('clear-search-btn').classList.add('hidden');
+      renderRestaurants();
+    }
+
+    function renderAreaPills() {
+      const container = document.getElementById('dhaka-area-pills');
+      if (!container) return;
+
+      const savedCount = favorites.length;
+      const savedBtn = `
+        <button 
+          onclick="setAreaFilter('SAVED')" 
+          class="area-pill shrink-0 px-3 py-1.5 rounded-xl text-xs font-bold transition-all flex items-center gap-1 ${currentFilterArea === 'SAVED' ? 'bg-red-600 text-white shadow-xs' : 'bg-white border border-slate-200 text-slate-700 hover:border-red-500 hover:text-red-600'}"
+        >
+          <span>❤️ Saved</span>
+          <span class="text-[10px] opacity-80">(${savedCount})</span>
+        </button>
+      `;
+
+      const allBtn = `
+        <button 
+          onclick="setAreaFilter('ALL')" 
+          class="area-pill shrink-0 px-3 py-1.5 rounded-xl text-xs font-bold transition-all ${currentFilterArea === 'ALL' ? 'bg-orange-600 text-white shadow-xs' : 'bg-white border border-slate-200 text-slate-700 hover:border-orange-500 hover:text-orange-600'}"
+        >
+          📍 All Dhaka (${restaurants.length})
+        </button>
+      `;
+
+      const areaBtns = DHAKA_AREAS.map(area => {
+        const count = restaurants.filter(r => r.branches.some(b => b.area.toLowerCase() === area.toLowerCase())).length;
+        const isActive = currentFilterArea.toLowerCase() === area.toLowerCase();
+        return `
+          <button 
+            onclick="setAreaFilter('${area}')" 
+            class="area-pill shrink-0 px-3 py-1.5 rounded-xl text-xs font-bold transition-all ${isActive ? 'bg-orange-600 text-white shadow-xs' : 'bg-white border border-slate-200 text-slate-700 hover:border-orange-500 hover:text-orange-600'}"
+          >
+            ${area} (${count})
+          </button>
+        `;
+      }).join('');
+
+      container.innerHTML = savedBtn + allBtn + areaBtns;
+    }
+
+    function setAreaFilter(area) {
+      currentFilterArea = area;
+      const select = document.getElementById('area-select');
+      if (select) select.value = (area === 'SAVED' ? 'ALL' : area);
+      
+      const activeLabel = document.getElementById('area-active-label');
+      if (activeLabel) {
+        activeLabel.textContent = area === 'ALL' ? 'All Dhaka' : (area === 'SAVED' ? 'Saved Spots' : area);
+      }
+
+      renderAreaPills();
+      renderRestaurants();
+    }
+
+    // ==============================================================
+    // FAVORITES & BOOKMARKS SYSTEM
+    // ==============================================================
+    function isFavorite(id) {
+      return favorites.includes(id);
+    }
+
+    function toggleFavorite(id) {
+      if (favorites.includes(id)) {
+        favorites = favorites.filter(f => f !== id);
+        showToast('Removed from saved spots');
+      } else {
+        favorites.push(id);
+        showToast('Saved to Favorites! ❤️');
+      }
+      localStorage.setItem('dhaka_menu_favs', JSON.stringify(favorites));
+      updateFavBadges();
+      renderAreaPills();
+      renderRestaurants();
+      updateModalFavIcon();
+    }
+
+    function toggleModalFavorite() {
+      if (currentRestaurant) {
+        toggleFavorite(currentRestaurant.id);
+      }
+    }
+
+    function updateModalFavIcon() {
+      const icon = document.getElementById('modal-fav-icon');
+      if (icon && currentRestaurant) {
+        if (isFavorite(currentRestaurant.id)) {
+          icon.className = "w-4 h-4 fill-red-500 text-red-500";
+        } else {
+          icon.className = "w-4 h-4 text-white";
+        }
+      }
+    }
+
+    // ==============================================================
+    // SHARE & DEEP LINKING
+    // ==============================================================
+    function shareCurrentRestaurant() {
+      if (!currentRestaurant) return;
+      const shareUrl = `${window.location.origin}${window.location.pathname}?r=${currentRestaurant.id}`;
+      if (navigator.share) {
+        navigator.share({
+          title: `${currentRestaurant.name} Menu - Dhaka Menu Hub`,
+          text: `Check out official counter menu and prices of ${currentRestaurant.name} in Dhaka:`,
+          url: shareUrl
+        }).catch(() => {});
+      } else {
+        navigator.clipboard.writeText(shareUrl).then(() => {
+          showToast('Menu link copied to clipboard! 📋');
+        });
+      }
+    }
+
+    function checkUrlParams() {
+      try {
+        const params = new URLSearchParams(window.location.search);
+        const rId = params.get('r') || params.get('restaurant');
+        const area = params.get('area');
+        const query = params.get('q') || params.get('search');
+        if (area) setAreaFilter(area);
+        if (query) {
+          document.getElementById('search-input').value = query;
+          handleSearch();
+        }
+        if (rId) {
+          setTimeout(() => {
+            openRestaurantModal(rId, 'menu');
+          }, 200);
+        }
+      } catch (e) {}
+    }
+
+    // ==============================================================
+    // DINE-IN BILL & VAT ESTIMATOR & GROUP SPLITTER
+    // ==============================================================
+    let splitPeople = 2;
+
+    function addToBill(name, price) {
+      const existing = currentBill.find(i => i.name === name);
+      if (existing) {
+        existing.qty += 1;
+      } else {
+        currentBill.push({ name, price, qty: 1 });
+      }
+      renderBillBar();
+      if (currentRestaurant) {
+        const q = document.getElementById('modal-menu-search')?.value || '';
+        renderModalMenu(currentRestaurant, q);
+        safeCreateIcons();
+      }
+      showToast(`Added "${name}" to bill (৳${price})`);
+    }
+
+    function decreaseBillItem(name) {
+      const idx = currentBill.findIndex(i => i.name === name);
+      if (idx > -1) {
+        if (currentBill[idx].qty > 1) {
+          currentBill[idx].qty -= 1;
+        } else {
+          currentBill.splice(idx, 1);
+        }
+        renderBillBar();
+        if (currentRestaurant) {
+          const q = document.getElementById('modal-menu-search')?.value || '';
+          renderModalMenu(currentRestaurant, q);
+          safeCreateIcons();
+        }
+      }
+    }
+
+    function clearBill() {
+      currentBill = [];
+      renderBillBar();
+      if (currentRestaurant) {
+        const q = document.getElementById('modal-menu-search')?.value || '';
+        renderModalMenu(currentRestaurant, q);
+        safeCreateIcons();
+      }
+      closeBillModal();
+    }
+
+    function renderBillBar() {
+      const bar = document.getElementById('modal-bill-bar');
+      if (!bar) return;
+      if (currentBill.length === 0) {
+        bar.classList.add('hidden');
+        return;
+      }
+      bar.classList.remove('hidden');
+      const totalCount = currentBill.reduce((sum, i) => sum + i.qty, 0);
+      const subtotal = currentBill.reduce((sum, i) => sum + (i.price * i.qty), 0);
+      const vat = Math.round(subtotal * 0.05); // 5% Government Restaurant VAT
+      const total = subtotal + vat;
+
+      document.getElementById('bill-item-count').textContent = totalCount;
+      document.getElementById('bill-total-price').textContent = `৳${total.toLocaleString()}`;
+      document.getElementById('bill-vat-amount').textContent = `৳${vat.toLocaleString()}`;
+      
+      const summaryList = currentBill.map(i => `${i.qty}x ${i.name}`).join(', ');
+      document.getElementById('bill-summary-text').textContent = summaryList;
+    }
+
+    function openBillModal() {
+      if (currentBill.length === 0) {
+        showToast('প্রথমে মেনু থেকে খাবার আইটেম যোগ করুন');
+        return;
+      }
+      const modal = document.getElementById('bill-share-modal');
+      if (!modal) return;
+      
+      document.getElementById('bill-modal-restaurant-name').textContent = currentRestaurant ? `${currentRestaurant.name} Bill` : 'Dine-in Order Bill';
+      renderBillModalContent();
+      modal.classList.remove('hidden');
+      safeCreateIcons();
+    }
+
+    function closeBillModal() {
+      const modal = document.getElementById('bill-share-modal');
+      if (modal) modal.classList.add('hidden');
+    }
+
+    function adjustSplitPeople(delta) {
+      splitPeople = Math.max(1, Math.min(25, splitPeople + delta));
+      document.getElementById('split-people-count').textContent = splitPeople;
+      renderBillModalContent();
+    }
+
+    function renderBillModalContent() {
+      const container = document.getElementById('bill-modal-items');
+      if (!container) return;
+
+      const subtotal = currentBill.reduce((sum, i) => sum + (i.price * i.qty), 0);
+      const vat = Math.round(subtotal * 0.05);
+      const total = subtotal + vat;
+      const perPerson = Math.ceil(total / splitPeople);
+
+      container.innerHTML = currentBill.map(item => `
+        <div class="flex items-center justify-between py-2 text-xs">
+          <div class="min-w-0 pr-2">
+            <span class="font-bold text-slate-900 leading-snug">${item.name}</span>
+            <div class="text-[10.5px] text-slate-500 font-medium">৳${item.price} each</div>
+          </div>
+          <div class="flex items-center gap-2 shrink-0">
+            <div class="flex items-center gap-1 bg-slate-100 px-1 py-0.5 rounded-lg border border-slate-200">
+              <button onclick="decreaseBillItem('${item.name.replace(/'/g, "\\'")}'); renderBillModalContent();" class="w-5 h-5 rounded bg-white text-slate-700 font-bold flex items-center justify-center text-xs active:scale-90 shadow-2xs">−</button>
+              <span class="font-black text-xs px-1 text-slate-800">${item.qty}</span>
+              <button onclick="addToBill('${item.name.replace(/'/g, "\\'")}', ${item.price}); renderBillModalContent();" class="w-5 h-5 rounded bg-orange-600 text-white font-bold flex items-center justify-center text-xs active:scale-90 shadow-2xs">+</button>
+            </div>
+            <span class="font-black text-slate-900 min-w-[50px] text-right">৳${(item.price * item.qty).toLocaleString()}</span>
+          </div>
+        </div>
+      `).join('');
+
+      document.getElementById('bill-modal-subtotal').textContent = `৳${subtotal.toLocaleString()}`;
+      document.getElementById('bill-modal-vat').textContent = `৳${vat.toLocaleString()}`;
+      document.getElementById('bill-modal-total').textContent = `৳${total.toLocaleString()}`;
+      document.getElementById('split-per-person').textContent = `৳${perPerson.toLocaleString()} / person`;
+    }
+
+    function getFormattedBillText() {
+      const restName = currentRestaurant ? currentRestaurant.name : 'Dhaka Restaurant';
+      const subtotal = currentBill.reduce((sum, i) => sum + (i.price * i.qty), 0);
+      const vat = Math.round(subtotal * 0.05);
+      const total = subtotal + vat;
+      const perPerson = Math.ceil(total / splitPeople);
+
+      let text = `🍽️ *${restName} — ডাইন-ইন বিল হিসেব*\n`;
+      text += `━━━━━━━━━━━━━━━━━━━━━\n`;
+      currentBill.forEach(i => {
+        text += `• ${i.qty}x ${i.name} — ৳${(i.price * i.qty).toLocaleString()}\n`;
+      });
+      text += `━━━━━━━━━━━━━━━━━━━━━\n`;
+      text += `সাবটোটাল: ৳${subtotal.toLocaleString()}\n`;
+      text += `৫% সরকারি ভ্যাট: ৳${vat.toLocaleString()}\n`;
+      text += `💰 *মোট বিল (Total): ৳${total.toLocaleString()}*\n`;
+      if (splitPeople > 1) {
+        text += `👥 *জন প্রতি (${splitPeople} জন): ৳${perPerson.toLocaleString()}*\n`;
+      }
+      text += `━━━━━━━━━━━━━━━━━━━━━\n`;
+      text += `অফিসিয়াল কাউন্টার রেট ভেরিফাই করুন: ${window.location.origin}${window.location.pathname}?r=${currentRestaurant ? currentRestaurant.id : ''}\n`;
+      return text;
+    }
+
+    function copyBillReceipt() {
+      const text = getFormattedBillText();
+      if (navigator.clipboard) {
+        navigator.clipboard.writeText(text).then(() => {
+          showToast('রসিদ কপি হয়েছে! বন্ধুদের সেন্ড করুন 📋');
+        });
+      }
+    }
+
+    function shareBillWhatsApp() {
+      const text = encodeURIComponent(getFormattedBillText());
+      window.open(`https://api.whatsapp.com/send?text=${text}`, '_blank');
+    }
+
+    // ==============================================================
+    // LIVE VIEW COUNTING ENGINE
+    // ==============================================================
+    function recordLiveView(restaurant) {
+      if (!restaurant) return;
+      restaurant.view_count = (restaurant.view_count || 0) + 1;
+      
+      const modalViewEl = document.getElementById('modal-view-count');
+      if (modalViewEl) modalViewEl.textContent = restaurant.view_count.toLocaleString();
+      
+      const cardViewEl = document.getElementById(`views-${restaurant.id}`);
+      if (cardViewEl) cardViewEl.textContent = restaurant.view_count.toLocaleString();
+
+      // Persist in background API
+      if (window.location.protocol.startsWith('http')) {
+        fetch('/api/view', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ restaurant_id: restaurant.id })
+        }).catch(() => {});
+      }
+    }
+
+    // ==============================================================
+    // LIVE COMMUNITY RATING ENGINE
+    // ==============================================================
+    function renderRatingWidget(restaurant) {
+      const container = document.getElementById('modal-star-buttons');
+      const badge = document.getElementById('user-rating-badge');
+      if (!container || !badge) return;
+
+      const userSavedRating = localStorage.getItem(`dhaka_rated_${restaurant.id}`);
+      if (userSavedRating) {
+        badge.textContent = `You rated: ${userSavedRating} ★`;
+        badge.className = "text-[10px] font-bold text-emerald-800 bg-emerald-100 px-2 py-0.5 rounded-full";
+      } else {
+        badge.textContent = "Tap stars to vote";
+        badge.className = "text-[10px] font-bold text-orange-700 bg-orange-100 px-2 py-0.5 rounded-full";
+      }
+
+      const currentStar = userSavedRating ? parseFloat(userSavedRating) : 0;
+      container.innerHTML = [1, 2, 3, 4, 5].map(star => {
+        const isFilled = star <= currentStar;
+        return `
+          <button 
+            onclick="submitLiveRating('${restaurant.id}', ${star})" 
+            title="Rate ${star} Stars"
+            class="w-8 h-8 flex items-center justify-center rounded-lg hover:bg-white active:scale-90 transition-all ${isFilled ? 'text-amber-400' : 'text-slate-300 hover:text-amber-400'}"
+          >
+            <span class="text-xl leading-none select-none">★</span>
+          </button>
+        `;
+      }).join('');
+    }
+
+    function submitLiveRating(restaurantId, stars) {
+      if (!currentRestaurant || currentRestaurant.id !== restaurantId) return;
+      
+      const oldRating = parseFloat(currentRestaurant.rating || 4.5);
+      const rawReviews = String(currentRestaurant.review_count || 100).replace(/,/g, '').replace(/\+/g, '');
+      const oldReviews = parseInt(rawReviews) || 100;
+      const newReviews = oldReviews + 1;
+      const newRating = Math.round((((oldRating * oldReviews) + stars) / newReviews) * 10) / 10;
+
+      currentRestaurant.rating = newRating;
+      currentRestaurant.review_count = newReviews;
+
+      // Update LocalStorage
+      localStorage.setItem(`dhaka_rated_${restaurantId}`, stars);
+
+      // Update DOM
+      document.getElementById('modal-rating').innerHTML = `<i data-lucide="star" class="w-3 h-3 fill-amber-400 text-amber-400"></i> ${newRating} (${newReviews.toLocaleString()})`;
+      renderRatingWidget(currentRestaurant);
+      renderRestaurants();
+      showToast(`Thank you! Rated ${stars} ★ (New Score: ${newRating})`);
+
+      // Persist in background API
+      if (window.location.protocol.startsWith('http')) {
+        fetch('/api/rate', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ restaurant_id: restaurantId, rating: stars })
+        }).catch(() => {});
+      }
+    }
+
+    // ==============================================================
+    // TOAST NOTIFICATION
+    // ==============================================================
+    function showToast(msg) {
+      const toast = document.getElementById('toast');
+      const text = document.getElementById('toast-text');
+      if (!toast || !text) return;
+      text.textContent = msg;
+      toast.classList.remove('opacity-0', 'pointer-events-none', 'translate-y-4');
+      toast.classList.add('opacity-100', 'translate-y-0');
+      setTimeout(() => {
+        toast.classList.remove('opacity-100', 'translate-y-0');
+        toast.classList.add('opacity-0', 'pointer-events-none', 'translate-y-4');
+      }, 2500);
+    }
+
+    // PWA Service Worker Registration with Auto-Update & Cache Busting
+    if ('serviceWorker' in navigator && window.location.protocol.startsWith('http')) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('./sw.js?v=505', { updateViaCache: 'none' }).then(reg => {
+          reg.update();
+        }).catch(() => {});
+      });
+    }
+
+    function handleFilterChange() {
+      const val = document.getElementById('area-select').value;
+      setAreaFilter(val);
+    }
+
+    function handleSortChange() {
+      currentSort = document.getElementById('sort-select').value;
+      renderRestaurants();
+    }
+
+    function setQuickFilter(cuisine) {
+      currentFilterCuisine = cuisine;
+      document.querySelectorAll('.cuisine-chip').forEach(btn => {
+        if (btn.textContent.includes(cuisine) || (cuisine === 'ALL' && btn.textContent === 'All')) {
+          btn.className = "cuisine-chip active px-2.5 py-1 rounded-lg border bg-orange-600 text-white border-orange-600 transition-all shrink-0 shadow-xs";
+        } else {
+          btn.className = "cuisine-chip px-2.5 py-1 rounded-lg border border-slate-200 bg-white hover:border-orange-500 hover:text-orange-600 transition-all shrink-0";
+        }
+      });
+      renderRestaurants();
+    }
+
+    function resetAllFilters() {
+      currentFilterCuisine = 'ALL';
+      currentSearchQuery = '';
+      document.getElementById('search-input').value = '';
+      setAreaFilter('ALL');
+      setQuickFilter('ALL');
+    }
+
+    // Scroll helpers for mobile bottom dock
+    function focusSearchInput() {
+      const input = document.getElementById('search-input');
+      input.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      setTimeout(() => input.focus(), 300);
+    }
+
+    function scrollToAreaPills() {
+      document.getElementById('dhaka-area-pills').scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }
+
+    function focusSortSelect() {
+      const sort = document.getElementById('sort-select');
+      sort.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      sort.focus();
+    }
+
+    // Floating Back to Top Button
+    window.addEventListener('scroll', () => {
+      const btn = document.getElementById('back-to-top-btn');
+      if (window.scrollY > 400) {
+        btn.classList.remove('hidden');
+      } else {
+        btn.classList.add('hidden');
+      }
+    });
+
+    // ==============================================================
+    // GPS NEAR ME & PROXIMITY ENGINE
+    // ==============================================================
+    function haversineDistance(lat1, lon1, lat2, lon2) {
+      const R = 6371; // km
+      const dLat = (lat2 - lat1) * Math.PI / 180;
+      const dLon = (lon2 - lon1) * Math.PI / 180;
+      const a = Math.sin(dLat/2) * Math.sin(dLat/2) +
+                Math.cos(lat1 * Math.PI / 180) * Math.cos(lat2 * Math.PI / 180) *
+                Math.sin(dLon/2) * Math.sin(dLon/2);
+      const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+      return Math.round(R * c * 10) / 10;
+    }
+
+    function toggleNearMe() {
+      const btn = document.getElementById('smart-btn-NEAR_ME');
+      if (isNearMeActive) {
+        isNearMeActive = false;
+        userCoordinates = null;
+        if (btn) btn.className = "smart-chip px-2.5 py-1 rounded-xl border border-indigo-200 bg-indigo-50 hover:bg-indigo-100 text-indigo-700 transition-all shrink-0 flex items-center gap-1 shadow-2xs font-bold";
+        renderRestaurants();
+        showToast('Near Me ফিল্টার অফ করা হয়েছে');
+        return;
+      }
+
+      showToast('আপনার লোকেশন নির্ণয় করা হচ্ছে... 📍');
+      if (btn) btn.className = "smart-chip px-2.5 py-1 rounded-xl border border-indigo-600 bg-indigo-600 text-white transition-all shrink-0 flex items-center gap-1 shadow-xs font-bold";
+
+      if ('geolocation' in navigator) {
+        navigator.geolocation.getCurrentPosition(
+          (pos) => {
+            userCoordinates = { lat: pos.coords.latitude, lng: pos.coords.longitude };
+            isNearMeActive = true;
+            renderRestaurants();
+            showToast('কাছের রেস্তোরাঁ অনুযায়ী সাজানো হয়েছে! 📍');
+          },
+          (err) => {
+            // Fallback default: Dhanmondi
+            userCoordinates = DHAKA_COORDINATES["Dhanmondi"];
+            isNearMeActive = true;
+            renderRestaurants();
+            showToast('ধানমন্ডি কেন্দ্রিক কাছের স্পটগুলো সাজানো হয়েছে 📍');
+          },
+          { timeout: 6000 }
+        );
+      } else {
+        userCoordinates = DHAKA_COORDINATES["Dhanmondi"];
+        isNearMeActive = true;
+        renderRestaurants();
+      }
+    }
+
+    // ==============================================================
+    // THERMAL POS CASH MEMO SLIP GENERATOR
+    // ==============================================================
+    let currentBillTab = 'standard';
+
+    function switchBillTab(tab) {
+      currentBillTab = tab;
+      const stdView = document.getElementById('bill-view-standard');
+      const memoView = document.getElementById('bill-view-memo');
+      const btnStd = document.getElementById('btn-bill-tab-standard');
+      const btnMemo = document.getElementById('btn-bill-tab-memo');
+
+      if (tab === 'memo') {
+        stdView.classList.add('hidden');
+        memoView.classList.remove('hidden');
+        btnStd.className = "text-[10px] font-bold text-slate-400 hover:text-white pb-0.2";
+        btnMemo.className = "text-[10px] font-bold text-orange-400 border-b border-orange-400 pb-0.2";
+        renderThermalReceipt();
+      } else {
+        stdView.classList.remove('hidden');
+        memoView.classList.add('hidden');
+        btnStd.className = "text-[10px] font-bold text-orange-400 border-b border-orange-400 pb-0.2";
+        btnMemo.className = "text-[10px] font-bold text-slate-400 hover:text-white pb-0.2";
+      }
+      safeCreateIcons();
+    }
+
+    function renderThermalReceipt() {
+      const container = document.getElementById('thermal-receipt-paper');
+      if (!container) return;
+
+      const restName = currentRestaurant ? currentRestaurant.name.toUpperCase() : 'DHAKA RESTAURANT';
+      const address = currentRestaurant?.branches[0]?.exact_address || 'Dhaka, Bangladesh';
+      const now = new Date();
+      const dateStr = now.toLocaleDateString('en-GB');
+      const timeStr = now.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+      const orderToken = 'ORD-' + Math.floor(1000 + Math.random() * 9000);
+
+      const subtotal = currentBill.reduce((sum, i) => sum + (i.price * i.qty), 0);
+      const vat = Math.round(subtotal * 0.05);
+      const total = subtotal + vat;
+      const perPerson = Math.ceil(total / splitPeople);
+
+      let itemsHtml = currentBill.map(i => `
+        <div class="flex justify-between py-0.5">
+          <span class="truncate max-w-[190px]">${i.qty}x ${i.name}</span>
+          <span class="font-bold">৳${(i.price * i.qty).toLocaleString()}</span>
+        </div>
+      `).join('');
+
+      container.innerHTML = `
+        <div class="text-center space-y-1 pb-2 border-b border-dashed border-slate-300">
+          <div class="font-black text-sm tracking-wider">${restName}</div>
+          <div class="text-[9.5px] text-slate-500 leading-tight">${address}</div>
+          <div class="text-[9px] text-emerald-700 font-bold">100% IN-STORE COUNTER BILL • NO APP MARKUP</div>
+        </div>
+
+        <div class="flex justify-between text-[9.5px] text-slate-500 py-1 border-b border-dashed border-slate-300">
+          <span>TOKEN: <strong class="text-slate-800">${orderToken}</strong></span>
+          <span>${dateStr} ${timeStr}</span>
+        </div>
+
+        <div class="py-2 space-y-1">
+          <div class="flex justify-between text-[9.5px] font-bold text-slate-400 border-b border-slate-200 pb-1">
+            <span>ITEM</span>
+            <span>AMT (BDT)</span>
+          </div>
+          ${itemsHtml}
+        </div>
+
+        <div class="pt-2 border-t border-dashed border-slate-300 space-y-1">
+          <div class="flex justify-between text-[10px]">
+            <span>Subtotal:</span>
+            <span>৳${subtotal.toLocaleString()}</span>
+          </div>
+          <div class="flex justify-between text-[10px]">
+            <span>Govt VAT (5%):</span>
+            <span>৳${vat.toLocaleString()}</span>
+          </div>
+          <div class="flex justify-between text-xs font-black text-slate-900 pt-1 border-t border-slate-400">
+            <span>TOTAL PAYABLE:</span>
+            <span>৳${total.toLocaleString()}</span>
+          </div>
+          ${splitPeople > 1 ? `
+            <div class="flex justify-between text-[10px] text-orange-600 font-bold pt-0.5">
+              <span>Split (${splitPeople} Friends):</span>
+              <span>৳${perPerson.toLocaleString()} / person</span>
+            </div>
+          ` : ''}
+        </div>
+
+        <div class="pt-3 text-center space-y-1 border-t border-dashed border-slate-300 text-[9px] text-slate-400">
+          <div>Verified Counter Menu Directory</div>
+          <div class="font-bold text-slate-600 tracking-widest">WWW.DHAKAMENUHUB.COM</div>
+          <div class="text-[8px] text-slate-400 pt-1">*** THANK YOU • VISIT AGAIN ***</div>
+        </div>
+      `;
+    }
+
+    // ==============================================================
+    // DHAKAFOOD AI CONVERSATIONAL ASSISTANT
+    // ==============================================================
+    function openAiAssistant() {
+      const modal = document.getElementById('ai-assistant-modal');
+      if (!modal) return;
+      modal.classList.remove('hidden');
+      
+      const container = document.getElementById('ai-chat-messages');
+      if (aiConversationHistory.length === 0) {
+        container.innerHTML = `
+          <div class="flex items-start gap-2.5">
+            <div class="w-8 h-8 rounded-xl bg-gradient-to-tr from-violet-600 to-indigo-600 flex items-center justify-center text-white shrink-0 shadow-md">
+              <i data-lucide="bot" class="w-4 h-4 text-amber-300"></i>
+            </div>
+            <div class="bg-violet-50 text-slate-800 p-3.5 rounded-2xl rounded-tl-none border border-violet-100 max-w-[85%] space-y-2">
+              <p class="font-bold text-violet-950 text-xs">হ্যালো! আমি DhakaFood AI 🤖</p>
+              <p class="text-[11px] leading-relaxed text-slate-600">
+                ঢাকার ৫০৫টি রেস্তোরাঁ ও ১,০২৩টি ব্রাঞ্চের কাউন্টার মেনু ডাটাবেজ থেকে আমি আপনাকে পারফেক্ট খাবার সাজেস্ট করতে পারি।
+              </p>
+              <p class="text-[10.5px] text-violet-700 font-semibold">
+                যেকোনো বাজেট, এলাকা বা খাবারের নাম বলুন — অথবা ওপরের Quick প্রম্পট চাপুন!
+              </p>
+            </div>
+          </div>
+        `;
+      }
+      safeCreateIcons();
+      setTimeout(() => {
+        document.getElementById('ai-chat-input')?.focus();
+      }, 300);
+    }
+
+    function closeAiAssistant() {
+      const modal = document.getElementById('ai-assistant-modal');
+      if (modal) modal.classList.add('hidden');
+    }
+
+    function sendAiPrompt(text) {
+      document.getElementById('ai-chat-input').value = text;
+      handleAiSend();
+    }
+
+    function handleAiSend() {
+      const input = document.getElementById('ai-chat-input');
+      const query = input.value.trim();
+      if (!query) return;
+
+      input.value = '';
+      const container = document.getElementById('ai-chat-messages');
+
+      // Add user message
+      container.innerHTML += `
+        <div class="flex justify-end">
+          <div class="bg-violet-600 text-white font-medium p-3 rounded-2xl rounded-tr-none max-w-[85%] shadow-sm">
+            ${query}
+          </div>
+        </div>
+      `;
+      container.scrollTop = container.scrollHeight;
+
+      // Add typing indicator
+      const typingId = 'typing-' + Date.now();
+      container.innerHTML += `
+        <div id="${typingId}" class="flex items-center gap-2 text-violet-500 font-bold text-[11px] py-1">
+          <span class="w-2 h-2 rounded-full bg-violet-500 animate-ping"></span>
+          <span>DhakaFood AI রেস্তোরাঁ খুঁজছে...</span>
+        </div>
+      `;
+      container.scrollTop = container.scrollHeight;
+
+      setTimeout(() => {
+        const typingEl = document.getElementById(typingId);
+        if (typingEl) typingEl.remove();
+        processAiQuery(query);
+      }, 400);
+    }
+
+    // ==============================================================
+    // DHAKAFOOD AI - PRODUCTION-GRADE ZERO-HALLUCINATION TAXONOMY & NLP
+    // ==============================================================
+    const RESTAURANT_BRAND_ALIASES = {
+      'chillox': 'chillox',
+      'চিলক্স': 'chillox',
+      'sultans dine': "sultan's dine",
+      'sultan dine': "sultan's dine",
+      "sultan's dine": "sultan's dine",
+      'সুলতানস ডাইন': "sultan's dine",
+      'kacchi bhai': 'kacchi bhai',
+      'কাচ্চি ভাই': 'kacchi bhai',
+      'takeout': 'takeout',
+      'টেকআউট': 'takeout',
+      'pizza burg': 'pizzaburg',
+      'pizzaburg': 'pizzaburg',
+      'পিজ্জাবার্গ': 'pizzaburg',
+      'the pizza guy': 'the pizza guy',
+      'pizza guy': 'the pizza guy',
+      'khao san': 'khao san',
+      'খাও সান': 'khao san',
+      'thai emerald': 'thai emerald',
+      'thai garden': 'thai garden',
+      'north end': 'north end',
+      'নর্থ এন্ড': 'north end',
+      'gloria jeans': "gloria jean's",
+      "gloria jean's": "gloria jean's",
+      'crimson cup': 'crimson cup',
+      'woodhouse': 'woodhouse grill',
+      'farmhouse burger': 'farmhouse burger',
+      'farmhouse': 'farmhouse burger',
+      'madchef': 'madchef',
+      'ম্যাডশেফ': 'madchef',
+      'herfy': 'herfy',
+      'star kabab': 'star kabab',
+      'স্টার কাবাব': 'star kabab',
+      'shad tehari': 'shad tehari',
+      'স্বাদ তেহারি': 'shad tehari',
+      'bismillah kabab': 'bismillah kabab',
+      'dim sum town': 'dim sum town',
+      'mainland china': 'mainland china',
+      'secret recipe': 'secret recipe',
+      'mr baker': 'mr. baker',
+      'coopers': "cooper's",
+      'kasturi': 'kasturi',
+      'dominos': "domino's",
+      'pizza hut': 'pizza hut',
+      'kfc': 'kfc',
+      'bfc': 'bfc'
+    };
+
+    const AI_TAXONOMY = {
+      THAI: {
+        triggers: ['thai', 'থাই', 'tom yum', 'টম ইয়াম', 'pad thai', 'প্যাড থাই', 'khao san', 'খাওয়া সান', 'green curry', 'som tam', 'সাতে', 'satay', 'thai soup'],
+        allowedCuisines: ['thai', 'pan-asian', 'asian', 'oriental'],
+        allowedNames: ['khao san', 'thai emerald', 'thai garden', 'soi 71', 'bamboo shoot', 'the orient', 'wok & roll', 'dim sum town'],
+        excludedNames: ['mithai', 'sultan', 'north end', 'kacchi', 'burger', 'pizza', 'chillox', 'takeout'],
+        dishKeywords: ['tom yum', 'pad thai', 'thai soup', 'thai clear soup', 'satay', 'green curry', 'lemongrass', 'som tam', 'morning glory', 'thai chili', 'siu mai', 'har gow'],
+        label: 'থাই ও প্যান-এশিয়ান খাবার',
+        explain: (area) => area 
+          ? `উত্তরায় ও ${area}-তে খাঁটি ও অথেনটিক থাই খাবারের সেরা স্পটগুলো যাচাই করে সাজানো হলো। টম ইয়াম স্যুপ, প্যাড থাই ও সিগনেচার এশিয়ান আইটেমগুলোর রিয়েল কাউন্টার মূল্য:` 
+          : 'ঢাকায় অথেনটিক থাই ও প্যান-এশিয়ান খাবারের সেরা রেস্তোরাঁ ও তাদের সিগনেচার মেনু নিচে দেওয়া হলো:'
+      },
+      CHINESE: {
+        triggers: ['chinese', 'চাইনিজ', 'chowmein', 'চাউমিন', 'manchurian', 'মঞ্চুরিয়ান', 'szechuan', 'সিচুয়ান', 'wonton', 'ওয়ান্থন', 'dumpling', 'ডাম্পলিং', 'dim sum', 'ডিম সাম', 'sweet and sour', 'fried rice', 'ফ্রাইড রাইস', 'corn soup', 'কর্ন স্যুপ'],
+        allowedCuisines: ['chinese', 'pan-asian', 'asian', 'cantonese', 'szechuan'],
+        allowedNames: ['dim sum town', 'mainland china', 'xinxian', 'bamboo shoot', 'wok & roll'],
+        excludedNames: ['sultan', 'north end', 'kacchi', 'burger'],
+        dishKeywords: ['chowmein', 'manchurian', 'szechuan', 'wonton', 'dumpling', 'fried rice', 'corn soup', 'sweet and sour', 'crispy chicken'],
+        label: 'চাইনিজ ও প্যান-এশিয়ান খাবার',
+        explain: (area) => area
+          ? `${area}-তে ক্লাসিক ও অথেনটিক চাইনিজ খাবারের জন্য সেরা রেস্তোরাঁগুলোর তালিকা:`
+          : 'ঢাকায় সেরা চাইনিজ ও প্যান-এশিয়ান স্বাদের রেস্তোরাঁগুলোর রিয়েল মেনু নিচে তুলে ধরা হলো:'
+      },
+      KACCHI_BIRYANI: {
+        triggers: ['kacchi', 'কাচ্চি', 'biryani', 'বিরিয়ানি', 'tehari', 'তেহারি', 'khichuri', 'খিচুড়ি', 'polao', 'পোলাও', 'morog polao', 'মোরগ পোলাও', 'mutton', 'খাসির', 'sultan', 'bhai', 'nawab'],
+        allowedCuisines: ['kacchi', 'biryani', 'mughlai', 'tehari', 'traditional'],
+        allowedNames: ['sultan', 'kacchi', 'nawab', 'shad tehari', 'ghoroa', 'kolkata', 'hanif', 'nanna', 'bismillah'],
+        excludedNames: ['thai', 'khao san', 'north end', 'coffee'],
+        dishKeywords: ['kacchi', 'biryani', 'tehari', 'khichuri', 'polao', 'borhani', 'mutton', 'morog', 'kabab'],
+        label: 'কাচ্চি, তেহারি ও বিরিয়ানি',
+        explain: (area) => area
+          ? `${area}-তে খাঁটি ও সুস্বাদু খাসির কাচ্চি এবং ঐতিহ্যবাহী বিরিয়ানির জন্য শীর্ষ রেস্তোরাঁ:`
+          : 'ঢাকার ঐতিহ্যবাহী সেরা কাচ্চি ও বিরিয়ানি স্পটগুলোর আসল রেট ও মেনু নিচে দেওয়া হলো:'
+      },
+      BURGER: {
+        triggers: ['burger', 'বার্গার', 'smash', 'স্ম্যাশ', 'cheeseburger', 'beef burger', 'chicken burger', 'chillox', 'takeout', 'herfy', 'madchef', 'farmhouse'],
+        allowedCuisines: ['burger', 'fast food', 'american'],
+        allowedNames: ['chillox', 'takeout', 'herfy', 'madchef', 'burger king', 'farmhouse'],
+        excludedNames: ['sultan', 'khao san', 'thai'],
+        dishKeywords: ['burger', 'patty', 'cheeseburger', 'smash'],
+        label: 'স্ম্যাশড ও জুসি বার্গার',
+        explain: (area) => area
+          ? `${area}-তে জুসি ও প্রিমিয়াম স্ম্যাশ বার্গারের জন্য জনপ্রিয় সেরা শপগুলোর তালিকা:`
+          : 'ঢাকার সেরা ও সর্বাধিক রেটেড বার্গার জয়েন্টগুলোর আসল মেনু নিচে দেওয়া হলো:'
+      },
+      PIZZA_PASTA: {
+        triggers: ['pizza', 'পিজ্জা', 'পিৎজা', 'pasta', 'পাস্তা', 'lasagna', 'লাজানিয়া', 'italian', 'ইতালিয়ান', 'spaghetti', 'pizza guy', 'dominos', 'pizza hut', 'alfredo', 'pizza burg', 'পিজ্জাবার্গ'],
+        allowedCuisines: ['pizza', 'pasta', 'italian', 'continental', 'fast food'],
+        allowedNames: ['pizza guy', 'dominos', 'pizza hut', 'bella italia', 'pizza burg'],
+        excludedNames: ['sultan', 'khao san', 'north end'],
+        dishKeywords: ['pizza', 'pasta', 'lasagna', 'spaghetti', 'alfredo', 'oven baked'],
+        label: 'পিজ্জা ও ওভেন বেকড পাস্তা',
+        explain: (area) => area
+          ? `${area}-তে চিজি পিজ্জা ও অথেনটিক পাস্তার জন্য সেরা স্পটগুলো:`
+          : 'ঢাকার সেরা উড-ফায়ার্ড পিজ্জা ও ইতালিয়ান পাস্তার তালিকা নিচে দেওয়া হলো:'
+      },
+      COFFEE_CAFE: {
+        triggers: ['coffee', 'কফি', 'cafe', 'ক্যাফে', 'cappuccino', 'কাপুচিনো', 'latte', 'লাতে', 'espresso', 'এসপ্রেসো', 'cold brew', 'কোল্ড ব্রু', 'americano', 'আমেরিকানো', 'tea', 'চা', 'north end', 'gloria', 'crimson'],
+        allowedCuisines: ['coffee', 'cafe', 'bakery'],
+        allowedNames: ['north end', 'gloria jean', 'crimson cup', 'roasters', 'coffee'],
+        excludedNames: ['sultan', 'khao san', 'kacchi'],
+        dishKeywords: ['coffee', 'cappuccino', 'latte', 'espresso', 'americano', 'brew', 'mocha', 'macchiato', 'croissant', 'cheesecake'],
+        label: 'আর্টিসান কফি ও ক্যাফে',
+        explain: (area) => area
+          ? `${area}-তে রিল্যাক্সিং অ্যাম্বিয়েন্স ও প্রিমিয়াম কোল্ড ব্রু/এসপ্রেসো কফির জন্য সেরা ক্যাফে:`
+          : 'ঢাকার সেরা রোস্টারিজ ও কোজি ক্যাফেগুলোর মেনু ও প্রাইস নিচে দেওয়া হলো:'
+      },
+      STEAK_GRILL: {
+        triggers: ['steak', 'স্টেক', 'ribeye', 'sirloin', 't-bone', 'sizzler', 'সিজলিং', 'sizzling', 'grill', 'গ্রিল', 'woodhouse', 'pit grill'],
+        allowedCuisines: ['steak', 'grill', 'continental'],
+        allowedNames: ['woodhouse', 'pit grill', 'steak'],
+        excludedNames: ['sultan', 'mithai'],
+        dishKeywords: ['steak', 'ribeye', 'sirloin', 't-bone', 'sizzler', 'sizzling', 'grill'],
+        label: 'স্টেক ও সিজলিং গ্রিল',
+        explain: (area) => area
+          ? `${area}-তে জুসি টেন্ডার স্টেক ও সিজলারের জন্য বেস্ট রেস্তোরাঁ:`
+          : 'ঢাকার সেরা প্রাইম-কাট স্টেকহাউসগুলোর যাচাইকৃত মেনু ও রেট নিচে দেওয়া হলো:'
+      },
+      KEBAB_CHAAP: {
+        triggers: ['kebab', 'কাবাব', 'chaap', 'চাপ', 'tikka', 'টিকা', 'boti', 'বোটি', 'sheek', 'শিক', 'tandoori', 'তন্দুরি', 'naan', 'নান', 'shawarma', 'শাওয়ারমা', 'sharma', 'luchi', 'লুচি'],
+        allowedCuisines: ['kebab', 'chaap', 'mughlai', 'indian', 'tandoori', 'street food'],
+        allowedNames: ['salimullah', 'chaap', 'kebab', 'tandoori', 'bismillah', 'mustakim', 'ghoroa'],
+        excludedNames: ['khao san', 'north end'],
+        dishKeywords: ['kebab', 'chaap', 'tikka', 'boti', 'sheek', 'tandoori', 'naan', 'shawarma', 'luchi'],
+        label: 'কাবাব, চাপ ও তন্দুরি',
+        explain: (area) => area
+          ? `${area}-তে হট সিজলিং কাবাব ও স্পাইসি চাপের জন্য সবচেয়ে জনপ্রিয় স্পট:`
+          : 'ঢাকার ঐতিহ্যবাহী সুস্বাদু শিক কাবাব ও চাপের সেরা ঠিকানাগুলো:'
+      },
+      FRIED_CHICKEN: {
+        triggers: ['fried chicken', 'ক্রিস্পি চিকেন', 'চিকেন ফ্রাই', 'broast', 'wings', 'উইংস', 'tenders', 'kfc', 'bfc', 'crispy chicken'],
+        allowedCuisines: ['fast food', 'fried chicken', 'american'],
+        allowedNames: ['kfc', 'bfc', 'crispy', 'fry'],
+        excludedNames: ['sultan', 'khao san'],
+        dishKeywords: ['fried chicken', 'crispy chicken', 'wings', 'tenders', 'broast'],
+        label: 'ক্রিস্পি ফ্রাইড চিকেন ও উইংস',
+        explain: (area) => area
+          ? `${area}-তে ক্রাঞ্চি ফ্রাইড চিকেন ও উইংসের জন্য সেরা রেস্তোরাঁ:`
+          : 'ঢাকার সেরা ক্রাঞ্চি ফ্রাইড চিকেন ও সসি উইংসের মেনু নিচে দেওয়া হলো:'
+      },
+      BAKERY_SWEETS: {
+        triggers: ['cake', 'কেক', 'pastry', 'পেস্ট্রি', 'bakery', 'বেকারি', 'dessert', 'ডেজার্ট', 'মিষ্টি', 'sweets', 'faluda', 'ফালুদা', 'firni', 'ফিরনি', 'ice cream', 'আইসক্রিম', 'waffle', 'ওয়াফেল', 'রসগোল্লা', 'দই'],
+        allowedCuisines: ['bakery', 'sweets', 'dessert', 'pastry', 'ice cream', 'bengali sweets'],
+        allowedNames: ['mithai', 'secret recipe', 'mr. baker', 'coopers', 'rosh', 'crepe runner'],
+        excludedNames: ['sultan', 'khao san'],
+        dishKeywords: ['cake', 'pastry', 'cheesecake', 'dessert', 'faluda', 'firni', 'ice cream', 'waffle', 'golla', 'rasgulla', 'doi'],
+        label: 'মিষ্টি, ডেজার্ট ও বেকারি',
+        explain: (area) => area
+          ? `${area}-তে সুস্বাদু মিষ্টি, পেস্ট্রি ও ডেজার্টের সেরা দোকান:`
+          : 'ঢাকার ঐতিহ্যবাহী মিষ্টি ও প্রিমিয়াম ডেজার্ট পার্লারগুলোর মেনু নিচে দেওয়া হলো:'
+      },
+      BENGALI_DESHI: {
+        triggers: ['bengali', 'বাঙালি', 'ভর্তা', 'bhorta', 'মাছ', 'fish', 'ilish', 'ইলিশ', 'দেশি', 'deshi', 'vuna', 'ভুনা', 'daal', 'ডাল', 'ভাত'],
+        allowedCuisines: ['bengali', 'traditional', 'local', 'fish', 'deshi'],
+        allowedNames: ['kasturi', 'ghoroa', 'niribili', 'deshi'],
+        excludedNames: ['khao san', 'north end'],
+        dishKeywords: ['bhorta', 'ilish', 'fish', 'vuna', 'daal', 'ভাত', 'khichuri'],
+        label: 'খাঁটি বাঙালি খাবার ও ভর্তা-ভাত',
+        explain: (area) => area
+          ? `${area}-তে গরম ভাত, হরেক পদের ভর্তা ও খাঁটি দেশি খাবারের জন্য সেরা রেস্তোরাঁ:`
+          : 'ঢাকার খাঁটি বাঙালি ঘরোয়া খাবার ও ভর্তার সেরা তালিকা নিচে দেওয়া হলো:'
+      }
+    };
+
+    function processAiQuery(query) {
+      const q = query.toLowerCase().trim();
+      const container = document.getElementById('ai-chat-messages');
+
+      // 1. Detect Area
+      let targetArea = null;
+      const areaAliases = {
+        'Uttara': ['uttara', 'উত্তরা', 'উত্তরায়', 'উত্তরায়', 'uttarar', 'uttaray'],
+        'Dhanmondi': ['dhanmondi', 'ধানমন্ডি', 'ধানমন্ডির', 'ধানমন্ডিতে', 'dhanmondite'],
+        'Banani': ['banani', 'বনানী', 'বনানীর', 'বনানীতে', 'bananite'],
+        'Gulshan': ['gulshan', 'গুলশান', 'গুলশানের', 'গুলশানে', 'gulshane'],
+        'Mirpur': ['mirpur', 'মিরপুর', 'মিরপুরের', 'মিরপুরে', 'mirpure'],
+        'Old Dhaka': ['old dhaka', 'puran dhaka', 'পুরান ঢাকা', 'পুরাতন ঢাকা', 'নাজিরাবাজার', 'চকবাজার', 'পুরান ঢাকার'],
+        'Bashundhara': ['bashundhara', 'বসুন্ধরা', 'বসুন্ধরায়', 'bashundharay', 'jamuna future park', 'যমুনা ফিউচার পার্ক'],
+        'Mohammadpur': ['mohammadpur', 'মোহাম্মদপুর', 'মোহাম্মদপুরে', 'salimullah road'],
+        'Khilgaon': ['khilgaon', 'খিলগাঁও', 'খিলগাঁওয়ে', 'taltola'],
+        'Baily Road': ['baily road', 'বেইলি রোড', 'বেইলি রোডে'],
+        'Mohakhali': ['mohakhali', 'মহাখালী', 'মহাখালীতে'],
+        'Panthapath': ['panthapath', 'পান্থপথ', 'পান্থপথে']
+      };
+
+      for (const [area, aliases] of Object.entries(areaAliases)) {
+        if (aliases.some(alias => q.includes(alias))) {
+          targetArea = area;
+          break;
+        }
+      }
+
+      // 2. Detect Budget Constraint
+      let maxBudget = 999999;
+      const budgetMatch = q.match(/(\d{2,4})\s*(টাকা|tk|bdt)?/);
+      if (budgetMatch) {
+        maxBudget = parseInt(budgetMatch[1]);
+      } else if (q.includes('২৫০') || q.includes('250')) {
+        maxBudget = 250;
+      } else if (q.includes('২০০') || q.includes('200')) {
+        maxBudget = 200;
+      } else if (q.includes('৩০০') || q.includes('300')) {
+        maxBudget = 300;
+      } else if (q.includes('৪০০') || q.includes('400')) {
+        maxBudget = 400;
+      } else if (q.includes('৫০০') || q.includes('500')) {
+        maxBudget = 500;
+      }
+
+      // 3. Detect Specific Restaurant Entity & Brand Search (e.g. "chillox er burger kemon?")
+      let targetRestaurant = null;
+      for (const [alias, targetKey] of Object.entries(RESTAURANT_BRAND_ALIASES)) {
+        const pattern = new RegExp('(?:^|[\\s.,!?/\'"(-])' + alias.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '(?:$|[\\s.,!?/\'")-])', 'i');
+        if (pattern.test(q)) {
+          targetRestaurant = restaurants.find(r => {
+            const rClean = r.name.toLowerCase().replace(/['. -]/g, '');
+            const tClean = targetKey.toLowerCase().replace(/['. -]/g, '');
+            return rClean.includes(tClean) || r.name.toLowerCase().includes(targetKey);
+          });
+          if (targetRestaurant) break;
+        }
+      }
+
+      if (!targetRestaurant) {
+        for (const r of restaurants) {
+          const rClean = r.name.toLowerCase().replace(/['. -]/g, '');
+          if (rClean.length >= 6 && q.replace(/['. -]/g, '').includes(rClean)) {
+            targetRestaurant = r;
+            break;
+          }
+        }
+      }
+
+      // If a specific restaurant is targeted, provide an authoritative restaurant review & signature menu
+      if (targetRestaurant) {
+        const isReviewQuery = /kemon|কেমন|review|রিভিউ|bhalo|ভালো|taste|swad|স্বাদ|valobhalo|konta best|signature|popular/i.test(q);
+        const branchInArea = targetArea 
+          ? targetRestaurant.branches.find(b => b.area.toLowerCase() === targetArea.toLowerCase()) 
+          : targetRestaurant.branches[0];
+
+        const allBranchAreas = targetRestaurant.branches.map(b => b.area).join(', ');
+
+        // Collect matching or bestselling items from targetRestaurant
+        let matchedItems = [];
+        targetRestaurant.menu_categories.forEach(cat => {
+          cat.items.forEach(item => {
+            if (item.price > maxBudget) return;
+            let itemScore = 0;
+            const itemName = item.name.toLowerCase();
+            if (q.includes('burger') && itemName.includes('burger')) itemScore += 20;
+            if (q.includes('kacchi') && itemName.includes('kacchi')) itemScore += 20;
+            if (q.includes('coffee') && itemName.includes('coffee')) itemScore += 20;
+            if (q.includes('pizza') && itemName.includes('pizza')) itemScore += 20;
+            if (item.is_bestseller) itemScore += 10;
+            matchedItems.push({ item, score: itemScore });
+          });
+        });
+
+        matchedItems.sort((a, b) => b.score - a.score);
+        let topItems = matchedItems.slice(0, 3).map(m => m.item);
+        if (topItems.length === 0 && targetRestaurant.menu_categories[0]) {
+          topItems = targetRestaurant.menu_categories[0].items.slice(0, 3);
+        }
+
+        let sentimentHeader = '';
+        if (isReviewQuery) {
+          sentimentHeader = `
+            <div class="space-y-1.5 pb-1">
+              <div class="flex items-center gap-1.5 font-bold text-slate-900 text-sm">
+                <span>🔥 <strong>${targetRestaurant.name}</strong></span>
+                <span class="bg-amber-100 text-amber-800 text-[10.5px] font-extrabold px-1.5 py-0.5 rounded-md border border-amber-200">★ ${targetRestaurant.rating} (${targetRestaurant.review_count} রিভিউ)</span>
+              </div>
+              <p class="text-xs text-slate-700 leading-relaxed">
+                <strong>${targetRestaurant.name}</strong> ঢাকার ফুড লাভারদের মাঝে অত্যন্ত জনপ্রিয় (${targetRestaurant.cuisine.slice(0, 3).join(', ')} স্পেশালিস্ট)। গ্রাহকদের রিভিউ অনুযায়ী এদের খাবারের স্বাদ, জুসিনেস ও মান খুবই বিশ্বস্ত।
+              </p>
+              <div class="text-[10.5px] text-slate-600 bg-white/80 p-2 rounded-lg border border-violet-200 shadow-2xs space-y-0.5">
+                <div>📍 <strong>আউটলেট (${targetRestaurant.branches.length}টি):</strong> ${allBranchAreas}।</div>
+                <div>💰 <strong>প্রাইস রেঞ্জ:</strong> ${targetRestaurant.price_range} • কাউন্টার মূল্য ১০০% ভেরিফাইড।</div>
+              </div>
+              <p class="text-[11px] font-bold text-violet-950 pt-1">
+                ${targetRestaurant.name}-এর শীর্ষ সিগনেচার মেনু আইটেম:
+              </p>
+            </div>
+          `;
+        } else {
+          sentimentHeader = `
+            <p class="text-xs text-slate-800 leading-relaxed">
+              <strong>${targetRestaurant.name}</strong> (★ ${targetRestaurant.rating}) থেকে আপনার জন্য যাচাইকৃত সেরা মেনু আইটেম:
+            </p>
+          `;
+        }
+
+        container.innerHTML += `
+          <div class="flex items-start gap-2.5">
+            <div class="w-8 h-8 rounded-xl bg-violet-600 flex items-center justify-center text-white shrink-0 shadow-md">
+              <i data-lucide="bot" class="w-4 h-4 text-amber-300"></i>
+            </div>
+            <div class="bg-violet-50 text-slate-800 p-3.5 rounded-2xl rounded-tl-none border border-violet-100 max-w-[92%] space-y-2.5">
+              ${sentimentHeader}
+              <div class="space-y-2">
+                ${topItems.map(item => `
+                  <div class="bg-white p-3 rounded-xl border border-violet-200 space-y-2 shadow-xs hover:border-violet-400 transition-colors">
+                    <div class="flex items-start justify-between gap-2">
+                      <div class="min-w-0">
+                        <div class="font-bold text-slate-900 text-xs leading-snug">${item.name}</div>
+                        <div class="text-[11px] text-violet-700 font-semibold flex items-center gap-1 mt-0.5">
+                          <span>${targetRestaurant.name}</span>
+                          <span class="text-amber-500 font-black">★ ${targetRestaurant.rating}</span>
+                        </div>
+                      </div>
+                      <div class="text-right shrink-0">
+                        <div class="font-black text-xs text-orange-600">৳${item.price}</div>
+                        <div class="text-[9px] text-emerald-600 font-bold bg-emerald-50 px-1 rounded">১০০% ভেরিফাইড</div>
+                      </div>
+                    </div>
+                    ${branchInArea ? `
+                      <div class="text-[10px] text-slate-600 flex items-center gap-1.5 bg-slate-50 p-1.5 rounded-lg border border-slate-100">
+                        <i data-lucide="map-pin" class="w-3 h-3 text-orange-500 shrink-0"></i>
+                        <span class="truncate font-medium">${branchInArea.area}: ${branchInArea.landmark || branchInArea.exact_address}</span>
+                      </div>
+                    ` : ''}
+                    <button onclick="closeAiAssistant(); openRestaurantModal('${targetRestaurant.id}', 'menu');" class="w-full bg-violet-600 hover:bg-violet-700 text-white font-bold text-[11px] py-1.5 rounded-lg flex items-center justify-center gap-1 shadow-2xs active:scale-95 transition-all">
+                      <span>সম্পূর্ণ মেনু ও সরাসরি অর্ডার →</span>
+                    </button>
+                  </div>
+                `).join('')}
+              </div>
+            </div>
+          </div>
+        `;
+
+        container.scrollTop = container.scrollHeight;
+        safeCreateIcons();
+        return;
+      }
+
+      // 4. Detect Intent via Taxonomy (Word-boundary matching prevents 'thai' in 'mithai')
+      let matchedIntentKey = null;
+      for (const [key, cfg] of Object.entries(AI_TAXONOMY)) {
+        const hasTrigger = cfg.triggers.some(trig => {
+          const escaped = trig.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+          const regex = new RegExp('(?:^|[\\s.,!?/\'"(-])' + escaped + '(?:$|[\\s.,!?/\'")-])', 'i');
+          return regex.test(q);
+        });
+        if (hasTrigger) {
+          matchedIntentKey = key;
+          break;
+        }
+      }
+
+      // 4. Search & Precision Gating
+      let recommendations = [];
+      const currentTaxonomy = matchedIntentKey ? AI_TAXONOMY[matchedIntentKey] : null;
+
+      restaurants.forEach(r => {
+        const branchInArea = targetArea 
+          ? r.branches.find(b => b.area.toLowerCase() === targetArea.toLowerCase()) 
+          : r.branches[0];
+
+        // If target area specified, MUST have a branch in that area
+        if (targetArea && !branchInArea) return;
+
+        const rName = r.name.toLowerCase();
+        const rCuisines = r.cuisine.map(c => c.toLowerCase()).join(' ');
+
+        // STRICT INTENT GATING:
+        // If an intent (e.g. THAI) is active, non-matching restaurants (e.g. Kacchi, Coffee, Burger) are 100% REJECTED
+        let isIntentAllowedRest = false;
+        if (currentTaxonomy) {
+          // Check explicit negative list (e.g. Mithai or Sultan's Dine for Thai)
+          if (currentTaxonomy.excludedNames.some(ex => rName.includes(ex))) return;
+
+          isIntentAllowedRest = (
+            currentTaxonomy.allowedCuisines.some(c => rCuisines.includes(c)) ||
+            currentTaxonomy.allowedNames.some(n => rName.includes(n))
+          );
+        }
+
+        r.menu_categories.forEach(cat => {
+          cat.items.forEach(item => {
+            if (item.price > maxBudget) return;
+
+            const itemName = item.name.toLowerCase();
+            let isItemMatchingDish = false;
+
+            if (currentTaxonomy) {
+              isItemMatchingDish = currentTaxonomy.dishKeywords.some(dk => itemName.includes(dk));
+              // Must EITHER be an allowed restaurant OR have a specifically matching dish
+              if (!isIntentAllowedRest && !isItemMatchingDish) return;
+            }
+
+            // Scoring Formula
+            let score = r.rating; // Base rating (e.g. 4.5)
+            if (isIntentAllowedRest) score += 35; // Major boost for authentic cuisine spot
+            if (isItemMatchingDish) score += 25; // Bonus for exact signature dish
+            if (item.is_bestseller) score += 4;
+            if (item.price <= maxBudget && maxBudget < 999999) score += 6;
+
+            recommendations.push({
+              restaurant: r,
+              item: item,
+              score: score,
+              branch: branchInArea || r.branches[0]
+            });
+          });
+        });
+      });
+
+      // Sort by score and pick top 3 unique restaurants
+      recommendations.sort((a, b) => b.score - a.score);
+      const uniqueResults = [];
+      const seenRests = new Set();
+      for (const rec of recommendations) {
+        if (!seenRests.has(rec.restaurant.id)) {
+          seenRests.add(rec.restaurant.id);
+          uniqueResults.push(rec);
+          if (uniqueResults.length === 3) break;
+        }
+      }
+
+      // Generate Contextual Explanation
+      let introHtml = '';
+      if (currentTaxonomy) {
+        introHtml = currentTaxonomy.explain(targetArea);
+      } else if (targetArea) {
+        introHtml = `<strong>${targetArea}</strong>-তে আপনার অনুসন্ধানের সাথে সেরা ম্যাচ করা রেস্তোরাঁ ও আইটেমসমূহ:`;
+      } else {
+        introHtml = 'আপনার অনুরোধ অনুযায়ী সেরা রেটিং ও ভ্যালু সম্পন্ন মেনু প্রস্তাবনা:';
+      }
+
+      if (uniqueResults.length === 0) {
+        // Helpful fallback if area had no authentic matches
+        const fallbackList = restaurants
+          .filter(r => currentTaxonomy ? currentTaxonomy.allowedCuisines.some(c => r.cuisine.map(x => x.toLowerCase()).join(' ').includes(c)) : true)
+          .slice(0, 3);
+
+        const listToDisplay = fallbackList.length > 0 ? fallbackList : restaurants.slice(0, 3);
+        const altArea = listToDisplay[0]?.branches[0]?.area || 'নিকটস্থ এলাকা';
+
+        container.innerHTML += `
+          <div class="flex items-start gap-2.5">
+            <div class="w-8 h-8 rounded-xl bg-violet-600 flex items-center justify-center text-white shrink-0 shadow-md">
+              <i data-lucide="bot" class="w-4 h-4 text-amber-300"></i>
+            </div>
+            <div class="bg-violet-50 text-slate-800 p-3.5 rounded-2xl rounded-tl-none border border-violet-100 max-w-[88%] space-y-2">
+              <p class="font-bold text-xs text-violet-950">
+                ${targetArea ? `দুঃখিত, <strong>${targetArea}</strong>-তে এই মুহূর্তে সরাসরি কোনো খাঁটি ${currentTaxonomy ? currentTaxonomy.label : 'আইটেম'} আউটলেট পাওয়া যায়নি।` : ''} 
+                তবে পার্শ্ববর্তী <strong>${altArea}</strong> ও ঢাকায় সর্বাধিক জনপ্রিয় ৩টি স্পট:
+              </p>
+              ${listToDisplay.map(r => `
+                <div class="bg-white p-2.5 rounded-xl border border-violet-200 flex items-center justify-between gap-2 shadow-2xs">
+                  <div class="min-w-0">
+                    <div class="font-bold text-slate-900 text-xs">${r.name}</div>
+                    <div class="text-[10px] text-slate-500">${r.cuisine.slice(0, 2).join(', ')} • ★ ${r.rating}</div>
+                  </div>
+                  <button onclick="closeAiAssistant(); openRestaurantModal('${r.id}', 'menu');" class="bg-violet-600 hover:bg-violet-700 text-white font-bold text-[10.5px] px-2.5 py-1.5 rounded-lg shrink-0">মেনু দেখুন →</button>
+                </div>
+              `).join('')}
+            </div>
+          </div>
+        `;
+      } else {
+        container.innerHTML += `
+          <div class="flex items-start gap-2.5">
+            <div class="w-8 h-8 rounded-xl bg-violet-600 flex items-center justify-center text-white shrink-0 shadow-md">
+              <i data-lucide="bot" class="w-4 h-4 text-amber-300"></i>
+            </div>
+            <div class="bg-violet-50 text-slate-800 p-3.5 rounded-2xl rounded-tl-none border border-violet-100 max-w-[92%] space-y-2.5">
+              <p class="text-xs text-slate-800 leading-relaxed">
+                🎯 ${introHtml}
+              </p>
+              <div class="space-y-2">
+                ${uniqueResults.map(rec => `
+                  <div class="bg-white p-3 rounded-xl border border-violet-200 space-y-2 shadow-xs hover:border-violet-400 transition-colors">
+                    <div class="flex items-start justify-between gap-2">
+                      <div class="min-w-0">
+                        <div class="font-bold text-slate-900 text-xs leading-snug">${rec.item.name}</div>
+                        <div class="text-[11px] text-violet-700 font-semibold flex items-center gap-1 mt-0.5">
+                          <span>${rec.restaurant.name}</span>
+                          <span class="text-amber-500 font-black">★ ${rec.restaurant.rating}</span>
+                        </div>
+                      </div>
+                      <div class="text-right shrink-0">
+                        <div class="font-black text-xs text-orange-600">৳${rec.item.price}</div>
+                        <div class="text-[9px] text-emerald-600 font-bold bg-emerald-50 px-1 rounded">১০০% ভেরিফাইড</div>
+                      </div>
+                    </div>
+                    ${rec.branch ? `
+                      <div class="text-[10px] text-slate-600 flex items-center gap-1.5 bg-slate-50 p-1.5 rounded-lg border border-slate-100">
+                        <i data-lucide="map-pin" class="w-3 h-3 text-orange-500 shrink-0"></i>
+                        <span class="truncate font-medium">${rec.branch.area}: ${rec.branch.landmark || rec.branch.exact_address}</span>
+                      </div>
+                    ` : ''}
+                    <button onclick="closeAiAssistant(); openRestaurantModal('${rec.restaurant.id}', 'menu');" class="w-full bg-violet-600 hover:bg-violet-700 text-white font-bold text-[11px] py-1.5 rounded-lg flex items-center justify-center gap-1 shadow-2xs active:scale-95 transition-all">
+                      <span>সম্পূর্ণ মেনু ও সরাসরি অর্ডার →</span>
+                    </button>
+                  </div>
+                `).join('')}
+              </div>
+            </div>
+          </div>
+        `;
+      }
+
+      container.scrollTop = container.scrollHeight;
+      safeCreateIcons();
+    }
+
+    // ==============================================================
+    // SIDE-BY-SIDE MENU & PRICE COMPARATOR
+    // ==============================================================
+    function openCompareModal() {
+      const modal = document.getElementById('compare-modal');
+      if (!modal) return;
+      modal.classList.remove('hidden');
+      loadComparison(['sultans-dine', 'kacchi-bhai']);
+    }
+
+    function closeCompareModal() {
+      const modal = document.getElementById('compare-modal');
+      if (modal) modal.classList.add('hidden');
+    }
+
+    function loadComparison(restaurantIds) {
+      const container = document.getElementById('compare-matrix');
+      if (!container) return;
+
+      const compareList = restaurantIds.map(id => restaurants.find(r => r.id === id)).filter(Boolean);
+      if (compareList.length < 2) return;
+
+      container.innerHTML = `
+        <div class="grid grid-cols-2 gap-3 sm:gap-4">
+          ${compareList.map(r => `
+            <div class="bg-slate-50 rounded-2xl border border-slate-200 p-3 sm:p-4 space-y-3 flex flex-col justify-between">
+              <div>
+                <div class="flex items-center gap-2.5 pb-2 border-b border-slate-200">
+                  <img src="${r.logo}" alt="${r.name}" class="w-10 h-10 rounded-xl border border-white shadow-xs object-cover bg-white shrink-0">
+                  <div class="min-w-0">
+                    <h4 class="font-bold text-sm text-slate-900 truncate">${r.name}</h4>
+                    <div class="text-[10px] text-amber-600 font-bold flex items-center gap-0.5">
+                      <i data-lucide="star" class="w-3 h-3 fill-amber-400 text-amber-400"></i> ${r.rating} (${r.review_count})
+                    </div>
+                  </div>
+                </div>
+
+                <div class="py-2 space-y-1.5 text-[11px]">
+                  <div class="flex justify-between text-slate-600">
+                    <span>Price Range:</span>
+                    <strong class="text-orange-600">${r.price_range}</strong>
+                  </div>
+                  <div class="flex justify-between text-slate-600">
+                    <span>Dhaka Branches:</span>
+                    <strong class="text-slate-900">${r.branches.length} Outlets</strong>
+                  </div>
+                </div>
+
+                <div class="space-y-1 pt-1 border-t border-slate-200">
+                  <div class="text-[10px] font-bold text-slate-400 uppercase tracking-wider">Top Signature Dishes:</div>
+                  ${r.menu_categories[0]?.items.slice(0, 4).map(item => `
+                    <div class="flex justify-between text-[11px] py-0.5">
+                      <span class="truncate max-w-[140px] text-slate-700">${item.name}</span>
+                      <strong class="text-slate-900">৳${item.price}</strong>
+                    </div>
+                  `).join('') || ''}
+                </div>
+              </div>
+
+              <button onclick="closeCompareModal(); openRestaurantModal('${r.id}', 'menu');" class="w-full bg-slate-900 hover:bg-orange-600 text-white font-bold text-xs py-2 rounded-xl transition-all shadow-xs flex items-center justify-center gap-1">
+                <span>View Full Menu</span>
+              </button>
+            </div>
+          `).join('')}
+        </div>
+      `;
+      safeCreateIcons();
+    }
+
+    // ==============================================================
+    // SURPRISE FOOD DECISION WHEEL
+    // ==============================================================
+    function openSurpriseModal() {
+      const modal = document.getElementById('surprise-modal');
+      if (!modal) return;
+      document.getElementById('wheel-idle-state').classList.remove('hidden');
+      document.getElementById('wheel-result-state').classList.add('hidden');
+      modal.classList.remove('hidden');
+      safeCreateIcons();
+    }
+
+    function closeSurpriseModal() {
+      const modal = document.getElementById('surprise-modal');
+      if (modal) modal.classList.add('hidden');
+    }
+
+    function spinFoodWheel() {
+      const btn = document.getElementById('spin-wheel-btn');
+      const icon = document.getElementById('spin-icon');
+      const idle = document.getElementById('wheel-idle-state');
+      const result = document.getElementById('wheel-result-state');
+
+      const area = document.getElementById('wheel-area-select').value;
+      const maxBudget = document.getElementById('wheel-budget-select').value;
+
+      // Filter eligible restaurants & items
+      let candidates = [];
+      restaurants.forEach(r => {
+        if (area !== 'ALL' && !r.branches.some(b => b.area.toLowerCase() === area.toLowerCase())) return;
+        r.menu_categories.forEach(c => {
+          c.items.forEach(i => {
+            if (maxBudget !== 'ALL' && i.price > parseInt(maxBudget)) return;
+            candidates.push({ restaurant: r, item: i });
+          });
+        });
+      });
+
+      if (candidates.length === 0) {
+        showToast('এই বাজেটে খাবার মেলেনি, বাজেট বাড়ান');
+        return;
+      }
+
+      // Spin animation
+      icon.classList.add('animate-spin');
+      btn.disabled = true;
+      idle.classList.remove('hidden');
+      result.classList.add('hidden');
+
+      setTimeout(() => {
+        icon.classList.remove('animate-spin');
+        btn.disabled = false;
+        idle.classList.add('hidden');
+        result.classList.remove('hidden');
+
+        const winner = candidates[Math.floor(Math.random() * candidates.length)];
+        const branch = area !== 'ALL' ? winner.restaurant.branches.find(b => b.area.toLowerCase() === area.toLowerCase()) : winner.restaurant.branches[0];
+        const cleanRestName = winner.restaurant.name.replace(/\s*\([^)]*\)$/, '').trim();
+
+        result.innerHTML = `
+          <div class="text-[11px] font-bold text-orange-600 uppercase tracking-widest animate-bounce">🎉 Your Winning Meal:</div>
+          <div class="w-24 h-24 rounded-2xl mx-auto overflow-hidden border-2 border-orange-500 shadow-md">
+            <img src="${winner.item.image || winner.restaurant.banner}" alt="${winner.item.name}" class="w-full h-full object-cover">
+          </div>
+          <div>
+            <div class="font-extrabold text-base text-slate-900">${winner.item.name}</div>
+            <div class="text-xs text-orange-600 font-black mt-0.5">৳${winner.item.price} • ${cleanRestName}</div>
+            ${branch ? `
+              <div class="inline-flex items-center gap-1 text-[10.5px] font-semibold text-emerald-800 bg-emerald-50 border border-emerald-200 px-2.5 py-1 rounded-lg mt-1.5 shadow-2xs max-w-full text-left">
+                <i data-lucide="map-pin" class="w-3 h-3 text-emerald-600 shrink-0"></i>
+                <span class="truncate">${branch.area}: ${branch.landmark || branch.exact_address}</span>
+              </div>
+            ` : ''}
+          </div>
+          <button onclick="closeSurpriseModal(); openRestaurantModal('${winner.restaurant.id}', 'menu');" class="w-full bg-slate-900 hover:bg-orange-600 text-white font-bold text-xs py-2 rounded-xl transition-all shadow-xs">
+            এই মেনু ওপেন করুন →
+          </button>
+        `;
+        safeCreateIcons();
+      }, 700);
+    }
+
+    // Modal keyboard shortcuts: Escape to close modals, / to search
+    window.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') {
+        closeAiAssistant();
+        closeCompareModal();
+        closeSurpriseModal();
+        closeBillModal();
+        closeModal();
+      }
+      if (e.key === '/' && document.activeElement?.tagName !== 'INPUT' && document.activeElement?.tagName !== 'TEXTAREA') {
+        e.preventDefault();
+        focusSearchInput();
+      }
+    });
+
+    // Initialize
+    loadData();
+  </script>
+</body>
+</html>

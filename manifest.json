@@ -1,0 +1,16 @@
+{
+  "name": "Dhaka Menu Hub - All Restaurant Menus & Dine-in Prices",
+  "short_name": "DhakaMenus",
+  "description": "All Dhaka Restaurant Menus, Exact Outlets & 100% Verified Counter Prices in One Place.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ea580c",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%23ea580c'/><text x='50%' y='55%' dominant-baseline='middle' text-anchor='middle' font-size='50'>🍽️</text></svg>",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml"
+    }
+  ]
+}
