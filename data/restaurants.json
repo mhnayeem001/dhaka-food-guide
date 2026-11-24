@@ -760,7 +760,7 @@
             "price": 540,
             "currency": "BDT",
             "is_bestseller": true,
-            "image": "https://images.unsplash.com/photo-1548946526-f69e2424cf45?auto=format&fit=crop&w=300&q=80"
+            "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=300&q=80"
           },
           {
             "name": "Tom Yum Gai (Chicken)",
@@ -768,7 +768,7 @@
             "price": 470,
             "currency": "BDT",
             "is_bestseller": false,
-            "image": "https://images.unsplash.com/photo-1548946526-f69e2424cf45?auto=format&fit=crop&w=300&q=80"
+            "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=300&q=80"
           },
           {
             "name": "Tom Kha Gai (Chicken Coconut Soup)",
@@ -776,7 +776,7 @@
             "price": 490,
             "currency": "BDT",
             "is_bestseller": true,
-            "image": "https://images.unsplash.com/photo-1548946526-f69e2424cf45?auto=format&fit=crop&w=300&q=80"
+            "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=300&q=80"
           },
           {
             "name": "Seafood Glass Noodle Clear Soup",
@@ -1132,7 +1132,7 @@
             "price": 460,
             "currency": "BDT",
             "is_bestseller": false,
-            "image": "https://images.unsplash.com/photo-1548946526-f69e2424cf45?auto=format&fit=crop&w=300&q=80"
+            "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=300&q=80"
           },
           {
             "name": "Mushroom Chicken Ball Soup",
@@ -1140,7 +1140,7 @@
             "price": 430,
             "currency": "BDT",
             "is_bestseller": false,
-            "image": "https://images.unsplash.com/photo-1548946526-f69e2424cf45?auto=format&fit=crop&w=300&q=80"
+            "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=300&q=80"
           }
         ],
         "category": "Soups"
@@ -1404,7 +1404,7 @@
             "price": 350,
             "currency": "BDT",
             "is_bestseller": false,
-            "image": "https://images.unsplash.com/photo-1548946526-f69e2424cf45?auto=format&fit=crop&w=300&q=80"
+            "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=300&q=80"
           }
         ],
         "category": "Soups & Asian Salads"
@@ -1820,7 +1820,7 @@
             "price": 380,
             "currency": "BDT",
             "is_bestseller": true,
-            "image": "https://images.unsplash.com/photo-1548946526-f69e2424cf45?auto=format&fit=crop&w=300&q=80"
+            "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=300&q=80"
           }
         ],
         "category": "Starters & Salads"
@@ -8406,7 +8406,7 @@
             "price": 240,
             "currency": "BDT",
             "is_bestseller": true,
-            "image": "https://images.unsplash.com/photo-1548946526-f69e2424cf45?auto=format&fit=crop&w=300&q=80"
+            "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=300&q=80"
           },
           {
             "name": "Authentic Thai Clear Soup (with Prawn)",
@@ -8414,7 +8414,7 @@
             "price": 290,
             "currency": "BDT",
             "is_bestseller": true,
-            "image": "https://images.unsplash.com/photo-1548946526-f69e2424cf45?auto=format&fit=crop&w=300&q=80"
+            "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=300&q=80"
           },
           {
             "name": "Hot & Sour Chicken Soup",
@@ -8422,7 +8422,7 @@
             "price": 260,
             "currency": "BDT",
             "is_bestseller": false,
-            "image": "https://images.unsplash.com/photo-1548946526-f69e2424cf45?auto=format&fit=crop&w=300&q=80"
+            "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=300&q=80"
           },
           {
             "name": "Crispy Fried Wonton (6 Pcs)",
@@ -8627,7 +8627,7 @@
             "price": 240,
             "currency": "BDT",
             "is_bestseller": true,
-            "image": "https://images.unsplash.com/photo-1548946526-f69e2424cf45?auto=format&fit=crop&w=300&q=80"
+            "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=300&q=80"
           },
           {
             "name": "Authentic Thai Clear Soup (with Prawn)",
@@ -8635,7 +8635,7 @@
             "price": 290,
             "currency": "BDT",
             "is_bestseller": true,
-            "image": "https://images.unsplash.com/photo-1548946526-f69e2424cf45?auto=format&fit=crop&w=300&q=80"
+            "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=300&q=80"
           },
           {
             "name": "Hot & Sour Chicken Soup",
@@ -8643,7 +8643,7 @@
             "price": 260,
             "currency": "BDT",
             "is_bestseller": false,
-            "image": "https://images.unsplash.com/photo-1548946526-f69e2424cf45?auto=format&fit=crop&w=300&q=80"
+            "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=300&q=80"
           },
           {
             "name": "Crispy Fried Wonton (6 Pcs)",
@@ -8848,7 +8848,7 @@
             "price": 240,
             "currency": "BDT",
             "is_bestseller": true,
-            "image": "https://images.unsplash.com/photo-1548946526-f69e2424cf45?auto=format&fit=crop&w=300&q=80"
+            "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=300&q=80"
           },
           {
             "name": "Authentic Thai Clear Soup (with Prawn)",
@@ -8856,7 +8856,7 @@
             "price": 290,
             "currency": "BDT",
             "is_bestseller": true,
-            "image": "https://images.unsplash.com/photo-1548946526-f69e2424cf45?auto=format&fit=crop&w=300&q=80"
+            "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=300&q=80"
           },
           {
             "name": "Hot & Sour Chicken Soup",
@@ -8864,7 +8864,7 @@
             "price": 260,
             "currency": "BDT",
             "is_bestseller": false,
-            "image": "https://images.unsplash.com/photo-1548946526-f69e2424cf45?auto=format&fit=crop&w=300&q=80"
+            "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=300&q=80"
           },
           {
             "name": "Crispy Fried Wonton (6 Pcs)",
@@ -9213,7 +9213,7 @@
             "price": 240,
             "currency": "BDT",
             "is_bestseller": true,
-            "image": "https://images.unsplash.com/photo-1548946526-f69e2424cf45?auto=format&fit=crop&w=300&q=80"
+            "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=300&q=80"
           },
           {
             "name": "Authentic Thai Clear Soup (with Prawn)",
@@ -9221,7 +9221,7 @@
             "price": 290,
             "currency": "BDT",
             "is_bestseller": true,
-            "image": "https://images.unsplash.com/photo-1548946526-f69e2424cf45?auto=format&fit=crop&w=300&q=80"
+            "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=300&q=80"
           },
           {
             "name": "Hot & Sour Chicken Soup",
@@ -9229,7 +9229,7 @@
             "price": 260,
             "currency": "BDT",
             "is_bestseller": false,
-            "image": "https://images.unsplash.com/photo-1548946526-f69e2424cf45?auto=format&fit=crop&w=300&q=80"
+            "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=300&q=80"
           },
           {
             "name": "Crispy Fried Wonton (6 Pcs)",
@@ -9611,7 +9611,7 @@
             "price": 240,
             "currency": "BDT",
             "is_bestseller": true,
-            "image": "https://images.unsplash.com/photo-1548946526-f69e2424cf45?auto=format&fit=crop&w=300&q=80"
+            "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=300&q=80"
           },
           {
             "name": "Authentic Thai Clear Soup (with Prawn)",
@@ -9619,7 +9619,7 @@
             "price": 290,
             "currency": "BDT",
             "is_bestseller": true,
-            "image": "https://images.unsplash.com/photo-1548946526-f69e2424cf45?auto=format&fit=crop&w=300&q=80"
+            "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=300&q=80"
           },
           {
             "name": "Hot & Sour Chicken Soup",
@@ -9627,7 +9627,7 @@
             "price": 260,
             "currency": "BDT",
             "is_bestseller": false,
-            "image": "https://images.unsplash.com/photo-1548946526-f69e2424cf45?auto=format&fit=crop&w=300&q=80"
+            "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=300&q=80"
           },
           {
             "name": "Crispy Fried Wonton (6 Pcs)",
@@ -9832,7 +9832,7 @@
             "price": 240,
             "currency": "BDT",
             "is_bestseller": true,
-            "image": "https://images.unsplash.com/photo-1548946526-f69e2424cf45?auto=format&fit=crop&w=300&q=80"
+            "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=300&q=80"
           },
           {
             "name": "Authentic Thai Clear Soup (with Prawn)",
@@ -9840,7 +9840,7 @@
             "price": 290,
             "currency": "BDT",
             "is_bestseller": true,
-            "image": "https://images.unsplash.com/photo-1548946526-f69e2424cf45?auto=format&fit=crop&w=300&q=80"
+            "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=300&q=80"
           },
           {
             "name": "Hot & Sour Chicken Soup",
@@ -9848,7 +9848,7 @@
             "price": 260,
             "currency": "BDT",
             "is_bestseller": false,
-            "image": "https://images.unsplash.com/photo-1548946526-f69e2424cf45?auto=format&fit=crop&w=300&q=80"
+            "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=300&q=80"
           },
           {
             "name": "Crispy Fried Wonton (6 Pcs)",
@@ -10053,7 +10053,7 @@
             "price": 240,
             "currency": "BDT",
             "is_bestseller": true,
-            "image": "https://images.unsplash.com/photo-1548946526-f69e2424cf45?auto=format&fit=crop&w=300&q=80"
+            "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=300&q=80"
           },
           {
             "name": "Authentic Thai Clear Soup (with Prawn)",
@@ -10061,7 +10061,7 @@
             "price": 290,
             "currency": "BDT",
             "is_bestseller": true,
-            "image": "https://images.unsplash.com/photo-1548946526-f69e2424cf45?auto=format&fit=crop&w=300&q=80"
+            "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=300&q=80"
           },
           {
             "name": "Hot & Sour Chicken Soup",
@@ -10069,7 +10069,7 @@
             "price": 260,
             "currency": "BDT",
             "is_bestseller": false,
-            "image": "https://images.unsplash.com/photo-1548946526-f69e2424cf45?auto=format&fit=crop&w=300&q=80"
+            "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=300&q=80"
           },
           {
             "name": "Crispy Fried Wonton (6 Pcs)",
@@ -10415,7 +10415,7 @@
             "price": 240,
             "currency": "BDT",
             "is_bestseller": true,
-            "image": "https://images.unsplash.com/photo-1548946526-f69e2424cf45?auto=format&fit=crop&w=300&q=80"
+            "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=300&q=80"
           },
           {
             "name": "Authentic Thai Clear Soup (with Prawn)",
@@ -10423,7 +10423,7 @@
             "price": 290,
             "currency": "BDT",
             "is_bestseller": true,
-            "image": "https://images.unsplash.com/photo-1548946526-f69e2424cf45?auto=format&fit=crop&w=300&q=80"
+            "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=300&q=80"
           },
           {
             "name": "Hot & Sour Chicken Soup",
@@ -10431,7 +10431,7 @@
             "price": 260,
             "currency": "BDT",
             "is_bestseller": false,
-            "image": "https://images.unsplash.com/photo-1548946526-f69e2424cf45?auto=format&fit=crop&w=300&q=80"
+            "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=300&q=80"
           },
           {
             "name": "Crispy Fried Wonton (6 Pcs)",
@@ -22278,7 +22278,7 @@
             "price": 240,
             "currency": "BDT",
             "is_bestseller": true,
-            "image": "https://images.unsplash.com/photo-1548946526-f69e2424cf45?auto=format&fit=crop&w=300&q=80"
+            "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=300&q=80"
           },
           {
             "name": "Authentic Thai Clear Soup (with Prawn)",
@@ -22286,7 +22286,7 @@
             "price": 290,
             "currency": "BDT",
             "is_bestseller": true,
-            "image": "https://images.unsplash.com/photo-1548946526-f69e2424cf45?auto=format&fit=crop&w=300&q=80"
+            "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=300&q=80"
           },
           {
             "name": "Hot & Sour Chicken Soup",
@@ -22294,7 +22294,7 @@
             "price": 260,
             "currency": "BDT",
             "is_bestseller": false,
-            "image": "https://images.unsplash.com/photo-1548946526-f69e2424cf45?auto=format&fit=crop&w=300&q=80"
+            "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=300&q=80"
           },
           {
             "name": "Crispy Fried Wonton (6 Pcs)",
@@ -22506,7 +22506,7 @@
             "price": 290,
             "currency": "BDT",
             "is_bestseller": true,
-            "image": "https://images.unsplash.com/photo-1548946526-f69e2424cf45?auto=format&fit=crop&w=300&q=80"
+            "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=300&q=80"
           },
           {
             "name": "Hot & Sour Chicken Soup",
@@ -22514,7 +22514,7 @@
             "price": 260,
             "currency": "BDT",
             "is_bestseller": false,
-            "image": "https://images.unsplash.com/photo-1548946526-f69e2424cf45?auto=format&fit=crop&w=300&q=80"
+            "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=300&q=80"
           },
           {
             "name": "Crispy Fried Wonton (6 Pcs)",
@@ -25259,7 +25259,7 @@
             "price": 240,
             "currency": "BDT",
             "is_bestseller": true,
-            "image": "https://images.unsplash.com/photo-1548946526-f69e2424cf45?auto=format&fit=crop&w=300&q=80"
+            "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=300&q=80"
           },
           {
             "name": "Authentic Thai Clear Soup (with Prawn)",
@@ -25267,7 +25267,7 @@
             "price": 290,
             "currency": "BDT",
             "is_bestseller": true,
-            "image": "https://images.unsplash.com/photo-1548946526-f69e2424cf45?auto=format&fit=crop&w=300&q=80"
+            "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=300&q=80"
           },
           {
             "name": "Hot & Sour Chicken Soup",
@@ -25275,7 +25275,7 @@
             "price": 260,
             "currency": "BDT",
             "is_bestseller": false,
-            "image": "https://images.unsplash.com/photo-1548946526-f69e2424cf45?auto=format&fit=crop&w=300&q=80"
+            "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=300&q=80"
           },
           {
             "name": "Crispy Fried Wonton (6 Pcs)",
@@ -25968,7 +25968,7 @@
             "price": 240,
             "currency": "BDT",
             "is_bestseller": true,
-            "image": "https://images.unsplash.com/photo-1548946526-f69e2424cf45?auto=format&fit=crop&w=300&q=80"
+            "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=300&q=80"
           },
           {
             "name": "Authentic Thai Clear Soup (with Prawn)",
@@ -25976,7 +25976,7 @@
             "price": 290,
             "currency": "BDT",
             "is_bestseller": true,
-            "image": "https://images.unsplash.com/photo-1548946526-f69e2424cf45?auto=format&fit=crop&w=300&q=80"
+            "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=300&q=80"
           },
           {
             "name": "Hot & Sour Chicken Soup",
@@ -25984,7 +25984,7 @@
             "price": 260,
             "currency": "BDT",
             "is_bestseller": false,
-            "image": "https://images.unsplash.com/photo-1548946526-f69e2424cf45?auto=format&fit=crop&w=300&q=80"
+            "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=300&q=80"
           },
           {
             "name": "Crispy Fried Wonton (6 Pcs)",
@@ -27479,7 +27479,7 @@
             "price": 240,
             "currency": "BDT",
             "is_bestseller": true,
-            "image": "https://images.unsplash.com/photo-1548946526-f69e2424cf45?auto=format&fit=crop&w=300&q=80"
+            "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=300&q=80"
           },
           {
             "name": "Authentic Thai Clear Soup (with Prawn)",
@@ -27487,7 +27487,7 @@
             "price": 290,
             "currency": "BDT",
             "is_bestseller": true,
-            "image": "https://images.unsplash.com/photo-1548946526-f69e2424cf45?auto=format&fit=crop&w=300&q=80"
+            "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=300&q=80"
           },
           {
             "name": "Hot & Sour Chicken Soup",
@@ -27495,7 +27495,7 @@
             "price": 260,
             "currency": "BDT",
             "is_bestseller": false,
-            "image": "https://images.unsplash.com/photo-1548946526-f69e2424cf45?auto=format&fit=crop&w=300&q=80"
+            "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=300&q=80"
           },
           {
             "name": "Crispy Fried Wonton (6 Pcs)",
@@ -27699,7 +27699,7 @@
             "price": 240,
             "currency": "BDT",
             "is_bestseller": true,
-            "image": "https://images.unsplash.com/photo-1548946526-f69e2424cf45?auto=format&fit=crop&w=300&q=80"
+            "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=300&q=80"
           },
           {
             "name": "Authentic Thai Clear Soup (with Prawn)",
@@ -27707,7 +27707,7 @@
             "price": 290,
             "currency": "BDT",
             "is_bestseller": true,
-            "image": "https://images.unsplash.com/photo-1548946526-f69e2424cf45?auto=format&fit=crop&w=300&q=80"
+            "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=300&q=80"
           },
           {
             "name": "Hot & Sour Chicken Soup",
@@ -27715,7 +27715,7 @@
             "price": 260,
             "currency": "BDT",
             "is_bestseller": false,
-            "image": "https://images.unsplash.com/photo-1548946526-f69e2424cf45?auto=format&fit=crop&w=300&q=80"
+            "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=300&q=80"
           },
           {
             "name": "Crispy Fried Wonton (6 Pcs)",
@@ -27919,7 +27919,7 @@
             "price": 240,
             "currency": "BDT",
             "is_bestseller": true,
-            "image": "https://images.unsplash.com/photo-1548946526-f69e2424cf45?auto=format&fit=crop&w=300&q=80"
+            "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=300&q=80"
           },
           {
             "name": "Authentic Thai Clear Soup (with Prawn)",
@@ -27927,7 +27927,7 @@
             "price": 290,
             "currency": "BDT",
             "is_bestseller": true,
-            "image": "https://images.unsplash.com/photo-1548946526-f69e2424cf45?auto=format&fit=crop&w=300&q=80"
+            "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=300&q=80"
           },
           {
             "name": "Hot & Sour Chicken Soup",
@@ -27935,7 +27935,7 @@
             "price": 260,
             "currency": "BDT",
             "is_bestseller": false,
-            "image": "https://images.unsplash.com/photo-1548946526-f69e2424cf45?auto=format&fit=crop&w=300&q=80"
+            "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=300&q=80"
           },
           {
             "name": "Crispy Fried Wonton (6 Pcs)",
@@ -29993,7 +29993,7 @@
             "price": 240,
             "currency": "BDT",
             "is_bestseller": true,
-            "image": "https://images.unsplash.com/photo-1548946526-f69e2424cf45?auto=format&fit=crop&w=300&q=80"
+            "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=300&q=80"
           },
           {
             "name": "Authentic Thai Clear Soup (with Prawn)",
@@ -30001,7 +30001,7 @@
             "price": 290,
             "currency": "BDT",
             "is_bestseller": true,
-            "image": "https://images.unsplash.com/photo-1548946526-f69e2424cf45?auto=format&fit=crop&w=300&q=80"
+            "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=300&q=80"
           },
           {
             "name": "Hot & Sour Chicken Soup",
@@ -30009,7 +30009,7 @@
             "price": 260,
             "currency": "BDT",
             "is_bestseller": false,
-            "image": "https://images.unsplash.com/photo-1548946526-f69e2424cf45?auto=format&fit=crop&w=300&q=80"
+            "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=300&q=80"
           },
           {
             "name": "Crispy Fried Wonton (6 Pcs)",
@@ -30704,7 +30704,7 @@
             "price": 240,
             "currency": "BDT",
             "is_bestseller": true,
-            "image": "https://images.unsplash.com/photo-1548946526-f69e2424cf45?auto=format&fit=crop&w=300&q=80"
+            "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=300&q=80"
           },
           {
             "name": "Authentic Thai Clear Soup (with Prawn)",
@@ -30712,7 +30712,7 @@
             "price": 290,
             "currency": "BDT",
             "is_bestseller": true,
-            "image": "https://images.unsplash.com/photo-1548946526-f69e2424cf45?auto=format&fit=crop&w=300&q=80"
+            "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=300&q=80"
           },
           {
             "name": "Hot & Sour Chicken Soup",
@@ -30720,7 +30720,7 @@
             "price": 260,
             "currency": "BDT",
             "is_bestseller": false,
-            "image": "https://images.unsplash.com/photo-1548946526-f69e2424cf45?auto=format&fit=crop&w=300&q=80"
+            "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=300&q=80"
           },
           {
             "name": "Crispy Fried Wonton (6 Pcs)",
@@ -33781,7 +33781,7 @@
             "price": 240,
             "currency": "BDT",
             "is_bestseller": true,
-            "image": "https://images.unsplash.com/photo-1548946526-f69e2424cf45?auto=format&fit=crop&w=300&q=80"
+            "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=300&q=80"
           },
           {
             "name": "Authentic Thai Clear Soup (with Prawn)",
@@ -33789,7 +33789,7 @@
             "price": 290,
             "currency": "BDT",
             "is_bestseller": true,
-            "image": "https://images.unsplash.com/photo-1548946526-f69e2424cf45?auto=format&fit=crop&w=300&q=80"
+            "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=300&q=80"
           },
           {
             "name": "Hot & Sour Chicken Soup",
@@ -33797,7 +33797,7 @@
             "price": 260,
             "currency": "BDT",
             "is_bestseller": false,
-            "image": "https://images.unsplash.com/photo-1548946526-f69e2424cf45?auto=format&fit=crop&w=300&q=80"
+            "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=300&q=80"
           },
           {
             "name": "Crispy Fried Wonton (6 Pcs)",
@@ -38861,7 +38861,7 @@
             "price": 240,
             "currency": "BDT",
             "is_bestseller": true,
-            "image": "https://images.unsplash.com/photo-1548946526-f69e2424cf45?auto=format&fit=crop&w=300&q=80"
+            "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=300&q=80"
           },
           {
             "name": "Authentic Thai Clear Soup (with Prawn)",
@@ -38869,7 +38869,7 @@
             "price": 290,
             "currency": "BDT",
             "is_bestseller": true,
-            "image": "https://images.unsplash.com/photo-1548946526-f69e2424cf45?auto=format&fit=crop&w=300&q=80"
+            "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=300&q=80"
           },
           {
             "name": "Hot & Sour Chicken Soup",
@@ -38877,7 +38877,7 @@
             "price": 260,
             "currency": "BDT",
             "is_bestseller": false,
-            "image": "https://images.unsplash.com/photo-1548946526-f69e2424cf45?auto=format&fit=crop&w=300&q=80"
+            "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=300&q=80"
           },
           {
             "name": "Crispy Fried Wonton (6 Pcs)",
@@ -45136,7 +45136,7 @@
             "price": 290,
             "currency": "BDT",
             "is_bestseller": true,
-            "image": "https://images.unsplash.com/photo-1548946526-f69e2424cf45?auto=format&fit=crop&w=300&q=80"
+            "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=300&q=80"
           },
           {
             "name": "Hot & Sour Chicken Soup",
@@ -45144,7 +45144,7 @@
             "price": 260,
             "currency": "BDT",
             "is_bestseller": false,
-            "image": "https://images.unsplash.com/photo-1548946526-f69e2424cf45?auto=format&fit=crop&w=300&q=80"
+            "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=300&q=80"
           },
           {
             "name": "Crispy Fried Wonton (6 Pcs)",
@@ -45350,7 +45350,7 @@
             "price": 240,
             "currency": "BDT",
             "is_bestseller": true,
-            "image": "https://images.unsplash.com/photo-1548946526-f69e2424cf45?auto=format&fit=crop&w=300&q=80"
+            "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=300&q=80"
           },
           {
             "name": "Authentic Thai Clear Soup (with Prawn)",
@@ -45358,7 +45358,7 @@
             "price": 290,
             "currency": "BDT",
             "is_bestseller": true,
-            "image": "https://images.unsplash.com/photo-1548946526-f69e2424cf45?auto=format&fit=crop&w=300&q=80"
+            "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=300&q=80"
           },
           {
             "name": "Hot & Sour Chicken Soup",
@@ -45366,7 +45366,7 @@
             "price": 260,
             "currency": "BDT",
             "is_bestseller": false,
-            "image": "https://images.unsplash.com/photo-1548946526-f69e2424cf45?auto=format&fit=crop&w=300&q=80"
+            "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=300&q=80"
           },
           {
             "name": "Crispy Fried Wonton (6 Pcs)",
@@ -47737,7 +47737,7 @@
             "price": 220,
             "currency": "BDT",
             "is_bestseller": true,
-            "image": "https://images.unsplash.com/photo-1548946526-f69e2424cf45?auto=format&fit=crop&w=300&q=80"
+            "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=300&q=80"
           },
           {
             "name": "Authentic Thai Clear Soup",
@@ -47745,7 +47745,7 @@
             "price": 280,
             "currency": "BDT",
             "is_bestseller": true,
-            "image": "https://images.unsplash.com/photo-1548946526-f69e2424cf45?auto=format&fit=crop&w=300&q=80"
+            "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=300&q=80"
           },
           {
             "name": "Crispy Fried Wonton (6 Pcs)",
@@ -48513,7 +48513,7 @@
     "rating": 4.4,
     "review_count": 4800,
     "price_tier": "৳",
-    "logo": "🥩",
+    "logo": "https://images.unsplash.com/photo-1589302168068-964664d93dc0?w=300&auto=format&fit=crop&q=80",
     "features": [
       "Dine-in",
       "Takeaway",
@@ -48734,7 +48734,8 @@
     "price_range": "৳",
     "tagline": "Authentic Tehari, Bengali, Old Dhaka Spices across Dhaka",
     "hotline": "+880 1715-998877",
-    "view_count": 11
+    "view_count": 11,
+    "banner": "https://images.unsplash.com/photo-1589302168068-964664d93dc0?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "al-razzaque",
@@ -48750,7 +48751,7 @@
     "rating": 4.5,
     "review_count": 7300,
     "price_tier": "৳৳",
-    "logo": "🍗",
+    "logo": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&auto=format&fit=crop&q=80",
     "features": [
       "Dine-in",
       "Takeaway",
@@ -49045,7 +49046,8 @@
     "price_range": "৳৳",
     "tagline": "Authentic Mughlai, Biryani, Kebab, Heritage across Dhaka",
     "hotline": "+880 2-9566373",
-    "view_count": 26
+    "view_count": 26,
+    "banner": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "banoful",
@@ -49061,7 +49063,7 @@
     "rating": 4.3,
     "review_count": 8400,
     "price_tier": "৳",
-    "logo": "🧁",
+    "logo": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=300&auto=format&fit=crop&q=80",
     "features": [
       "Takeaway",
       "Affordable",
@@ -49289,7 +49291,8 @@
     "price_range": "৳",
     "tagline": "Authentic Bengali Sweets, Bakery, Biscuits, Snacks across Dhaka",
     "hotline": "+880 1819-123401",
-    "view_count": 28
+    "view_count": 28,
+    "banner": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "tokyo-express",
@@ -49305,7 +49308,7 @@
     "rating": 4.5,
     "review_count": 4200,
     "price_tier": "৳৳৳",
-    "logo": "🍣",
+    "logo": "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?w=300&auto=format&fit=crop&q=80",
     "features": [
       "Dine-in",
       "Takeaway",
@@ -49596,7 +49599,8 @@
     "price_range": "৳৳৳",
     "tagline": "Authentic Japanese, Sushi, Ramen, Teriyaki across Dhaka",
     "hotline": "+880 1711-556677",
-    "view_count": 12
+    "view_count": 12,
+    "banner": "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "soi-71",
@@ -49612,7 +49616,7 @@
     "rating": 4.6,
     "review_count": 3100,
     "price_tier": "৳৳৳",
-    "logo": "🍲",
+    "logo": "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=300&auto=format&fit=crop&q=80",
     "features": [
       "Dine-in",
       "Romantic Ambience",
@@ -49725,7 +49729,7 @@
             "category": "Soups",
             "popular": false,
             "is_veg": false,
-            "image": "https://images.unsplash.com/photo-1548946526-f69e2424cf45?auto=format&fit=crop&w=300&q=80"
+            "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=300&q=80"
           },
           {
             "id": "soi-2",
@@ -49735,7 +49739,7 @@
             "category": "Soups",
             "popular": false,
             "is_veg": false,
-            "image": "https://images.unsplash.com/photo-1548946526-f69e2424cf45?auto=format&fit=crop&w=300&q=80"
+            "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=300&q=80"
           }
         ],
         "category_name": "Soups"
@@ -49872,7 +49876,8 @@
     "price_range": "৳৳৳",
     "tagline": "Authentic Thai, Asian, Seafood, Fine Dining across Dhaka",
     "hotline": "+880 2-9844444",
-    "view_count": 8
+    "view_count": 8,
+    "banner": "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "chaap-shamlao",
@@ -49888,7 +49893,7 @@
     "rating": 4.4,
     "review_count": 3900,
     "price_tier": "৳",
-    "logo": "🥩",
+    "logo": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=300&auto=format&fit=crop&q=80",
     "features": [
       "Dine-in",
       "Takeaway",
@@ -50105,7 +50110,8 @@
     "price_range": "৳",
     "tagline": "Authentic Chaap, Luchi, Grilled Kebab, Street Food across Dhaka",
     "hotline": "+880 1712-443322",
-    "view_count": 12
+    "view_count": 12,
+    "banner": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "decent-pastry-shop",
@@ -50121,7 +50127,7 @@
     "rating": 4.5,
     "review_count": 6400,
     "price_tier": "৳",
-    "logo": "🥐",
+    "logo": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=300&auto=format&fit=crop&q=80",
     "features": [
       "Takeaway",
       "Since 1968",
@@ -50296,7 +50302,8 @@
     "price_range": "৳",
     "tagline": "Authentic Bakery, Pastry, Puff Patty, Heritage Snack across Dhaka",
     "hotline": "+880 2-9556093",
-    "view_count": 19
+    "view_count": 19,
+    "banner": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "al-fresco",
@@ -50313,7 +50320,7 @@
     "rating": 4.3,
     "review_count": 4100,
     "price_tier": "৳৳",
-    "logo": "🍕",
+    "logo": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=300&auto=format&fit=crop&q=80",
     "features": [
       "Dine-in",
       "Student Friendly",
@@ -50523,7 +50530,8 @@
     "price_range": "৳৳",
     "tagline": "Authentic Italian, Pizza, Pasta, Steak, Continental across Dhaka",
     "hotline": "+880 1711-098765",
-    "view_count": 17
+    "view_count": 17,
+    "banner": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "royal-restaurant-lalbagh",
@@ -50541,7 +50549,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.5,
     "review_count": 2072,
-    "logo": "👑",
+    "logo": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 2-7313535",
     "total_branches": 1,
     "branches": [
@@ -50636,7 +50644,8 @@
         "category_name": "Mughlai Feast"
       }
     ],
-    "view_count": 18
+    "view_count": 18,
+    "banner": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "maksood-kacchi",
@@ -50652,7 +50661,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.5,
     "review_count": 2499,
-    "logo": "🍖",
+    "logo": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 1712-887766",
     "total_branches": 1,
     "branches": [
@@ -50729,7 +50738,8 @@
         "category_name": "Beverages & Sweets"
       }
     ],
-    "view_count": 15
+    "view_count": 15,
+    "banner": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "shad-tehari-ghar",
@@ -50746,7 +50756,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.5,
     "review_count": 7161,
-    "logo": "🍛",
+    "logo": "https://images.unsplash.com/photo-1589302168068-964664d93dc0?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 1711-445566",
     "total_branches": 3,
     "branches": [
@@ -50858,7 +50868,8 @@
         "category_name": "Accompaniments"
       }
     ],
-    "view_count": 23
+    "view_count": 23,
+    "banner": "https://images.unsplash.com/photo-1589302168068-964664d93dc0?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "chunnu-mia-kacchi",
@@ -50874,7 +50885,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.5,
     "review_count": 6963,
-    "logo": "🍖",
+    "logo": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 1714-556677",
     "total_branches": 1,
     "branches": [
@@ -50927,7 +50938,8 @@
         "category_name": "Kacchi Specialties"
       }
     ],
-    "view_count": 30
+    "view_count": 30,
+    "banner": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "mamun-biryani",
@@ -50943,7 +50955,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.5,
     "review_count": 2885,
-    "logo": "🍛",
+    "logo": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 1716-778899",
     "total_branches": 1,
     "branches": [
@@ -50996,7 +51008,8 @@
         "category_name": "Tehari & Biryani"
       }
     ],
-    "view_count": 17
+    "view_count": 17,
+    "banner": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "salams-kitchen",
@@ -51013,7 +51026,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.5,
     "review_count": 3415,
-    "logo": "🥘",
+    "logo": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 1711-002233",
     "total_branches": 3,
     "branches": [
@@ -51110,7 +51123,8 @@
         "category_name": "Signature Kacchi & Mains"
       }
     ],
-    "view_count": 17
+    "view_count": 17,
+    "banner": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "dhakaiya-pakki",
@@ -51126,7 +51140,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.5,
     "review_count": 6352,
-    "logo": "🍲",
+    "logo": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 1718-445566",
     "total_branches": 2,
     "branches": [
@@ -51192,7 +51206,8 @@
         "category_name": "Pakki Biryani"
       }
     ],
-    "view_count": 26
+    "view_count": 26,
+    "banner": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "bhooter-addi",
@@ -51209,7 +51224,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.5,
     "review_count": 7983,
-    "logo": "👻",
+    "logo": "https://images.unsplash.com/photo-1585032226651-759b368d7246?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 1711-998877",
     "total_branches": 2,
     "branches": [
@@ -51275,7 +51290,8 @@
         "category_name": "Main Dishes"
       }
     ],
-    "view_count": 30
+    "view_count": 30,
+    "banner": "https://images.unsplash.com/photo-1585032226651-759b368d7246?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "burger-xpress",
@@ -51291,7 +51307,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.5,
     "review_count": 2010,
-    "logo": "🍔",
+    "logo": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 1714-001122",
     "total_branches": 3,
     "branches": [
@@ -51403,7 +51419,8 @@
         "category_name": "Sides & Drinks"
       }
     ],
-    "view_count": 12
+    "view_count": 12,
+    "banner": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "burgerology",
@@ -51419,7 +51436,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.5,
     "review_count": 6282,
-    "logo": "🍔",
+    "logo": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 1715-223344",
     "total_branches": 2,
     "branches": [
@@ -51509,7 +51526,8 @@
         "category_name": "Appetizers"
       }
     ],
-    "view_count": 25
+    "view_count": 25,
+    "banner": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "american-burger",
@@ -51525,7 +51543,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.5,
     "review_count": 2207,
-    "logo": "🇺🇸",
+    "logo": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 2-9883445",
     "total_branches": 3,
     "branches": [
@@ -51613,7 +51631,8 @@
         "category_name": "American Classics"
       }
     ],
-    "view_count": 9
+    "view_count": 9,
+    "banner": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "pit-grill",
@@ -51630,7 +51649,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.5,
     "review_count": 8457,
-    "logo": "🥩",
+    "logo": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 1711-224466",
     "total_branches": 2,
     "branches": [
@@ -51714,13 +51733,14 @@
             "price": 260,
             "description": "Cream of wild mushroom soup",
             "popular": false,
-            "image": "https://images.unsplash.com/photo-1548946526-f69e2424cf45?auto=format&fit=crop&w=300&q=80"
+            "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=300&q=80"
           }
         ],
         "category_name": "Starters"
       }
     ],
-    "view_count": 26
+    "view_count": 26,
+    "banner": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "woodbox",
@@ -51737,7 +51757,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.5,
     "review_count": 7701,
-    "logo": "🪵",
+    "logo": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 1716-112233",
     "total_branches": 1,
     "branches": [
@@ -51790,7 +51810,8 @@
         "category_name": "Burgers & Pasta"
       }
     ],
-    "view_count": 30
+    "view_count": 30,
+    "banner": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "wrap-factory",
@@ -51807,7 +51828,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.5,
     "review_count": 6782,
-    "logo": "🌯",
+    "logo": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 1717-334455",
     "total_branches": 2,
     "branches": [
@@ -51873,7 +51894,8 @@
         "category_name": "Gourmet Wraps"
       }
     ],
-    "view_count": 15
+    "view_count": 15,
+    "banner": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "freak-shake",
@@ -51890,7 +51912,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.5,
     "review_count": 5424,
-    "logo": "🍨",
+    "logo": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 1718-556677",
     "total_branches": 1,
     "branches": [
@@ -51943,7 +51965,8 @@
         "category_name": "Freak Shakes"
       }
     ],
-    "view_count": 27
+    "view_count": 27,
+    "banner": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "mainland-china-dhaka",
@@ -51960,7 +51983,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.5,
     "review_count": 2411,
-    "logo": "🥢",
+    "logo": "https://images.unsplash.com/photo-1585032226651-759b368d7246?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 2-8958866",
     "total_branches": 1,
     "branches": [
@@ -52046,7 +52069,8 @@
         "category_name": "Wok Specialties"
       }
     ],
-    "view_count": 10
+    "view_count": 10,
+    "banner": "https://images.unsplash.com/photo-1585032226651-759b368d7246?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "the-great-kabab-factory",
@@ -52063,7 +52087,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.5,
     "review_count": 1302,
-    "logo": "🍢",
+    "logo": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 1713-556677",
     "total_branches": 2,
     "branches": [
@@ -52138,7 +52162,8 @@
         "category_name": "Unlimited Kebab Experience"
       }
     ],
-    "view_count": 3
+    "view_count": 3,
+    "banner": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "bamboo-shoot",
@@ -52155,7 +52180,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.5,
     "review_count": 3720,
-    "logo": "🎋",
+    "logo": "https://images.unsplash.com/photo-1585032226651-759b368d7246?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 2-9887766",
     "total_branches": 1,
     "branches": [
@@ -52208,7 +52233,8 @@
         "category_name": "Chinese Specialties"
       }
     ],
-    "view_count": 8
+    "view_count": 8,
+    "banner": "https://images.unsplash.com/photo-1585032226651-759b368d7246?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "korean-bbq-dhaka",
@@ -52225,7 +52251,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.5,
     "review_count": 6952,
-    "logo": "🥩",
+    "logo": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 1711-337799",
     "total_branches": 1,
     "branches": [
@@ -52287,7 +52313,8 @@
         "category_name": "Korean Table Grills"
       }
     ],
-    "view_count": 30
+    "view_count": 30,
+    "banner": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "wabi-sabi",
@@ -52304,7 +52331,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.5,
     "review_count": 5798,
-    "logo": "🍣",
+    "logo": "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 1713-889900",
     "total_branches": 1,
     "branches": [
@@ -52357,7 +52384,8 @@
         "category_name": "Japanese Fine Dining"
       }
     ],
-    "view_count": 35
+    "view_count": 35,
+    "banner": "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "chows-dhaka",
@@ -52374,7 +52402,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.5,
     "review_count": 6694,
-    "logo": "🥟",
+    "logo": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 1713-776655",
     "total_branches": 1,
     "branches": [
@@ -52427,7 +52455,8 @@
         "category_name": "Cantonese Specialties"
       }
     ],
-    "view_count": 32
+    "view_count": 32,
+    "banner": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "canton-chinese",
@@ -52443,7 +52472,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.5,
     "review_count": 8098,
-    "logo": "🥡",
+    "logo": "https://images.unsplash.com/photo-1585032226651-759b368d7246?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 2-9662134",
     "total_branches": 2,
     "branches": [
@@ -52485,7 +52514,7 @@
             "price": 380,
             "description": "Thick sweet corn egg drop soup with chicken shreds",
             "popular": true,
-            "image": "https://images.unsplash.com/photo-1548946526-f69e2424cf45?auto=format&fit=crop&w=300&q=80"
+            "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=300&q=80"
           },
           {
             "id": "canton-c-2",
@@ -52518,7 +52547,8 @@
         "category_name": "Classic Bangla-Chinese"
       }
     ],
-    "view_count": 29
+    "view_count": 30,
+    "banner": "https://images.unsplash.com/photo-1585032226651-759b368d7246?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "tabaq-coffee",
@@ -52535,7 +52565,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.5,
     "review_count": 3397,
-    "logo": "☕",
+    "logo": "https://images.unsplash.com/photo-1534778101976-62847782c213?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 1711-889911",
     "total_branches": 3,
     "branches": [
@@ -52638,7 +52668,8 @@
         "category_name": "Bites & Bakery"
       }
     ],
-    "view_count": 13
+    "view_count": 13,
+    "banner": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "crimson-cup",
@@ -52655,7 +52686,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.5,
     "review_count": 5534,
-    "logo": "☕",
+    "logo": "https://images.unsplash.com/photo-1534778101976-62847782c213?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 1714-112233",
     "total_branches": 3,
     "branches": [
@@ -52758,7 +52789,8 @@
         "category_name": "Snacks"
       }
     ],
-    "view_count": 15
+    "view_count": 15,
+    "banner": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "trouvaille",
@@ -52775,7 +52807,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.5,
     "review_count": 1464,
-    "logo": "🥐",
+    "logo": "https://images.unsplash.com/photo-1534778101976-62847782c213?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 1715-334455",
     "total_branches": 1,
     "branches": [
@@ -52828,7 +52860,8 @@
         "category_name": "Cafe Food"
       }
     ],
-    "view_count": 6
+    "view_count": 6,
+    "banner": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "georges-cafe",
@@ -52845,7 +52878,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.5,
     "review_count": 2391,
-    "logo": "🥞",
+    "logo": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 1716-445566",
     "total_branches": 1,
     "branches": [
@@ -52898,7 +52931,8 @@
         "category_name": "Breakfast & Burgers"
       }
     ],
-    "view_count": 18
+    "view_count": 18,
+    "banner": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "hirajheel-hotel",
@@ -52915,7 +52949,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.5,
     "review_count": 5506,
-    "logo": "🍛",
+    "logo": "https://images.unsplash.com/photo-1545247181-516773cae754?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 2-9561234",
     "total_branches": 2,
     "branches": [
@@ -52990,7 +53024,8 @@
         "category_name": "Traditional Delicacies"
       }
     ],
-    "view_count": 29
+    "view_count": 29,
+    "banner": "https://images.unsplash.com/photo-1545247181-516773cae754?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "chhayanir-hotel",
@@ -53007,7 +53042,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.5,
     "review_count": 6262,
-    "logo": "🐟",
+    "logo": "https://images.unsplash.com/photo-1545247181-516773cae754?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 1711-239988",
     "total_branches": 1,
     "branches": [
@@ -53069,7 +53104,8 @@
         "category_name": "Daily Bengali Lunch"
       }
     ],
-    "view_count": 29
+    "view_count": 29,
+    "banner": "https://images.unsplash.com/photo-1545247181-516773cae754?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "rajdhani-hotel",
@@ -53086,7 +53122,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.5,
     "review_count": 3331,
-    "logo": "🍲",
+    "logo": "https://images.unsplash.com/photo-1545247181-516773cae754?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 1712-349900",
     "total_branches": 1,
     "branches": [
@@ -53139,7 +53175,8 @@
         "category_name": "Desi Curries"
       }
     ],
-    "view_count": 15
+    "view_count": 15,
+    "banner": "https://images.unsplash.com/photo-1545247181-516773cae754?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "bhoj-bari",
@@ -53156,7 +53193,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.5,
     "review_count": 8120,
-    "logo": "🍛",
+    "logo": "https://images.unsplash.com/photo-1545247181-516773cae754?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 1715-667788",
     "total_branches": 1,
     "branches": [
@@ -53209,7 +53246,8 @@
         "category_name": "Bengali Thali & Specials"
       }
     ],
-    "view_count": 31
+    "view_count": 31,
+    "banner": "https://images.unsplash.com/photo-1545247181-516773cae754?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "mithai-pran",
@@ -53227,7 +53265,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.5,
     "review_count": 7373,
-    "logo": "🍬",
+    "logo": "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 1819-771101",
     "total_branches": 5,
     "branches": [
@@ -53365,7 +53403,8 @@
         "category_name": "Snacks & Savories"
       }
     ],
-    "view_count": 33
+    "view_count": 33,
+    "banner": "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "california-pastry-shop",
@@ -53382,7 +53421,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.5,
     "review_count": 2849,
-    "logo": "🧁",
+    "logo": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 1711-887766",
     "total_branches": 1,
     "branches": [
@@ -53435,7 +53474,8 @@
         "category_name": "Iconic Pastries"
       }
     ],
-    "view_count": 8
+    "view_count": 8,
+    "banner": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "swiss-quality-cake",
@@ -53452,7 +53492,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.5,
     "review_count": 2615,
-    "logo": "🎂",
+    "logo": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 1712-445566",
     "total_branches": 2,
     "branches": [
@@ -53518,7 +53558,8 @@
         "category_name": "Swiss Treats"
       }
     ],
-    "view_count": 12
+    "view_count": 12,
+    "banner": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "pizza-inn-bangladesh",
@@ -53535,7 +53576,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.5,
     "review_count": 3063,
-    "logo": "🍕",
+    "logo": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 1711-009988",
     "total_branches": 4,
     "branches": [
@@ -53636,7 +53677,8 @@
         "category_name": "Pan & Crust Pizzas"
       }
     ],
-    "view_count": 10
+    "view_count": 10,
+    "banner": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "the-pizza-guy",
@@ -53652,7 +53694,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.5,
     "review_count": 5998,
-    "logo": "🍕",
+    "logo": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 1714-445566",
     "total_branches": 1,
     "branches": [
@@ -53705,7 +53747,8 @@
         "category_name": "Artisan Wood-Fired Style"
       }
     ],
-    "view_count": 26
+    "view_count": 26,
+    "banner": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "chotpoti-fuchka-dhanmondi-lake",
@@ -53722,7 +53765,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.5,
     "review_count": 6253,
-    "logo": "🍲",
+    "logo": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 1711-000001",
     "total_branches": 2,
     "branches": [
@@ -53797,7 +53840,8 @@
         "category_name": "Lake Street Treats"
       }
     ],
-    "view_count": 26
+    "view_count": 26,
+    "banner": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "cp-five-star-mirpur",
@@ -53814,7 +53858,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.5,
     "review_count": 1477,
-    "logo": "🍗",
+    "logo": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 1711-110022",
     "total_branches": 4,
     "branches": [
@@ -53915,7 +53959,8 @@
         "category_name": "CP Crispy Delights"
       }
     ],
-    "view_count": 5
+    "view_count": 5,
+    "banner": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "shawarma-house-mirpur",
@@ -53932,7 +53977,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.5,
     "review_count": 3848,
-    "logo": "🌯",
+    "logo": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 1712-889900",
     "total_branches": 2,
     "branches": [
@@ -53998,7 +54043,8 @@
         "category_name": "Shawarma Specialties"
       }
     ],
-    "view_count": 17
+    "view_count": 17,
+    "banner": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "chaap-corner-mohammadpur",
@@ -54015,7 +54061,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.5,
     "review_count": 1574,
-    "logo": "🥩",
+    "logo": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 1713-445577",
     "total_branches": 1,
     "branches": [
@@ -54077,7 +54123,8 @@
         "category_name": "Chaap & Paratha"
       }
     ],
-    "view_count": 6
+    "view_count": 6,
+    "banner": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "tsc-chayer-tong",
@@ -54095,7 +54142,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.5,
     "review_count": 1322,
-    "logo": "☕",
+    "logo": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 1700-000010",
     "total_branches": 1,
     "branches": [
@@ -54157,7 +54204,8 @@
         "category_name": "Campus Teas & Snacks"
       }
     ],
-    "view_count": 3
+    "view_count": 3,
+    "banner": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "rabindra-sarani-chai-wala",
@@ -54174,7 +54222,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.5,
     "review_count": 5302,
-    "logo": "🫖",
+    "logo": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 1700-000011",
     "total_branches": 1,
     "branches": [
@@ -54227,7 +54275,8 @@
         "category_name": "Artisan Street Teas"
       }
     ],
-    "view_count": 16
+    "view_count": 16,
+    "banner": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "kacchi-station-dhanmondi-1",
@@ -54244,7 +54293,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.7,
     "review_count": 4709,
-    "logo": "🍖",
+    "logo": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17194-463347",
     "total_branches": 1,
     "branches": [
@@ -54312,7 +54361,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 13
+    "view_count": 13,
+    "banner": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "burger-hunt-dhanmondi-2",
@@ -54329,7 +54379,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.5,
     "review_count": 1501,
-    "logo": "🍔",
+    "logo": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17177-341758",
     "total_branches": 2,
     "branches": [
@@ -54410,7 +54460,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 6
+    "view_count": 6,
+    "banner": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "dhakaiya-tehari-hub-bailey road-3",
@@ -54427,7 +54478,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.6,
     "review_count": 1422,
-    "logo": "🍛",
+    "logo": "https://images.unsplash.com/photo-1589302168068-964664d93dc0?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17186-296857",
     "total_branches": 3,
     "branches": [
@@ -54521,7 +54572,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 6
+    "view_count": 6,
+    "banner": "https://images.unsplash.com/photo-1589302168068-964664d93dc0?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "wok-and-roll-pan-asian-gulshan-4",
@@ -54538,7 +54590,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.6,
     "review_count": 582,
-    "logo": "🥢",
+    "logo": "https://images.unsplash.com/photo-1585032226651-759b368d7246?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17135-255203",
     "total_branches": 2,
     "branches": [
@@ -54580,7 +54632,7 @@
             "price": 420,
             "description": "Spicy clear broth with chicken, mushroom and fresh lemongrass",
             "popular": true,
-            "image": "https://images.unsplash.com/photo-1548946526-f69e2424cf45?auto=format&fit=crop&w=300&q=80"
+            "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=300&q=80"
           },
           {
             "id": "wok-and-ro-2",
@@ -54619,7 +54671,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 5
+    "view_count": 5,
+    "banner": "https://images.unsplash.com/photo-1585032226651-759b368d7246?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "bean-and-brew-cafe-mohammadpur-5",
@@ -54636,7 +54689,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.5,
     "review_count": 3552,
-    "logo": "☕",
+    "logo": "https://images.unsplash.com/photo-1534778101976-62847782c213?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17190-371814",
     "total_branches": 2,
     "branches": [
@@ -54717,7 +54770,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 18
+    "view_count": 18,
+    "banner": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "dhaba-71-gulshan-6",
@@ -54734,7 +54788,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.4,
     "review_count": 2002,
-    "logo": "🐟",
+    "logo": "https://images.unsplash.com/photo-1545247181-516773cae754?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17127-268064",
     "total_branches": 1,
     "branches": [
@@ -54802,7 +54856,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 10
+    "view_count": 10,
+    "banner": "https://images.unsplash.com/photo-1545247181-516773cae754?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "crust-and-oven-pizza-co.-khilgaon-7",
@@ -54819,7 +54874,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.2,
     "review_count": 3105,
-    "logo": "🍕",
+    "logo": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17183-699364",
     "total_branches": 1,
     "branches": [
@@ -54887,7 +54942,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 14
+    "view_count": 14,
+    "banner": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "misti-mela-khilgaon-8",
@@ -54904,7 +54960,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.3,
     "review_count": 1914,
-    "logo": "🍯",
+    "logo": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17143-682375",
     "total_branches": 1,
     "branches": [
@@ -54972,7 +55028,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 5
+    "view_count": 5,
+    "banner": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "grill-and-chaap-junction-panthapath-9",
@@ -54989,7 +55046,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.5,
     "review_count": 4776,
-    "logo": "🍢",
+    "logo": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17126-286543",
     "total_branches": 1,
     "branches": [
@@ -55057,7 +55114,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 11
+    "view_count": 11,
+    "banner": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "tokyo-noodle-bar-banani-10",
@@ -55074,7 +55132,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.5,
     "review_count": 1492,
-    "logo": "🍜",
+    "logo": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17153-906491",
     "total_branches": 1,
     "branches": [
@@ -55142,7 +55200,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 6
+    "view_count": 6,
+    "banner": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "steak-house-360-old dhaka-11",
@@ -55159,7 +55218,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.4,
     "review_count": 3756,
-    "logo": "🥩",
+    "logo": "https://images.unsplash.com/photo-1558030006-450675393462?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17165-950242",
     "total_branches": 3,
     "branches": [
@@ -55244,7 +55303,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 10
+    "view_count": 10,
+    "banner": "https://images.unsplash.com/photo-1558030006-450675393462?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "chai-shai-adda-khilgaon-12",
@@ -55261,7 +55321,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.3,
     "review_count": 3895,
-    "logo": "🫖",
+    "logo": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17138-198694",
     "total_branches": 3,
     "branches": [
@@ -55355,7 +55415,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 15
+    "view_count": 15,
+    "banner": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "kacchi-station-gulshan-13",
@@ -55372,7 +55433,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.2,
     "review_count": 4586,
-    "logo": "🍖",
+    "logo": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17149-207483",
     "total_branches": 1,
     "branches": [
@@ -55440,7 +55501,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 14
+    "view_count": 14,
+    "banner": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "burger-hunt-old dhaka-14",
@@ -55457,7 +55519,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.4,
     "review_count": 1479,
-    "logo": "🍔",
+    "logo": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17185-855319",
     "total_branches": 3,
     "branches": [
@@ -55551,7 +55613,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 4
+    "view_count": 4,
+    "banner": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "dhakaiya-tehari-hub-bailey road-15",
@@ -55568,7 +55631,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.3,
     "review_count": 4800,
-    "logo": "🍛",
+    "logo": "https://images.unsplash.com/photo-1589302168068-964664d93dc0?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17155-981136",
     "total_branches": 2,
     "branches": [
@@ -55649,7 +55712,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 16
+    "view_count": 16,
+    "banner": "https://images.unsplash.com/photo-1589302168068-964664d93dc0?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "wok-and-roll-pan-asian-panthapath-16",
@@ -55666,7 +55730,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.4,
     "review_count": 1630,
-    "logo": "🥢",
+    "logo": "https://images.unsplash.com/photo-1585032226651-759b368d7246?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17157-261232",
     "total_branches": 3,
     "branches": [
@@ -55721,7 +55785,7 @@
             "price": 420,
             "description": "Spicy clear broth with chicken, mushroom and fresh lemongrass",
             "popular": true,
-            "image": "https://images.unsplash.com/photo-1548946526-f69e2424cf45?auto=format&fit=crop&w=300&q=80"
+            "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=300&q=80"
           },
           {
             "id": "wok-and-ro-2",
@@ -55760,7 +55824,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 3
+    "view_count": 3,
+    "banner": "https://images.unsplash.com/photo-1585032226651-759b368d7246?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "bean-and-brew-cafe-bashundhara-17",
@@ -55777,7 +55842,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.6,
     "review_count": 2095,
-    "logo": "☕",
+    "logo": "https://images.unsplash.com/photo-1534778101976-62847782c213?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17147-228846",
     "total_branches": 2,
     "branches": [
@@ -55858,7 +55923,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 10
+    "view_count": 10,
+    "banner": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "dhaba-71-mirpur-18",
@@ -55875,7 +55941,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.4,
     "review_count": 1322,
-    "logo": "🐟",
+    "logo": "https://images.unsplash.com/photo-1545247181-516773cae754?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17124-932862",
     "total_branches": 2,
     "branches": [
@@ -55956,7 +56022,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 5
+    "view_count": 5,
+    "banner": "https://images.unsplash.com/photo-1545247181-516773cae754?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "crust-and-oven-pizza-co.-mohammadpur-19",
@@ -55973,7 +56040,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.4,
     "review_count": 4318,
-    "logo": "🍕",
+    "logo": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17170-866469",
     "total_branches": 2,
     "branches": [
@@ -56054,7 +56121,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 14
+    "view_count": 14,
+    "banner": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "misti-mela-bailey road-20",
@@ -56071,7 +56139,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.5,
     "review_count": 1607,
-    "logo": "🍯",
+    "logo": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17193-993896",
     "total_branches": 2,
     "branches": [
@@ -56152,7 +56220,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 2
+    "view_count": 2,
+    "banner": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "grill-and-chaap-junction-mirpur-21",
@@ -56169,7 +56238,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.2,
     "review_count": 3951,
-    "logo": "🍢",
+    "logo": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17174-632773",
     "total_branches": 2,
     "branches": [
@@ -56250,7 +56319,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 11
+    "view_count": 11,
+    "banner": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "tokyo-noodle-bar-dhanmondi-22",
@@ -56267,7 +56337,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.4,
     "review_count": 1600,
-    "logo": "🍜",
+    "logo": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17160-577072",
     "total_branches": 3,
     "branches": [
@@ -56361,7 +56431,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 5
+    "view_count": 5,
+    "banner": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "steak-house-360-gulshan-23",
@@ -56378,7 +56449,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.7,
     "review_count": 1418,
-    "logo": "🥩",
+    "logo": "https://images.unsplash.com/photo-1558030006-450675393462?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17117-602811",
     "total_branches": 1,
     "branches": [
@@ -56437,7 +56508,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 3
+    "view_count": 3,
+    "banner": "https://images.unsplash.com/photo-1558030006-450675393462?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "chai-shai-adda-dhanmondi-24",
@@ -56454,7 +56526,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.6,
     "review_count": 3069,
-    "logo": "🫖",
+    "logo": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17119-686031",
     "total_branches": 3,
     "branches": [
@@ -56548,7 +56620,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 15
+    "view_count": 15,
+    "banner": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "kacchi-station-banani-25",
@@ -56565,7 +56638,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.5,
     "review_count": 604,
-    "logo": "🍖",
+    "logo": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17190-481790",
     "total_branches": 1,
     "branches": [
@@ -56633,7 +56706,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 2
+    "view_count": 2,
+    "banner": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "burger-hunt-bashundhara-26",
@@ -56650,7 +56724,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.5,
     "review_count": 1761,
-    "logo": "🍔",
+    "logo": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17168-851481",
     "total_branches": 3,
     "branches": [
@@ -56744,7 +56818,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 2
+    "view_count": 2,
+    "banner": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "dhakaiya-tehari-hub-motijheel-27",
@@ -56761,7 +56836,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.4,
     "review_count": 2659,
-    "logo": "🍛",
+    "logo": "https://images.unsplash.com/photo-1589302168068-964664d93dc0?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17162-263404",
     "total_branches": 3,
     "branches": [
@@ -56855,7 +56930,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 12
+    "view_count": 12,
+    "banner": "https://images.unsplash.com/photo-1589302168068-964664d93dc0?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "wok-and-roll-pan-asian-gulshan-28",
@@ -56872,7 +56948,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.6,
     "review_count": 999,
-    "logo": "🥢",
+    "logo": "https://images.unsplash.com/photo-1585032226651-759b368d7246?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17126-592157",
     "total_branches": 2,
     "branches": [
@@ -56914,7 +56990,7 @@
             "price": 420,
             "description": "Spicy clear broth with chicken, mushroom and fresh lemongrass",
             "popular": true,
-            "image": "https://images.unsplash.com/photo-1548946526-f69e2424cf45?auto=format&fit=crop&w=300&q=80"
+            "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=300&q=80"
           },
           {
             "id": "wok-and-ro-2",
@@ -56953,7 +57029,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 4
+    "view_count": 4,
+    "banner": "https://images.unsplash.com/photo-1585032226651-759b368d7246?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "bean-and-brew-cafe-bashundhara-29",
@@ -56970,7 +57047,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.6,
     "review_count": 474,
-    "logo": "☕",
+    "logo": "https://images.unsplash.com/photo-1534778101976-62847782c213?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17110-710715",
     "total_branches": 1,
     "branches": [
@@ -57038,7 +57115,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 5
+    "view_count": 5,
+    "banner": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "dhaba-71-banani-30",
@@ -57055,7 +57133,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.5,
     "review_count": 4674,
-    "logo": "🐟",
+    "logo": "https://images.unsplash.com/photo-1545247181-516773cae754?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17133-364130",
     "total_branches": 3,
     "branches": [
@@ -57149,7 +57227,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 13
+    "view_count": 13,
+    "banner": "https://images.unsplash.com/photo-1545247181-516773cae754?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "crust-and-oven-pizza-co.-motijheel-31",
@@ -57166,7 +57245,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.4,
     "review_count": 2937,
-    "logo": "🍕",
+    "logo": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17110-793086",
     "total_branches": 2,
     "branches": [
@@ -57247,7 +57326,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 10
+    "view_count": 10,
+    "banner": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "misti-mela-motijheel-32",
@@ -57264,7 +57344,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.3,
     "review_count": 550,
-    "logo": "🍯",
+    "logo": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17136-857528",
     "total_branches": 1,
     "branches": [
@@ -57332,7 +57412,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 2
+    "view_count": 2,
+    "banner": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "grill-and-chaap-junction-banani-33",
@@ -57349,7 +57430,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.5,
     "review_count": 4504,
-    "logo": "🍢",
+    "logo": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17150-248230",
     "total_branches": 2,
     "branches": [
@@ -57430,7 +57511,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 11
+    "view_count": 11,
+    "banner": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "tokyo-noodle-bar-mohammadpur-34",
@@ -57447,7 +57529,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.4,
     "review_count": 1634,
-    "logo": "🍜",
+    "logo": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17147-873862",
     "total_branches": 2,
     "branches": [
@@ -57528,7 +57610,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 4
+    "view_count": 4,
+    "banner": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "steak-house-360-panthapath-35",
@@ -57545,7 +57628,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.3,
     "review_count": 1517,
-    "logo": "🥩",
+    "logo": "https://images.unsplash.com/photo-1558030006-450675393462?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17114-156424",
     "total_branches": 3,
     "branches": [
@@ -57630,7 +57713,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 2
+    "view_count": 2,
+    "banner": "https://images.unsplash.com/photo-1558030006-450675393462?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "chai-shai-adda-uttara-36",
@@ -57647,7 +57731,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.4,
     "review_count": 988,
-    "logo": "🫖",
+    "logo": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17168-533785",
     "total_branches": 2,
     "branches": [
@@ -57728,7 +57812,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 4
+    "view_count": 4,
+    "banner": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "kacchi-station-banani-37",
@@ -57745,7 +57830,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.3,
     "review_count": 3351,
-    "logo": "🍖",
+    "logo": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17185-995054",
     "total_branches": 3,
     "branches": [
@@ -57839,7 +57924,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 8
+    "view_count": 8,
+    "banner": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "burger-hunt-mohammadpur-38",
@@ -57856,7 +57942,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.4,
     "review_count": 3263,
-    "logo": "🍔",
+    "logo": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17183-202741",
     "total_branches": 2,
     "branches": [
@@ -57937,7 +58023,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 12
+    "view_count": 12,
+    "banner": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "dhakaiya-tehari-hub-uttara-39",
@@ -57954,7 +58041,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.6,
     "review_count": 2807,
-    "logo": "🍛",
+    "logo": "https://images.unsplash.com/photo-1589302168068-964664d93dc0?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17153-205170",
     "total_branches": 2,
     "branches": [
@@ -58035,7 +58122,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 12
+    "view_count": 12,
+    "banner": "https://images.unsplash.com/photo-1589302168068-964664d93dc0?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "wok-and-roll-pan-asian-old dhaka-40",
@@ -58052,7 +58140,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.5,
     "review_count": 4016,
-    "logo": "🥢",
+    "logo": "https://images.unsplash.com/photo-1585032226651-759b368d7246?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17170-282560",
     "total_branches": 2,
     "branches": [
@@ -58094,7 +58182,7 @@
             "price": 420,
             "description": "Spicy clear broth with chicken, mushroom and fresh lemongrass",
             "popular": true,
-            "image": "https://images.unsplash.com/photo-1548946526-f69e2424cf45?auto=format&fit=crop&w=300&q=80"
+            "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=300&q=80"
           },
           {
             "id": "wok-and-ro-2",
@@ -58133,7 +58221,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 14
+    "view_count": 14,
+    "banner": "https://images.unsplash.com/photo-1585032226651-759b368d7246?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "bean-and-brew-cafe-motijheel-41",
@@ -58150,7 +58239,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.3,
     "review_count": 2497,
-    "logo": "☕",
+    "logo": "https://images.unsplash.com/photo-1534778101976-62847782c213?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17182-333090",
     "total_branches": 3,
     "branches": [
@@ -58244,7 +58333,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 14
+    "view_count": 14,
+    "banner": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "dhaba-71-panthapath-42",
@@ -58261,7 +58351,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.7,
     "review_count": 4490,
-    "logo": "🐟",
+    "logo": "https://images.unsplash.com/photo-1545247181-516773cae754?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17188-910157",
     "total_branches": 1,
     "branches": [
@@ -58329,7 +58419,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 18
+    "view_count": 18,
+    "banner": "https://images.unsplash.com/photo-1545247181-516773cae754?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "crust-and-oven-pizza-co.-dhanmondi-43",
@@ -58346,7 +58437,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.3,
     "review_count": 941,
-    "logo": "🍕",
+    "logo": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17133-369274",
     "total_branches": 2,
     "branches": [
@@ -58427,7 +58518,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 6
+    "view_count": 6,
+    "banner": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "misti-mela-mohammadpur-44",
@@ -58444,7 +58536,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.4,
     "review_count": 4429,
-    "logo": "🍯",
+    "logo": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17196-635903",
     "total_branches": 3,
     "branches": [
@@ -58538,7 +58630,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 18
+    "view_count": 18,
+    "banner": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "grill-and-chaap-junction-uttara-45",
@@ -58555,7 +58648,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.7,
     "review_count": 1438,
-    "logo": "🍢",
+    "logo": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17157-641586",
     "total_branches": 2,
     "branches": [
@@ -58636,7 +58729,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 5
+    "view_count": 5,
+    "banner": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "tokyo-noodle-bar-bailey road-46",
@@ -58653,7 +58747,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.6,
     "review_count": 2129,
-    "logo": "🍜",
+    "logo": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17165-932984",
     "total_branches": 2,
     "branches": [
@@ -58734,7 +58828,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 9
+    "view_count": 9,
+    "banner": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "steak-house-360-bashundhara-47",
@@ -58751,7 +58846,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.4,
     "review_count": 3092,
-    "logo": "🥩",
+    "logo": "https://images.unsplash.com/photo-1558030006-450675393462?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17111-473433",
     "total_branches": 1,
     "branches": [
@@ -58810,7 +58905,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 18
+    "view_count": 18,
+    "banner": "https://images.unsplash.com/photo-1558030006-450675393462?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "chai-shai-adda-dhanmondi-48",
@@ -58827,7 +58923,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.3,
     "review_count": 4268,
-    "logo": "🫖",
+    "logo": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17156-223020",
     "total_branches": 1,
     "branches": [
@@ -58895,7 +58991,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 10
+    "view_count": 10,
+    "banner": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "kacchi-station-bashundhara-49",
@@ -58912,7 +59009,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.3,
     "review_count": 4749,
-    "logo": "🍖",
+    "logo": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17155-948010",
     "total_branches": 1,
     "branches": [
@@ -58980,7 +59077,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 10
+    "view_count": 10,
+    "banner": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "burger-hunt-gulshan-50",
@@ -58997,7 +59095,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.5,
     "review_count": 920,
-    "logo": "🍔",
+    "logo": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17156-786180",
     "total_branches": 1,
     "branches": [
@@ -59065,7 +59163,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 5
+    "view_count": 5,
+    "banner": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "dhakaiya-tehari-hub-uttara-51",
@@ -59082,7 +59181,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.2,
     "review_count": 1681,
-    "logo": "🍛",
+    "logo": "https://images.unsplash.com/photo-1589302168068-964664d93dc0?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17173-496684",
     "total_branches": 1,
     "branches": [
@@ -59150,7 +59249,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 2
+    "view_count": 2,
+    "banner": "https://images.unsplash.com/photo-1589302168068-964664d93dc0?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "wok-and-roll-pan-asian-gulshan-52",
@@ -59167,7 +59267,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.5,
     "review_count": 2111,
-    "logo": "🥢",
+    "logo": "https://images.unsplash.com/photo-1585032226651-759b368d7246?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17184-605057",
     "total_branches": 2,
     "branches": [
@@ -59209,7 +59309,7 @@
             "price": 420,
             "description": "Spicy clear broth with chicken, mushroom and fresh lemongrass",
             "popular": true,
-            "image": "https://images.unsplash.com/photo-1548946526-f69e2424cf45?auto=format&fit=crop&w=300&q=80"
+            "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=300&q=80"
           },
           {
             "id": "wok-and-ro-2",
@@ -59248,7 +59348,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 14
+    "view_count": 14,
+    "banner": "https://images.unsplash.com/photo-1585032226651-759b368d7246?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "bean-and-brew-cafe-khilgaon-53",
@@ -59265,7 +59366,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.6,
     "review_count": 4785,
-    "logo": "☕",
+    "logo": "https://images.unsplash.com/photo-1534778101976-62847782c213?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17155-519292",
     "total_branches": 1,
     "branches": [
@@ -59333,7 +59434,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 14
+    "view_count": 14,
+    "banner": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "dhaba-71-bailey road-54",
@@ -59350,7 +59452,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.6,
     "review_count": 3604,
-    "logo": "🐟",
+    "logo": "https://images.unsplash.com/photo-1545247181-516773cae754?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17190-220277",
     "total_branches": 3,
     "branches": [
@@ -59444,7 +59546,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 12
+    "view_count": 12,
+    "banner": "https://images.unsplash.com/photo-1545247181-516773cae754?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "crust-and-oven-pizza-co.-mirpur-55",
@@ -59461,7 +59564,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.4,
     "review_count": 1849,
-    "logo": "🍕",
+    "logo": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17148-198939",
     "total_branches": 2,
     "branches": [
@@ -59542,7 +59645,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 4
+    "view_count": 4,
+    "banner": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "misti-mela-old dhaka-56",
@@ -59559,7 +59663,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.4,
     "review_count": 1268,
-    "logo": "🍯",
+    "logo": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17124-861240",
     "total_branches": 3,
     "branches": [
@@ -59653,7 +59757,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 4
+    "view_count": 4,
+    "banner": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "grill-and-chaap-junction-banani-57",
@@ -59670,7 +59775,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.2,
     "review_count": 3567,
-    "logo": "🍢",
+    "logo": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17192-918098",
     "total_branches": 3,
     "branches": [
@@ -59764,7 +59869,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 16
+    "view_count": 16,
+    "banner": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "tokyo-noodle-bar-mirpur-58",
@@ -59781,7 +59887,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.5,
     "review_count": 3122,
-    "logo": "🍜",
+    "logo": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17194-264720",
     "total_branches": 2,
     "branches": [
@@ -59862,7 +59968,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 13
+    "view_count": 13,
+    "banner": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "steak-house-360-mohammadpur-59",
@@ -59879,7 +59986,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.5,
     "review_count": 804,
-    "logo": "🥩",
+    "logo": "https://images.unsplash.com/photo-1558030006-450675393462?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17152-458364",
     "total_branches": 3,
     "branches": [
@@ -59964,7 +60071,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 4
+    "view_count": 4,
+    "banner": "https://images.unsplash.com/photo-1558030006-450675393462?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "chai-shai-adda-motijheel-60",
@@ -59981,7 +60089,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.6,
     "review_count": 4167,
-    "logo": "🫖",
+    "logo": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17136-638343",
     "total_branches": 3,
     "branches": [
@@ -60075,7 +60183,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 10
+    "view_count": 10,
+    "banner": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "kacchi-station-mirpur-61",
@@ -60092,7 +60201,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.4,
     "review_count": 3877,
-    "logo": "🍖",
+    "logo": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17145-679583",
     "total_branches": 2,
     "branches": [
@@ -60173,7 +60282,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 16
+    "view_count": 16,
+    "banner": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "burger-hunt-mohammadpur-62",
@@ -60190,7 +60300,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.3,
     "review_count": 727,
-    "logo": "🍔",
+    "logo": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17177-690856",
     "total_branches": 1,
     "branches": [
@@ -60258,7 +60368,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 4
+    "view_count": 4,
+    "banner": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "dhakaiya-tehari-hub-gulshan-63",
@@ -60275,7 +60386,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.3,
     "review_count": 872,
-    "logo": "🍛",
+    "logo": "https://images.unsplash.com/photo-1589302168068-964664d93dc0?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17199-824181",
     "total_branches": 3,
     "branches": [
@@ -60369,7 +60480,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 4
+    "view_count": 4,
+    "banner": "https://images.unsplash.com/photo-1589302168068-964664d93dc0?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "wok-and-roll-pan-asian-bashundhara-64",
@@ -60386,7 +60498,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.6,
     "review_count": 1726,
-    "logo": "🥢",
+    "logo": "https://images.unsplash.com/photo-1585032226651-759b368d7246?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17142-764388",
     "total_branches": 3,
     "branches": [
@@ -60441,7 +60553,7 @@
             "price": 420,
             "description": "Spicy clear broth with chicken, mushroom and fresh lemongrass",
             "popular": true,
-            "image": "https://images.unsplash.com/photo-1548946526-f69e2424cf45?auto=format&fit=crop&w=300&q=80"
+            "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=300&q=80"
           },
           {
             "id": "wok-and-ro-2",
@@ -60480,7 +60592,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 3
+    "view_count": 3,
+    "banner": "https://images.unsplash.com/photo-1585032226651-759b368d7246?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "bean-and-brew-cafe-bailey road-65",
@@ -60497,7 +60610,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.7,
     "review_count": 1886,
-    "logo": "☕",
+    "logo": "https://images.unsplash.com/photo-1534778101976-62847782c213?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17199-863058",
     "total_branches": 3,
     "branches": [
@@ -60591,7 +60704,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 6
+    "view_count": 6,
+    "banner": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "dhaba-71-gulshan-66",
@@ -60608,7 +60722,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.6,
     "review_count": 3524,
-    "logo": "🐟",
+    "logo": "https://images.unsplash.com/photo-1545247181-516773cae754?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17120-285531",
     "total_branches": 1,
     "branches": [
@@ -60676,7 +60790,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 8
+    "view_count": 8,
+    "banner": "https://images.unsplash.com/photo-1545247181-516773cae754?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "crust-and-oven-pizza-co.-motijheel-67",
@@ -60693,7 +60808,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.5,
     "review_count": 780,
-    "logo": "🍕",
+    "logo": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17157-131889",
     "total_branches": 2,
     "branches": [
@@ -60774,7 +60889,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 3
+    "view_count": 3,
+    "banner": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "misti-mela-motijheel-68",
@@ -60791,7 +60907,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.3,
     "review_count": 4011,
-    "logo": "🍯",
+    "logo": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17150-446615",
     "total_branches": 2,
     "branches": [
@@ -60872,7 +60988,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 12
+    "view_count": 12,
+    "banner": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "grill-and-chaap-junction-khilgaon-69",
@@ -60889,7 +61006,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.5,
     "review_count": 3038,
-    "logo": "🍢",
+    "logo": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17127-100020",
     "total_branches": 2,
     "branches": [
@@ -60970,7 +61087,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 8
+    "view_count": 8,
+    "banner": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "tokyo-noodle-bar-uttara-70",
@@ -60987,7 +61105,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.7,
     "review_count": 4376,
-    "logo": "🍜",
+    "logo": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17149-349475",
     "total_branches": 2,
     "branches": [
@@ -61068,7 +61186,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 18
+    "view_count": 18,
+    "banner": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "steak-house-360-panthapath-71",
@@ -61085,7 +61204,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.6,
     "review_count": 2570,
-    "logo": "🥩",
+    "logo": "https://images.unsplash.com/photo-1558030006-450675393462?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17182-847291",
     "total_branches": 3,
     "branches": [
@@ -61170,7 +61289,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 10
+    "view_count": 10,
+    "banner": "https://images.unsplash.com/photo-1558030006-450675393462?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "chai-shai-adda-panthapath-72",
@@ -61187,7 +61307,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.6,
     "review_count": 1973,
-    "logo": "🫖",
+    "logo": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17146-729889",
     "total_branches": 1,
     "branches": [
@@ -61255,7 +61375,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 4
+    "view_count": 4,
+    "banner": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "kacchi-station-mohammadpur-73",
@@ -61272,7 +61393,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.3,
     "review_count": 4625,
-    "logo": "🍖",
+    "logo": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17193-813396",
     "total_branches": 1,
     "branches": [
@@ -61340,7 +61461,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 15
+    "view_count": 15,
+    "banner": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "burger-hunt-motijheel-74",
@@ -61357,7 +61479,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.6,
     "review_count": 2758,
-    "logo": "🍔",
+    "logo": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17159-743200",
     "total_branches": 2,
     "branches": [
@@ -61438,7 +61560,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 14
+    "view_count": 14,
+    "banner": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "dhakaiya-tehari-hub-motijheel-75",
@@ -61455,7 +61578,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.4,
     "review_count": 4599,
-    "logo": "🍛",
+    "logo": "https://images.unsplash.com/photo-1589302168068-964664d93dc0?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17166-579207",
     "total_branches": 1,
     "branches": [
@@ -61523,7 +61646,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 11
+    "view_count": 11,
+    "banner": "https://images.unsplash.com/photo-1589302168068-964664d93dc0?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "wok-and-roll-pan-asian-panthapath-76",
@@ -61540,7 +61664,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.3,
     "review_count": 1463,
-    "logo": "🥢",
+    "logo": "https://images.unsplash.com/photo-1585032226651-759b368d7246?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17120-850007",
     "total_branches": 1,
     "branches": [
@@ -61569,7 +61693,7 @@
             "price": 420,
             "description": "Spicy clear broth with chicken, mushroom and fresh lemongrass",
             "popular": true,
-            "image": "https://images.unsplash.com/photo-1548946526-f69e2424cf45?auto=format&fit=crop&w=300&q=80"
+            "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=300&q=80"
           },
           {
             "id": "wok-and-ro-2",
@@ -61608,7 +61732,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 3
+    "view_count": 3,
+    "banner": "https://images.unsplash.com/photo-1585032226651-759b368d7246?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "bean-and-brew-cafe-banani-77",
@@ -61625,7 +61750,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.2,
     "review_count": 4161,
-    "logo": "☕",
+    "logo": "https://images.unsplash.com/photo-1534778101976-62847782c213?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17150-884098",
     "total_branches": 2,
     "branches": [
@@ -61706,7 +61831,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 12
+    "view_count": 12,
+    "banner": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "dhaba-71-motijheel-78",
@@ -61723,7 +61849,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.2,
     "review_count": 2414,
-    "logo": "🐟",
+    "logo": "https://images.unsplash.com/photo-1545247181-516773cae754?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17173-576798",
     "total_branches": 2,
     "branches": [
@@ -61804,7 +61930,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 16
+    "view_count": 16,
+    "banner": "https://images.unsplash.com/photo-1545247181-516773cae754?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "crust-and-oven-pizza-co.-motijheel-79",
@@ -61821,7 +61948,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.3,
     "review_count": 2766,
-    "logo": "🍕",
+    "logo": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17192-755472",
     "total_branches": 2,
     "branches": [
@@ -61902,7 +62029,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 16
+    "view_count": 16,
+    "banner": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "misti-mela-bashundhara-80",
@@ -61919,7 +62047,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.5,
     "review_count": 1791,
-    "logo": "🍯",
+    "logo": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17143-258951",
     "total_branches": 3,
     "branches": [
@@ -62013,7 +62141,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 4
+    "view_count": 4,
+    "banner": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "grill-and-chaap-junction-gulshan-81",
@@ -62030,7 +62159,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.5,
     "review_count": 1056,
-    "logo": "🍢",
+    "logo": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17195-171693",
     "total_branches": 1,
     "branches": [
@@ -62098,7 +62227,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 5
+    "view_count": 5,
+    "banner": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "tokyo-noodle-bar-motijheel-82",
@@ -62115,7 +62245,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.2,
     "review_count": 1760,
-    "logo": "🍜",
+    "logo": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17186-957950",
     "total_branches": 3,
     "branches": [
@@ -62209,7 +62339,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 6
+    "view_count": 6,
+    "banner": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "steak-house-360-panthapath-83",
@@ -62226,7 +62357,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.7,
     "review_count": 4518,
-    "logo": "🥩",
+    "logo": "https://images.unsplash.com/photo-1558030006-450675393462?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17115-582092",
     "total_branches": 1,
     "branches": [
@@ -62285,7 +62416,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 18
+    "view_count": 18,
+    "banner": "https://images.unsplash.com/photo-1558030006-450675393462?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "chai-shai-adda-motijheel-84",
@@ -62302,7 +62434,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.3,
     "review_count": 4694,
-    "logo": "🫖",
+    "logo": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17196-886897",
     "total_branches": 3,
     "branches": [
@@ -62396,7 +62528,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 11
+    "view_count": 11,
+    "banner": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "kacchi-station-banani-85",
@@ -62413,7 +62546,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.6,
     "review_count": 2705,
-    "logo": "🍖",
+    "logo": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17192-712348",
     "total_branches": 3,
     "branches": [
@@ -62507,7 +62640,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 15
+    "view_count": 15,
+    "banner": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "burger-hunt-bashundhara-86",
@@ -62524,7 +62658,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.2,
     "review_count": 1145,
-    "logo": "🍔",
+    "logo": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17192-141415",
     "total_branches": 3,
     "branches": [
@@ -62618,7 +62752,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 4
+    "view_count": 4,
+    "banner": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "dhakaiya-tehari-hub-khilgaon-87",
@@ -62635,7 +62770,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.6,
     "review_count": 1070,
-    "logo": "🍛",
+    "logo": "https://images.unsplash.com/photo-1589302168068-964664d93dc0?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17127-554723",
     "total_branches": 2,
     "branches": [
@@ -62716,7 +62851,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 2
+    "view_count": 2,
+    "banner": "https://images.unsplash.com/photo-1589302168068-964664d93dc0?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "wok-and-roll-pan-asian-uttara-88",
@@ -62733,7 +62869,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.5,
     "review_count": 1834,
-    "logo": "🥢",
+    "logo": "https://images.unsplash.com/photo-1585032226651-759b368d7246?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17142-296904",
     "total_branches": 1,
     "branches": [
@@ -62762,7 +62898,7 @@
             "price": 420,
             "description": "Spicy clear broth with chicken, mushroom and fresh lemongrass",
             "popular": true,
-            "image": "https://images.unsplash.com/photo-1548946526-f69e2424cf45?auto=format&fit=crop&w=300&q=80"
+            "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=300&q=80"
           },
           {
             "id": "wok-and-ro-2",
@@ -62801,7 +62937,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 4
+    "view_count": 4,
+    "banner": "https://images.unsplash.com/photo-1585032226651-759b368d7246?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "bean-and-brew-cafe-motijheel-89",
@@ -62818,7 +62955,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.5,
     "review_count": 3339,
-    "logo": "☕",
+    "logo": "https://images.unsplash.com/photo-1534778101976-62847782c213?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17152-612301",
     "total_branches": 1,
     "branches": [
@@ -62886,7 +63023,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 16
+    "view_count": 16,
+    "banner": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "dhaba-71-mirpur-90",
@@ -62903,7 +63041,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.3,
     "review_count": 3878,
-    "logo": "🐟",
+    "logo": "https://images.unsplash.com/photo-1545247181-516773cae754?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17154-828585",
     "total_branches": 3,
     "branches": [
@@ -62997,7 +63135,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 17
+    "view_count": 17,
+    "banner": "https://images.unsplash.com/photo-1545247181-516773cae754?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "crust-and-oven-pizza-co.-motijheel-91",
@@ -63014,7 +63153,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.5,
     "review_count": 2228,
-    "logo": "🍕",
+    "logo": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17116-375744",
     "total_branches": 3,
     "branches": [
@@ -63108,7 +63247,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 9
+    "view_count": 9,
+    "banner": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "misti-mela-khilgaon-92",
@@ -63125,7 +63265,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.6,
     "review_count": 1818,
-    "logo": "🍯",
+    "logo": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17113-565816",
     "total_branches": 3,
     "branches": [
@@ -63219,7 +63359,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 2
+    "view_count": 2,
+    "banner": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "grill-and-chaap-junction-uttara-93",
@@ -63236,7 +63377,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.6,
     "review_count": 927,
-    "logo": "🍢",
+    "logo": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17168-230735",
     "total_branches": 3,
     "branches": [
@@ -63330,7 +63471,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 2
+    "view_count": 2,
+    "banner": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "tokyo-noodle-bar-old dhaka-94",
@@ -63347,7 +63489,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.5,
     "review_count": 1632,
-    "logo": "🍜",
+    "logo": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17121-166690",
     "total_branches": 2,
     "branches": [
@@ -63428,7 +63570,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 3
+    "view_count": 3,
+    "banner": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "steak-house-360-old dhaka-95",
@@ -63445,7 +63588,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.7,
     "review_count": 4076,
-    "logo": "🥩",
+    "logo": "https://images.unsplash.com/photo-1558030006-450675393462?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17197-825049",
     "total_branches": 2,
     "branches": [
@@ -63517,7 +63660,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 16
+    "view_count": 16,
+    "banner": "https://images.unsplash.com/photo-1558030006-450675393462?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "chai-shai-adda-banani-96",
@@ -63534,7 +63678,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.4,
     "review_count": 2253,
-    "logo": "🫖",
+    "logo": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17160-638960",
     "total_branches": 1,
     "branches": [
@@ -63602,7 +63746,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 15
+    "view_count": 15,
+    "banner": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "kacchi-station-mirpur-97",
@@ -63619,7 +63764,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.3,
     "review_count": 1500,
-    "logo": "🍖",
+    "logo": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17123-348420",
     "total_branches": 3,
     "branches": [
@@ -63713,7 +63858,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 3
+    "view_count": 3,
+    "banner": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "burger-hunt-banani-98",
@@ -63730,7 +63876,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.3,
     "review_count": 1604,
-    "logo": "🍔",
+    "logo": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17165-430822",
     "total_branches": 3,
     "branches": [
@@ -63824,7 +63970,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 3
+    "view_count": 3,
+    "banner": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "dhakaiya-tehari-hub-bashundhara-99",
@@ -63841,7 +63988,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.7,
     "review_count": 2440,
-    "logo": "🍛",
+    "logo": "https://images.unsplash.com/photo-1589302168068-964664d93dc0?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17141-554441",
     "total_branches": 1,
     "branches": [
@@ -63909,7 +64056,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 17
+    "view_count": 17,
+    "banner": "https://images.unsplash.com/photo-1589302168068-964664d93dc0?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "wok-and-roll-pan-asian-gulshan-100",
@@ -63926,7 +64074,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.6,
     "review_count": 4237,
-    "logo": "🥢",
+    "logo": "https://images.unsplash.com/photo-1585032226651-759b368d7246?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17118-681422",
     "total_branches": 1,
     "branches": [
@@ -63955,7 +64103,7 @@
             "price": 420,
             "description": "Spicy clear broth with chicken, mushroom and fresh lemongrass",
             "popular": true,
-            "image": "https://images.unsplash.com/photo-1548946526-f69e2424cf45?auto=format&fit=crop&w=300&q=80"
+            "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=300&q=80"
           },
           {
             "id": "wok-and-ro-2",
@@ -63994,7 +64142,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 10
+    "view_count": 10,
+    "banner": "https://images.unsplash.com/photo-1585032226651-759b368d7246?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "bean-and-brew-cafe-gulshan-101",
@@ -64011,7 +64160,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.3,
     "review_count": 1900,
-    "logo": "☕",
+    "logo": "https://images.unsplash.com/photo-1534778101976-62847782c213?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17117-890454",
     "total_branches": 1,
     "branches": [
@@ -64079,7 +64228,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 3
+    "view_count": 3,
+    "banner": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "dhaba-71-mohammadpur-102",
@@ -64096,7 +64246,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.3,
     "review_count": 1910,
-    "logo": "🐟",
+    "logo": "https://images.unsplash.com/photo-1545247181-516773cae754?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17151-966869",
     "total_branches": 2,
     "branches": [
@@ -64177,7 +64327,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 5
+    "view_count": 5,
+    "banner": "https://images.unsplash.com/photo-1545247181-516773cae754?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "crust-and-oven-pizza-co.-panthapath-103",
@@ -64194,7 +64345,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.5,
     "review_count": 648,
-    "logo": "🍕",
+    "logo": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17152-503088",
     "total_branches": 1,
     "branches": [
@@ -64262,7 +64413,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 3
+    "view_count": 3,
+    "banner": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "misti-mela-bailey road-104",
@@ -64279,7 +64431,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.5,
     "review_count": 2860,
-    "logo": "🍯",
+    "logo": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17157-717896",
     "total_branches": 1,
     "branches": [
@@ -64347,7 +64499,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 10
+    "view_count": 10,
+    "banner": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "grill-and-chaap-junction-uttara-105",
@@ -64364,7 +64517,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.4,
     "review_count": 4294,
-    "logo": "🍢",
+    "logo": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17160-205373",
     "total_branches": 1,
     "branches": [
@@ -64432,7 +64585,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 18
+    "view_count": 18,
+    "banner": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "tokyo-noodle-bar-dhanmondi-106",
@@ -64449,7 +64603,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.5,
     "review_count": 880,
-    "logo": "🍜",
+    "logo": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17166-266554",
     "total_branches": 1,
     "branches": [
@@ -64517,7 +64671,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 4
+    "view_count": 4,
+    "banner": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "steak-house-360-uttara-107",
@@ -64534,7 +64689,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.5,
     "review_count": 596,
-    "logo": "🥩",
+    "logo": "https://images.unsplash.com/photo-1558030006-450675393462?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17161-162420",
     "total_branches": 3,
     "branches": [
@@ -64619,7 +64774,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 5
+    "view_count": 5,
+    "banner": "https://images.unsplash.com/photo-1558030006-450675393462?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "chai-shai-adda-bailey road-108",
@@ -64636,7 +64792,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.3,
     "review_count": 588,
-    "logo": "🫖",
+    "logo": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17180-730758",
     "total_branches": 2,
     "branches": [
@@ -64717,7 +64873,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 6
+    "view_count": 6,
+    "banner": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "kacchi-station-panthapath-109",
@@ -64734,7 +64891,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.5,
     "review_count": 3661,
-    "logo": "🍖",
+    "logo": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17173-291246",
     "total_branches": 2,
     "branches": [
@@ -64815,7 +64972,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 16
+    "view_count": 16,
+    "banner": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "burger-hunt-dhanmondi-110",
@@ -64832,7 +64990,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.3,
     "review_count": 4248,
-    "logo": "🍔",
+    "logo": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17187-765012",
     "total_branches": 3,
     "branches": [
@@ -64926,7 +65084,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 15
+    "view_count": 15,
+    "banner": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "dhakaiya-tehari-hub-uttara-111",
@@ -64943,7 +65102,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.2,
     "review_count": 4376,
-    "logo": "🍛",
+    "logo": "https://images.unsplash.com/photo-1589302168068-964664d93dc0?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17169-147133",
     "total_branches": 3,
     "branches": [
@@ -65037,7 +65196,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 9
+    "view_count": 9,
+    "banner": "https://images.unsplash.com/photo-1589302168068-964664d93dc0?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "wok-and-roll-pan-asian-panthapath-112",
@@ -65054,7 +65214,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.3,
     "review_count": 4161,
-    "logo": "🥢",
+    "logo": "https://images.unsplash.com/photo-1585032226651-759b368d7246?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17177-765791",
     "total_branches": 1,
     "branches": [
@@ -65083,7 +65243,7 @@
             "price": 420,
             "description": "Spicy clear broth with chicken, mushroom and fresh lemongrass",
             "popular": true,
-            "image": "https://images.unsplash.com/photo-1548946526-f69e2424cf45?auto=format&fit=crop&w=300&q=80"
+            "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=300&q=80"
           },
           {
             "id": "wok-and-ro-2",
@@ -65122,7 +65282,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 8
+    "view_count": 8,
+    "banner": "https://images.unsplash.com/photo-1585032226651-759b368d7246?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "bean-and-brew-cafe-bailey road-113",
@@ -65139,7 +65300,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.5,
     "review_count": 4088,
-    "logo": "☕",
+    "logo": "https://images.unsplash.com/photo-1534778101976-62847782c213?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17166-727338",
     "total_branches": 3,
     "branches": [
@@ -65233,7 +65394,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 9
+    "view_count": 9,
+    "banner": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "dhaba-71-mirpur-114",
@@ -65250,7 +65412,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.3,
     "review_count": 2945,
-    "logo": "🐟",
+    "logo": "https://images.unsplash.com/photo-1545247181-516773cae754?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17147-526862",
     "total_branches": 1,
     "branches": [
@@ -65318,7 +65480,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 12
+    "view_count": 12,
+    "banner": "https://images.unsplash.com/photo-1545247181-516773cae754?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "crust-and-oven-pizza-co.-uttara-115",
@@ -65335,7 +65498,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.3,
     "review_count": 1866,
-    "logo": "🍕",
+    "logo": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17153-893057",
     "total_branches": 2,
     "branches": [
@@ -65416,7 +65579,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 6
+    "view_count": 6,
+    "banner": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "misti-mela-panthapath-116",
@@ -65433,7 +65597,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.5,
     "review_count": 2631,
-    "logo": "🍯",
+    "logo": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17188-904751",
     "total_branches": 1,
     "branches": [
@@ -65501,7 +65665,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 16
+    "view_count": 16,
+    "banner": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "grill-and-chaap-junction-panthapath-117",
@@ -65518,7 +65683,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.5,
     "review_count": 4204,
-    "logo": "🍢",
+    "logo": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17189-440799",
     "total_branches": 2,
     "branches": [
@@ -65599,7 +65764,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 12
+    "view_count": 12,
+    "banner": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "tokyo-noodle-bar-bailey road-118",
@@ -65616,7 +65782,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.5,
     "review_count": 4182,
-    "logo": "🍜",
+    "logo": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17154-215033",
     "total_branches": 2,
     "branches": [
@@ -65697,7 +65863,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 14
+    "view_count": 14,
+    "banner": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "steak-house-360-dhanmondi-119",
@@ -65714,7 +65881,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.3,
     "review_count": 843,
-    "logo": "🥩",
+    "logo": "https://images.unsplash.com/photo-1558030006-450675393462?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17165-514491",
     "total_branches": 3,
     "branches": [
@@ -65799,7 +65966,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 2
+    "view_count": 2,
+    "banner": "https://images.unsplash.com/photo-1558030006-450675393462?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "chai-shai-adda-uttara-120",
@@ -65816,7 +65984,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.4,
     "review_count": 1030,
-    "logo": "🫖",
+    "logo": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17132-871118",
     "total_branches": 3,
     "branches": [
@@ -65910,7 +66078,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 3
+    "view_count": 3,
+    "banner": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "kacchi-station-old dhaka-121",
@@ -65927,7 +66096,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.5,
     "review_count": 633,
-    "logo": "🍖",
+    "logo": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17130-517942",
     "total_branches": 1,
     "branches": [
@@ -65995,7 +66164,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 4
+    "view_count": 4,
+    "banner": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "burger-hunt-mirpur-122",
@@ -66012,7 +66182,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.5,
     "review_count": 1475,
-    "logo": "🍔",
+    "logo": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17175-398275",
     "total_branches": 2,
     "branches": [
@@ -66093,7 +66263,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 4
+    "view_count": 4,
+    "banner": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "dhakaiya-tehari-hub-bashundhara-123",
@@ -66110,7 +66281,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.5,
     "review_count": 2299,
-    "logo": "🍛",
+    "logo": "https://images.unsplash.com/photo-1589302168068-964664d93dc0?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17111-481454",
     "total_branches": 2,
     "branches": [
@@ -66191,7 +66362,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 8
+    "view_count": 8,
+    "banner": "https://images.unsplash.com/photo-1589302168068-964664d93dc0?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "wok-and-roll-pan-asian-bashundhara-124",
@@ -66208,7 +66380,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.6,
     "review_count": 1560,
-    "logo": "🥢",
+    "logo": "https://images.unsplash.com/photo-1585032226651-759b368d7246?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17181-799400",
     "total_branches": 3,
     "branches": [
@@ -66263,7 +66435,7 @@
             "price": 420,
             "description": "Spicy clear broth with chicken, mushroom and fresh lemongrass",
             "popular": true,
-            "image": "https://images.unsplash.com/photo-1548946526-f69e2424cf45?auto=format&fit=crop&w=300&q=80"
+            "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=300&q=80"
           },
           {
             "id": "wok-and-ro-2",
@@ -66302,7 +66474,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 5
+    "view_count": 5,
+    "banner": "https://images.unsplash.com/photo-1585032226651-759b368d7246?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "bean-and-brew-cafe-mirpur-125",
@@ -66319,7 +66492,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.4,
     "review_count": 4224,
-    "logo": "☕",
+    "logo": "https://images.unsplash.com/photo-1534778101976-62847782c213?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17144-622029",
     "total_branches": 3,
     "branches": [
@@ -66413,7 +66586,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 8
+    "view_count": 8,
+    "banner": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "dhaba-71-mohammadpur-126",
@@ -66430,7 +66604,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.6,
     "review_count": 2002,
-    "logo": "🐟",
+    "logo": "https://images.unsplash.com/photo-1545247181-516773cae754?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17138-944152",
     "total_branches": 2,
     "branches": [
@@ -66511,7 +66685,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 9
+    "view_count": 9,
+    "banner": "https://images.unsplash.com/photo-1545247181-516773cae754?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "crust-and-oven-pizza-co.-old dhaka-127",
@@ -66528,7 +66703,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.5,
     "review_count": 2665,
-    "logo": "🍕",
+    "logo": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17191-273986",
     "total_branches": 2,
     "branches": [
@@ -66609,7 +66784,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 16
+    "view_count": 16,
+    "banner": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "misti-mela-banani-128",
@@ -66626,7 +66802,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.3,
     "review_count": 2768,
-    "logo": "🍯",
+    "logo": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17188-220140",
     "total_branches": 2,
     "branches": [
@@ -66707,7 +66883,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 11
+    "view_count": 11,
+    "banner": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "grill-and-chaap-junction-bailey road-129",
@@ -66724,7 +66901,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.3,
     "review_count": 1699,
-    "logo": "🍢",
+    "logo": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17121-535277",
     "total_branches": 1,
     "branches": [
@@ -66792,7 +66969,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 2
+    "view_count": 2,
+    "banner": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "tokyo-noodle-bar-old dhaka-130",
@@ -66809,7 +66987,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.6,
     "review_count": 3575,
-    "logo": "🍜",
+    "logo": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17182-906356",
     "total_branches": 2,
     "branches": [
@@ -66890,7 +67068,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 16
+    "view_count": 16,
+    "banner": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "steak-house-360-mohammadpur-131",
@@ -66907,7 +67086,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.5,
     "review_count": 2666,
-    "logo": "🥩",
+    "logo": "https://images.unsplash.com/photo-1558030006-450675393462?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17191-741836",
     "total_branches": 3,
     "branches": [
@@ -66992,7 +67171,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 11
+    "view_count": 11,
+    "banner": "https://images.unsplash.com/photo-1558030006-450675393462?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "chai-shai-adda-motijheel-132",
@@ -67009,7 +67189,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.5,
     "review_count": 1261,
-    "logo": "🫖",
+    "logo": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17183-345218",
     "total_branches": 1,
     "branches": [
@@ -67077,7 +67257,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 4
+    "view_count": 4,
+    "banner": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "kacchi-station-panthapath-133",
@@ -67094,7 +67275,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.7,
     "review_count": 3193,
-    "logo": "🍖",
+    "logo": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17127-765874",
     "total_branches": 1,
     "branches": [
@@ -67162,7 +67343,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 12
+    "view_count": 12,
+    "banner": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "burger-hunt-dhanmondi-134",
@@ -67179,7 +67361,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.3,
     "review_count": 4437,
-    "logo": "🍔",
+    "logo": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17150-801681",
     "total_branches": 3,
     "branches": [
@@ -67273,7 +67455,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 12
+    "view_count": 12,
+    "banner": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "dhakaiya-tehari-hub-gulshan-135",
@@ -67290,7 +67473,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.2,
     "review_count": 2807,
-    "logo": "🍛",
+    "logo": "https://images.unsplash.com/photo-1589302168068-964664d93dc0?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17194-155924",
     "total_branches": 1,
     "branches": [
@@ -67358,7 +67541,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 16
+    "view_count": 16,
+    "banner": "https://images.unsplash.com/photo-1589302168068-964664d93dc0?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "wok-and-roll-pan-asian-gulshan-136",
@@ -67375,7 +67559,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.5,
     "review_count": 2168,
-    "logo": "🥢",
+    "logo": "https://images.unsplash.com/photo-1585032226651-759b368d7246?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17197-715738",
     "total_branches": 2,
     "branches": [
@@ -67417,7 +67601,7 @@
             "price": 420,
             "description": "Spicy clear broth with chicken, mushroom and fresh lemongrass",
             "popular": true,
-            "image": "https://images.unsplash.com/photo-1548946526-f69e2424cf45?auto=format&fit=crop&w=300&q=80"
+            "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=300&q=80"
           },
           {
             "id": "wok-and-ro-2",
@@ -67456,7 +67640,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 14
+    "view_count": 14,
+    "banner": "https://images.unsplash.com/photo-1585032226651-759b368d7246?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "bean-and-brew-cafe-bailey road-137",
@@ -67473,7 +67658,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.4,
     "review_count": 1953,
-    "logo": "☕",
+    "logo": "https://images.unsplash.com/photo-1534778101976-62847782c213?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17135-146154",
     "total_branches": 2,
     "branches": [
@@ -67554,7 +67739,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 3
+    "view_count": 3,
+    "banner": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "dhaba-71-motijheel-138",
@@ -67571,7 +67757,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.6,
     "review_count": 4339,
-    "logo": "🐟",
+    "logo": "https://images.unsplash.com/photo-1545247181-516773cae754?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17165-250746",
     "total_branches": 2,
     "branches": [
@@ -67652,7 +67838,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 13
+    "view_count": 13,
+    "banner": "https://images.unsplash.com/photo-1545247181-516773cae754?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "crust-and-oven-pizza-co.-gulshan-139",
@@ -67669,7 +67856,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.3,
     "review_count": 2886,
-    "logo": "🍕",
+    "logo": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17196-471755",
     "total_branches": 1,
     "branches": [
@@ -67737,7 +67924,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 10
+    "view_count": 10,
+    "banner": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "misti-mela-mohammadpur-140",
@@ -67754,7 +67942,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.4,
     "review_count": 3795,
-    "logo": "🍯",
+    "logo": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17142-834699",
     "total_branches": 2,
     "branches": [
@@ -67835,7 +68023,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 15
+    "view_count": 15,
+    "banner": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "grill-and-chaap-junction-bailey road-141",
@@ -67852,7 +68041,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.3,
     "review_count": 754,
-    "logo": "🍢",
+    "logo": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17154-341728",
     "total_branches": 2,
     "branches": [
@@ -67933,7 +68122,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 4
+    "view_count": 4,
+    "banner": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "tokyo-noodle-bar-dhanmondi-142",
@@ -67950,7 +68140,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.3,
     "review_count": 3229,
-    "logo": "🍜",
+    "logo": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17178-903005",
     "total_branches": 3,
     "branches": [
@@ -68044,7 +68234,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 15
+    "view_count": 15,
+    "banner": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "steak-house-360-bailey road-143",
@@ -68061,7 +68252,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.7,
     "review_count": 1417,
-    "logo": "🥩",
+    "logo": "https://images.unsplash.com/photo-1558030006-450675393462?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17167-394155",
     "total_branches": 2,
     "branches": [
@@ -68133,7 +68324,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 5
+    "view_count": 5,
+    "banner": "https://images.unsplash.com/photo-1558030006-450675393462?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "chai-shai-adda-uttara-144",
@@ -68150,7 +68342,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.5,
     "review_count": 3479,
-    "logo": "🫖",
+    "logo": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17181-309982",
     "total_branches": 1,
     "branches": [
@@ -68218,7 +68410,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 10
+    "view_count": 10,
+    "banner": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "kacchi-station-bashundhara-145",
@@ -68235,7 +68428,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.5,
     "review_count": 1359,
-    "logo": "🍖",
+    "logo": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17151-141229",
     "total_branches": 2,
     "branches": [
@@ -68316,7 +68509,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 4
+    "view_count": 4,
+    "banner": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "burger-hunt-bashundhara-146",
@@ -68333,7 +68527,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.5,
     "review_count": 4690,
-    "logo": "🍔",
+    "logo": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17112-508173",
     "total_branches": 2,
     "branches": [
@@ -68414,7 +68608,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 13
+    "view_count": 13,
+    "banner": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "dhakaiya-tehari-hub-mohammadpur-147",
@@ -68431,7 +68626,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.3,
     "review_count": 491,
-    "logo": "🍛",
+    "logo": "https://images.unsplash.com/photo-1589302168068-964664d93dc0?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17165-102549",
     "total_branches": 3,
     "branches": [
@@ -68525,7 +68720,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 6
+    "view_count": 6,
+    "banner": "https://images.unsplash.com/photo-1589302168068-964664d93dc0?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "wok-and-roll-pan-asian-dhanmondi-148",
@@ -68542,7 +68738,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.5,
     "review_count": 3817,
-    "logo": "🥢",
+    "logo": "https://images.unsplash.com/photo-1585032226651-759b368d7246?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17162-459999",
     "total_branches": 3,
     "branches": [
@@ -68597,7 +68793,7 @@
             "price": 420,
             "description": "Spicy clear broth with chicken, mushroom and fresh lemongrass",
             "popular": true,
-            "image": "https://images.unsplash.com/photo-1548946526-f69e2424cf45?auto=format&fit=crop&w=300&q=80"
+            "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=300&q=80"
           },
           {
             "id": "wok-and-ro-2",
@@ -68636,7 +68832,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 18
+    "view_count": 18,
+    "banner": "https://images.unsplash.com/photo-1585032226651-759b368d7246?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "bean-and-brew-cafe-khilgaon-149",
@@ -68653,7 +68850,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.6,
     "review_count": 954,
-    "logo": "☕",
+    "logo": "https://images.unsplash.com/photo-1534778101976-62847782c213?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17142-266835",
     "total_branches": 3,
     "branches": [
@@ -68747,7 +68944,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 2
+    "view_count": 2,
+    "banner": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "dhaba-71-bashundhara-150",
@@ -68764,7 +68962,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.5,
     "review_count": 2984,
-    "logo": "🐟",
+    "logo": "https://images.unsplash.com/photo-1545247181-516773cae754?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17165-420902",
     "total_branches": 1,
     "branches": [
@@ -68832,7 +69030,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 14
+    "view_count": 14,
+    "banner": "https://images.unsplash.com/photo-1545247181-516773cae754?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "crust-and-oven-pizza-co.-mirpur-151",
@@ -68849,7 +69048,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.5,
     "review_count": 463,
-    "logo": "🍕",
+    "logo": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17163-939879",
     "total_branches": 1,
     "branches": [
@@ -68917,7 +69116,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 3
+    "view_count": 3,
+    "banner": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "misti-mela-panthapath-152",
@@ -68934,7 +69134,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.2,
     "review_count": 3534,
-    "logo": "🍯",
+    "logo": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17125-488391",
     "total_branches": 3,
     "branches": [
@@ -69028,7 +69228,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 10
+    "view_count": 10,
+    "banner": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "grill-and-chaap-junction-dhanmondi-153",
@@ -69045,7 +69246,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.5,
     "review_count": 3089,
-    "logo": "🍢",
+    "logo": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17186-831240",
     "total_branches": 1,
     "branches": [
@@ -69113,7 +69314,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 18
+    "view_count": 18,
+    "banner": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "tokyo-noodle-bar-gulshan-154",
@@ -69130,7 +69332,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.3,
     "review_count": 3826,
-    "logo": "🍜",
+    "logo": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17146-481185",
     "total_branches": 2,
     "branches": [
@@ -69211,7 +69413,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 9
+    "view_count": 9,
+    "banner": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "steak-house-360-banani-155",
@@ -69228,7 +69431,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.5,
     "review_count": 1342,
-    "logo": "🥩",
+    "logo": "https://images.unsplash.com/photo-1558030006-450675393462?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17193-294421",
     "total_branches": 1,
     "branches": [
@@ -69287,7 +69490,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 2
+    "view_count": 2,
+    "banner": "https://images.unsplash.com/photo-1558030006-450675393462?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "chai-shai-adda-mohammadpur-156",
@@ -69304,7 +69508,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.6,
     "review_count": 750,
-    "logo": "🫖",
+    "logo": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17164-876326",
     "total_branches": 1,
     "branches": [
@@ -69372,7 +69576,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 6
+    "view_count": 6,
+    "banner": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "kacchi-station-dhanmondi-157",
@@ -69389,7 +69594,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.7,
     "review_count": 1509,
-    "logo": "🍖",
+    "logo": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17114-150451",
     "total_branches": 2,
     "branches": [
@@ -69470,7 +69675,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 4
+    "view_count": 4,
+    "banner": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "burger-hunt-bashundhara-158",
@@ -69487,7 +69693,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.5,
     "review_count": 2150,
-    "logo": "🍔",
+    "logo": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17118-608567",
     "total_branches": 2,
     "branches": [
@@ -69568,7 +69774,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 9
+    "view_count": 9,
+    "banner": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "dhakaiya-tehari-hub-banani-159",
@@ -69585,7 +69792,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.5,
     "review_count": 940,
-    "logo": "🍛",
+    "logo": "https://images.unsplash.com/photo-1589302168068-964664d93dc0?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17125-729566",
     "total_branches": 1,
     "branches": [
@@ -69653,7 +69860,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 5
+    "view_count": 5,
+    "banner": "https://images.unsplash.com/photo-1589302168068-964664d93dc0?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "wok-and-roll-pan-asian-old dhaka-160",
@@ -69670,7 +69878,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.7,
     "review_count": 4589,
-    "logo": "🥢",
+    "logo": "https://images.unsplash.com/photo-1585032226651-759b368d7246?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17140-582907",
     "total_branches": 1,
     "branches": [
@@ -69699,7 +69907,7 @@
             "price": 420,
             "description": "Spicy clear broth with chicken, mushroom and fresh lemongrass",
             "popular": true,
-            "image": "https://images.unsplash.com/photo-1548946526-f69e2424cf45?auto=format&fit=crop&w=300&q=80"
+            "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=300&q=80"
           },
           {
             "id": "wok-and-ro-2",
@@ -69738,7 +69946,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 14
+    "view_count": 14,
+    "banner": "https://images.unsplash.com/photo-1585032226651-759b368d7246?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "bean-and-brew-cafe-mohammadpur-161",
@@ -69755,7 +69964,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.2,
     "review_count": 1904,
-    "logo": "☕",
+    "logo": "https://images.unsplash.com/photo-1534778101976-62847782c213?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17144-781516",
     "total_branches": 1,
     "branches": [
@@ -69823,7 +70032,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 6
+    "view_count": 6,
+    "banner": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "dhaba-71-mirpur-162",
@@ -69840,7 +70050,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.2,
     "review_count": 1184,
-    "logo": "🐟",
+    "logo": "https://images.unsplash.com/photo-1545247181-516773cae754?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17181-171494",
     "total_branches": 3,
     "branches": [
@@ -69934,7 +70144,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 4
+    "view_count": 4,
+    "banner": "https://images.unsplash.com/photo-1545247181-516773cae754?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "crust-and-oven-pizza-co.-old dhaka-163",
@@ -69951,7 +70162,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.6,
     "review_count": 1140,
-    "logo": "🍕",
+    "logo": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17174-331404",
     "total_branches": 3,
     "branches": [
@@ -70045,7 +70256,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 6
+    "view_count": 6,
+    "banner": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "misti-mela-mirpur-164",
@@ -70062,7 +70274,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.4,
     "review_count": 490,
-    "logo": "🍯",
+    "logo": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17191-360847",
     "total_branches": 1,
     "branches": [
@@ -70130,7 +70342,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 4
+    "view_count": 4,
+    "banner": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "grill-and-chaap-junction-khilgaon-165",
@@ -70147,7 +70360,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.7,
     "review_count": 1956,
-    "logo": "🍢",
+    "logo": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17130-278252",
     "total_branches": 1,
     "branches": [
@@ -70215,7 +70428,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 5
+    "view_count": 5,
+    "banner": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "tokyo-noodle-bar-old dhaka-166",
@@ -70232,7 +70446,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.7,
     "review_count": 3479,
-    "logo": "🍜",
+    "logo": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17148-412870",
     "total_branches": 2,
     "branches": [
@@ -70313,7 +70527,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 15
+    "view_count": 15,
+    "banner": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "steak-house-360-dhanmondi-167",
@@ -70330,7 +70545,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.3,
     "review_count": 1476,
-    "logo": "🥩",
+    "logo": "https://images.unsplash.com/photo-1558030006-450675393462?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17183-867192",
     "total_branches": 2,
     "branches": [
@@ -70402,7 +70617,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 3
+    "view_count": 3,
+    "banner": "https://images.unsplash.com/photo-1558030006-450675393462?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "chai-shai-adda-gulshan-168",
@@ -70419,7 +70635,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.5,
     "review_count": 3767,
-    "logo": "🫖",
+    "logo": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17175-434110",
     "total_branches": 3,
     "branches": [
@@ -70513,7 +70729,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 12
+    "view_count": 12,
+    "banner": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "kacchi-station-panthapath-169",
@@ -70530,7 +70747,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.3,
     "review_count": 2253,
-    "logo": "🍖",
+    "logo": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17171-734525",
     "total_branches": 3,
     "branches": [
@@ -70624,7 +70841,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 8
+    "view_count": 8,
+    "banner": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "burger-hunt-bailey road-170",
@@ -70641,7 +70859,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.4,
     "review_count": 3090,
-    "logo": "🍔",
+    "logo": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17137-132215",
     "total_branches": 2,
     "branches": [
@@ -70722,7 +70940,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 12
+    "view_count": 12,
+    "banner": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "dhakaiya-tehari-hub-mirpur-171",
@@ -70739,7 +70958,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.7,
     "review_count": 2844,
-    "logo": "🍛",
+    "logo": "https://images.unsplash.com/photo-1589302168068-964664d93dc0?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17198-296512",
     "total_branches": 3,
     "branches": [
@@ -70833,7 +71052,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 13
+    "view_count": 13,
+    "banner": "https://images.unsplash.com/photo-1589302168068-964664d93dc0?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "wok-and-roll-pan-asian-old dhaka-172",
@@ -70850,7 +71070,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.6,
     "review_count": 3298,
-    "logo": "🥢",
+    "logo": "https://images.unsplash.com/photo-1585032226651-759b368d7246?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17166-394550",
     "total_branches": 1,
     "branches": [
@@ -70879,7 +71099,7 @@
             "price": 420,
             "description": "Spicy clear broth with chicken, mushroom and fresh lemongrass",
             "popular": true,
-            "image": "https://images.unsplash.com/photo-1548946526-f69e2424cf45?auto=format&fit=crop&w=300&q=80"
+            "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=300&q=80"
           },
           {
             "id": "wok-and-ro-2",
@@ -70918,7 +71138,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 14
+    "view_count": 14,
+    "banner": "https://images.unsplash.com/photo-1585032226651-759b368d7246?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "bean-and-brew-cafe-dhanmondi-173",
@@ -70935,7 +71156,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.3,
     "review_count": 2423,
-    "logo": "☕",
+    "logo": "https://images.unsplash.com/photo-1534778101976-62847782c213?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17190-610923",
     "total_branches": 2,
     "branches": [
@@ -71016,7 +71237,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 10
+    "view_count": 10,
+    "banner": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "dhaba-71-panthapath-174",
@@ -71033,7 +71255,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.4,
     "review_count": 2897,
-    "logo": "🐟",
+    "logo": "https://images.unsplash.com/photo-1545247181-516773cae754?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17117-377818",
     "total_branches": 3,
     "branches": [
@@ -71127,7 +71349,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 8
+    "view_count": 8,
+    "banner": "https://images.unsplash.com/photo-1545247181-516773cae754?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "crust-and-oven-pizza-co.-uttara-175",
@@ -71144,7 +71367,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.4,
     "review_count": 4257,
-    "logo": "🍕",
+    "logo": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17192-595597",
     "total_branches": 1,
     "branches": [
@@ -71212,7 +71435,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 17
+    "view_count": 17,
+    "banner": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "misti-mela-banani-176",
@@ -71229,7 +71453,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.3,
     "review_count": 1745,
-    "logo": "🍯",
+    "logo": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17145-187405",
     "total_branches": 3,
     "branches": [
@@ -71323,7 +71547,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 3
+    "view_count": 3,
+    "banner": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "grill-and-chaap-junction-dhanmondi-177",
@@ -71340,7 +71565,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.4,
     "review_count": 1628,
-    "logo": "🍢",
+    "logo": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17124-145828",
     "total_branches": 1,
     "branches": [
@@ -71408,7 +71633,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 6
+    "view_count": 6,
+    "banner": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "tokyo-noodle-bar-khilgaon-178",
@@ -71425,7 +71651,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.2,
     "review_count": 658,
-    "logo": "🍜",
+    "logo": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17134-370754",
     "total_branches": 3,
     "branches": [
@@ -71519,7 +71745,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 2
+    "view_count": 2,
+    "banner": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "steak-house-360-uttara-179",
@@ -71536,7 +71763,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.4,
     "review_count": 1581,
-    "logo": "🥩",
+    "logo": "https://images.unsplash.com/photo-1558030006-450675393462?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17148-363695",
     "total_branches": 1,
     "branches": [
@@ -71595,7 +71822,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 5
+    "view_count": 5,
+    "banner": "https://images.unsplash.com/photo-1558030006-450675393462?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "chai-shai-adda-motijheel-180",
@@ -71612,7 +71840,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.7,
     "review_count": 829,
-    "logo": "🫖",
+    "logo": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17123-243677",
     "total_branches": 2,
     "branches": [
@@ -71693,7 +71921,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 4
+    "view_count": 4,
+    "banner": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "kacchi-station-mohammadpur-181",
@@ -71710,7 +71939,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.4,
     "review_count": 2338,
-    "logo": "🍖",
+    "logo": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17148-252820",
     "total_branches": 1,
     "branches": [
@@ -71778,7 +72007,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 17
+    "view_count": 17,
+    "banner": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "burger-hunt-dhanmondi-182",
@@ -71795,7 +72025,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.7,
     "review_count": 3591,
-    "logo": "🍔",
+    "logo": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17182-237866",
     "total_branches": 2,
     "branches": [
@@ -71876,7 +72106,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 12
+    "view_count": 12,
+    "banner": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "dhakaiya-tehari-hub-bashundhara-183",
@@ -71893,7 +72124,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.5,
     "review_count": 3228,
-    "logo": "🍛",
+    "logo": "https://images.unsplash.com/photo-1589302168068-964664d93dc0?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17182-699657",
     "total_branches": 3,
     "branches": [
@@ -71987,7 +72218,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 17
+    "view_count": 17,
+    "banner": "https://images.unsplash.com/photo-1589302168068-964664d93dc0?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "wok-and-roll-pan-asian-mirpur-184",
@@ -72004,7 +72236,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.4,
     "review_count": 3922,
-    "logo": "🥢",
+    "logo": "https://images.unsplash.com/photo-1585032226651-759b368d7246?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17181-619500",
     "total_branches": 2,
     "branches": [
@@ -72046,7 +72278,7 @@
             "price": 420,
             "description": "Spicy clear broth with chicken, mushroom and fresh lemongrass",
             "popular": true,
-            "image": "https://images.unsplash.com/photo-1548946526-f69e2424cf45?auto=format&fit=crop&w=300&q=80"
+            "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=300&q=80"
           },
           {
             "id": "wok-and-ro-2",
@@ -72085,7 +72317,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 9
+    "view_count": 9,
+    "banner": "https://images.unsplash.com/photo-1585032226651-759b368d7246?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "bean-and-brew-cafe-khilgaon-185",
@@ -72102,7 +72335,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.7,
     "review_count": 3406,
-    "logo": "☕",
+    "logo": "https://images.unsplash.com/photo-1534778101976-62847782c213?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17198-181979",
     "total_branches": 3,
     "branches": [
@@ -72196,7 +72429,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 14
+    "view_count": 14,
+    "banner": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "dhaba-71-banani-186",
@@ -72213,7 +72447,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.2,
     "review_count": 4392,
-    "logo": "🐟",
+    "logo": "https://images.unsplash.com/photo-1545247181-516773cae754?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17136-207761",
     "total_branches": 1,
     "branches": [
@@ -72281,7 +72515,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 8
+    "view_count": 8,
+    "banner": "https://images.unsplash.com/photo-1545247181-516773cae754?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "crust-and-oven-pizza-co.-old dhaka-187",
@@ -72298,7 +72533,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.7,
     "review_count": 2791,
-    "logo": "🍕",
+    "logo": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17115-394191",
     "total_branches": 2,
     "branches": [
@@ -72379,7 +72614,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 9
+    "view_count": 9,
+    "banner": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "misti-mela-motijheel-188",
@@ -72396,7 +72632,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.5,
     "review_count": 2698,
-    "logo": "🍯",
+    "logo": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17111-954312",
     "total_branches": 2,
     "branches": [
@@ -72477,7 +72713,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 17
+    "view_count": 17,
+    "banner": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "grill-and-chaap-junction-gulshan-189",
@@ -72494,7 +72731,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.6,
     "review_count": 1534,
-    "logo": "🍢",
+    "logo": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17190-369564",
     "total_branches": 3,
     "branches": [
@@ -72588,7 +72825,8 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 3
+    "view_count": 3,
+    "banner": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=1200&auto=format&fit=crop&q=80"
   },
   {
     "id": "tokyo-noodle-bar-bashundhara-190",
@@ -72605,7 +72843,7 @@
     "price_type": "Counter / Dine-In (No Markup)",
     "rating": 4.5,
     "review_count": 3625,
-    "logo": "🍜",
+    "logo": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=300&auto=format&fit=crop&q=80",
     "hotline": "+880 17112-815313",
     "total_branches": 3,
     "branches": [
@@ -72699,6 +72937,7 @@
         "category_name": "Accompaniments & Sides"
       }
     ],
-    "view_count": 16
+    "view_count": 16,
+    "banner": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1200&auto=format&fit=crop&q=80"
   }
 ]

@@ -44,7 +44,7 @@ IMAGE_MAPPINGS = [
     (["sushi", "maki", "sashimi", "california roll", "nigiri"], "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?auto=format&fit=crop&w=300&q=80"),
     (["ramen", "soup noodle", "noodle soup"], "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?auto=format&fit=crop&w=300&q=80"),
     (["noodle", "chow mein", "pad thai"], "https://images.unsplash.com/photo-1585032226651-759b368d7246?auto=format&fit=crop&w=300&q=80"),
-    (["tom yum", "soup", "corn soup", "clear soup", "thai soup"], "https://images.unsplash.com/photo-1548946526-f69e2424cf45?auto=format&fit=crop&w=300&q=80"),
+    (["tom yum", "soup", "corn soup", "clear soup", "thai soup"], "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=300&q=80"),
 
     # Bengali Traditional & Curries
     (["ilish", "hilsha", "fish", "ruy", "chingri", "prawn", "seafood"], "https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?auto=format&fit=crop&w=300&q=80"),
