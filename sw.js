@@ -1,5 +1,5 @@
 // Dhaka Menu Hub - Service Worker for Offline Resilience & PWA
-const CACHE_NAME = 'dhaka-menu-hub-v505';
+const CACHE_NAME = 'dhaka-menu-hub-v513';
 const STATIC_ASSETS = [
   './',
   './index.html',

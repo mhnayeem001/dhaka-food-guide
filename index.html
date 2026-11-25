@@ -3,13 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <title>Dhaka Menu Hub - 505+ Dhaka Restaurant Menus & Real In-Store Prices</title>
-  <meta name="description" content="Explore complete verified counter menus and real dine-in prices for 505+ restaurants across Dhaka with 1,023 branch locations. Zero delivery markup.">
+  <title>Dhaka Menu Hub - 513+ Dhaka Restaurant Menus & Real In-Store Prices</title>
+  <meta name="description" content="Explore complete verified counter menus and real dine-in prices for 513+ restaurants across Dhaka with 1,033+ branch locations. Zero delivery markup.">
   <meta name="keywords" content="Dhaka restaurant menus, Dhaka food prices, Kacchi Bhai menu, Sultans Dine price 2026, KFC Dhaka, Takeout burger menu, Chillox price, Dhanmondi restaurants, Banani cafes, Old Dhaka biryani">
   
   <!-- OpenGraph / Social Sharing -->
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Dhaka Menu Hub - All 505+ Dhaka Restaurant Menus in One Place">
+  <meta property="og:title" content="Dhaka Menu Hub - All 513+ Dhaka Restaurant Menus in One Place">
   <meta property="og:description" content="Official in-store counter menus and real prices across Dhanmondi, Gulshan, Banani, Uttara, Mirpur, Old Dhaka & all neighborhoods.">
   <meta property="og:image" content="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1200">
   <meta name="twitter:card" content="summary_large_image">
@@ -40,7 +40,7 @@
   <!-- Lucide Icons CDN -->
   <script src="https://unpkg.com/lucide@latest"></script>
   <!-- Embedded Data for instant file:// & HTTP load -->
-  <script src="./data/restaurants_data.js?v=505"></script>
+  <script src="./data/restaurants_data.js?v=513"></script>
   <!-- Google Fonts: Inter & Outfit -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -130,7 +130,7 @@
       <div class="flex items-center gap-1.5 sm:gap-2.5">
         <div class="hidden lg:flex items-center text-xs font-semibold text-emerald-800 bg-emerald-50 border border-emerald-200/80 px-3 py-1.5 rounded-full gap-1.5">
           <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
-          <span><span id="stat-restaurants-count">505</span> Spots • <span id="stat-branches-count">1,023</span> Outlets</span>
+          <span><span id="stat-restaurants-count">513</span> Spots • <span id="stat-branches-count">1,033</span> Outlets</span>
         </div>
 
         <!-- AI Assistant Launch Button -->
@@ -318,7 +318,7 @@
       <div>
         <h2 class="text-base sm:text-2xl font-bold text-slate-900 flex items-center gap-1.5">
           <span>Dhaka Restaurants</span>
-          <span id="results-count-badge" class="text-[11px] sm:text-xs font-bold bg-orange-100 text-orange-700 px-2 py-0.5 rounded-full">505 Available</span>
+          <span id="results-count-badge" class="text-[11px] sm:text-xs font-bold bg-orange-100 text-orange-700 px-2 py-0.5 rounded-full">513 Available</span>
         </h2>
         <p id="results-filter-desc" class="text-[11px] sm:text-xs text-slate-500 mt-0.5 truncate max-w-[240px] sm:max-w-none">
           Verified counter menus & in-store prices
@@ -672,7 +672,7 @@
           <div>
             <div class="flex items-center gap-1.5">
               <h3 class="font-display font-bold text-base leading-tight">DhakaFood AI</h3>
-              <span class="bg-violet-500/30 text-amber-300 border border-violet-400/40 text-[9px] font-extrabold px-1.5 py-0.2 rounded-full">505+ Spots AI</span>
+              <span class="bg-violet-500/30 text-amber-300 border border-violet-400/40 text-[9px] font-extrabold px-1.5 py-0.2 rounded-full">513+ Spots AI</span>
             </div>
             <p class="text-[11px] text-violet-200">যেকোনো খাবার, এলাকা বা বাজেট বলুন</p>
           </div>
@@ -1492,13 +1492,14 @@
       `;
 
       const categoryPills = restaurant.menu_categories.map(cat => {
-        const isActive = currentModalCategory === cat.category_name;
+        const catName = cat.category_name || cat.name || cat.category || 'General';
+        const isActive = currentModalCategory === catName;
         return `
           <button 
-            onclick="selectModalCategory('${cat.category_name.replace(/'/g, "\\'")}')" 
+            onclick="selectModalCategory('${catName.replace(/'/g, "\\'")}')" 
             class="modal-cat-pill shrink-0 px-3 py-1 rounded-full text-xs font-bold transition-all ${isActive ? 'bg-orange-600 text-white shadow-xs' : 'bg-slate-100 hover:bg-slate-200 text-slate-700'}"
           >
-            ${cat.category_name} (${cat.items?.length || 0})
+            ${catName} (${cat.items?.length || 0})
           </button>
         `;
       }).join('');
@@ -1540,10 +1541,11 @@
       
       let categoriesToRender = restaurant.menu_categories;
       if (currentModalCategory !== 'ALL') {
-        categoriesToRender = categoriesToRender.filter(c => c.category_name === currentModalCategory);
+        categoriesToRender = categoriesToRender.filter(c => (c.category_name || c.name || c.category || 'General') === currentModalCategory);
       }
 
       const categoriesHtml = categoriesToRender.map(cat => {
+        const catName = cat.category_name || cat.name || cat.category || 'General';
         let items = cat.items;
         if (currentModalQuickFilter === 'BESTSELLER') {
           items = items.filter(i => i.is_bestseller);
@@ -1561,7 +1563,7 @@
         return `
           <div class="space-y-2.5">
             <div class="flex items-center justify-between pb-1 border-b border-slate-200/80">
-              <h4 class="font-display font-bold text-sm sm:text-base text-slate-900">${cat.category_name}</h4>
+              <h4 class="font-display font-bold text-sm sm:text-base text-slate-900">${catName}</h4>
               <span class="text-[11px] text-slate-400 font-medium">${items.length} items</span>
             </div>
 
@@ -2066,7 +2068,7 @@
     // PWA Service Worker Registration with Auto-Update & Cache Busting
     if ('serviceWorker' in navigator && window.location.protocol.startsWith('http')) {
       window.addEventListener('load', () => {
-        navigator.serviceWorker.register('./sw.js?v=505', { updateViaCache: 'none' }).then(reg => {
+        navigator.serviceWorker.register('./sw.js?v=513', { updateViaCache: 'none' }).then(reg => {
           reg.update();
         }).catch(() => {});
       });
